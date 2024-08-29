@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\1\Documents\VuGen\Scripts\bmq
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\1\documents\vugen\scripts\bmq\\logfile.log
+c:\users\1\documents\vugen\scripts\bmq\\combined_bmq.c
+c:\users\1\documents\vugen\scripts\bmq\\pre_cci.c

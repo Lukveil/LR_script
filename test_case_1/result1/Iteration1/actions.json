@@ -1,0 +1,140 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: authorize",
+                "infFile": "t1.inf",
+                "time": 1724868994479
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login",
+                "infFile": "t2.inf",
+                "time": 1724868994788
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: config.json",
+                "infFile": "t3.inf",
+                "time": 1724868994871
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: modelSchema",
+                "infFile": "t4.inf",
+                "time": 1724868994973
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: user",
+                "infFile": "t5.inf",
+                "time": 1724868995027
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: identityProvider",
+                "infFile": "t6.inf",
+                "time": 1724868995079
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: team",
+                "infFile": "t7.inf",
+                "time": 1724868995282
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: teamContext",
+                "infFile": "t8.inf",
+                "time": 1724868995358
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: testRunner",
+                "infFile": "t9.inf",
+                "time": 1724868995413
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: team_2",
+                "infFile": "t10.inf",
+                "time": 1724868995678
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: 14",
+                "infFile": "t11.inf",
+                "time": 1724868995735
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: teamMember",
+                "infFile": "t12.inf",
+                "time": 1724868995839
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: teamMember_2",
+                "infFile": "t13.inf",
+                "time": 1724868996126
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: teamMember_4",
+                "infFile": "t14.inf",
+                "time": 1724868996282
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: teamMember_5",
+                "infFile": "t15.inf",
+                "time": 1724868996475
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: _k4kx5rq1KhQ1lhSYHi6vd3fLO0EibLFcm5Mj2nPufKIzeruyqjntxPrhtWzRFYDFFFHx5-fBpk5YblUF_dR4XEAwYMFZkDndKlwoOtlZl7rHel8KK0izYiOtOFRuWpv",
+                "infFile": "t16.inf",
+                "time": 1724868996731
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "sign_in",
+                "rawStartTime": 1724868994491,
+                "rawEndTime": 1724868995420,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0409388542175293
+            },
+            {
+                "transactionName": "create_user",
+                "rawStartTime": 1724868995436,
+                "rawEndTime": 1724868996139,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015032052993774414
+            },
+            {
+                "transactionName": "walk_link",
+                "rawStartTime": 1724868996155,
+                "rawEndTime": 1724868996296,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035905838012695314
+            },
+            {
+                "transactionName": "copy_link",
+                "rawStartTime": 1724868996327,
+                "rawEndTime": 1724868996482,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003535747528076172
+            },
+            {
+                "transactionName": "open_link",
+                "rawStartTime": 1724868996499,
+                "rawEndTime": 1724868996732,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004300355911254883
+            }
+        ]
+    }
+]

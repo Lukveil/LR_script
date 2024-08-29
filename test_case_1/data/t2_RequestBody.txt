@@ -1,0 +1,3 @@
+"{\"pocket_id\":\"{6fa16704-0c62-4524-b33c-6058d4a3a5bd}\",\"version\":2,\"consumer_key\":\"402"
+"49-e88c401e1b1f2242d9e441c4\",\"placements\":[{\"name\":\"sponsored-topsites\",\"ad_types\":[3"
+"120],\"zone_ids\":[280143]}]}"

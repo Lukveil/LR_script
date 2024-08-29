@@ -1,0 +1,2 @@
+"[{\"email\":\"group4_lruser@gmail.com\",\"permissionList\":[\"ADMIN\",\"VIEW\",\"EDIT\",\"RUN\""
+",\"MANAGE_USERS_IN_ORG\"],\"userDisplayName\":\"group4_lruser\"}]"

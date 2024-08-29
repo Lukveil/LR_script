@@ -1,0 +1,10 @@
+HTTP/1.1 403 
+Server: nginx
+Date: Wed, 28 Aug 2024 18:16:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
