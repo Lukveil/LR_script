@@ -1,4 +1,4 @@
-# 1 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c"
+# 1 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c" 2
+# 1 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c" 2
+# 2 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c" 2
 
 # 1 "globals.h" 1
 
@@ -2594,15 +2594,14 @@ void
  
 
 
-
-# 3 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c" 2
+# 3 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c" 2
+# 4 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c" 2
 
 # 1 "Action.c" 1
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/stdio.h" 1
@@ -2979,128 +2978,6 @@ char *	_ecvt(double,int,int *,int *);
 
 # 2 "Action.c" 2
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/time.h" 1
-
- 
-
-
-
-
-
-
-
-
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/stddef.h" 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-# 11 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/time.h" 2
-
-
-
-
-struct tm
-{
-  int	tm_sec;
-  int	tm_min;
-  int	tm_hour;
-  int	tm_mday;
-  int	tm_mon;
-  int	tm_year;
-  int	tm_wday;
-  int	tm_yday;
-  int	tm_isdst;
-};
-
-
-
-
-
-
-
-
-char	  *_asctime_r(struct tm *_tblock, void *_p);
-
-
-clock_t clock(void);
-double	  _difftime32(time_t _time2, time_t _time1);
-time_t _mktime32(struct tm *_timeptr);
-time_t _time32(time_t *_timer);
-char	  *asctime(const struct tm *_tblock);
-char	  *_ctime32(const time_t *_time);
-struct tm *_gmtime32(const time_t *_timer);
-struct tm *_localtime32(const time_t *_timer);
-unsigned int   strftime(char *_s, size_t _maxsize, char *_fmt, struct tm *_t);
-
-
-
-# 3 "Action.c" 2
-
 
 Action()
 {
@@ -3114,7 +2991,7 @@ Action()
     sprintf(email, "%c%c%c%c%c%c%c%c%c%c%c", rnd1[0], rnd1[1], rnd1[2], rnd1[3], rnd1[4], rnd1[5], rnd1[6], rnd1[7], rnd1[8], rnd1[9], rnd1[10]);
     email[11] ='\0';
     lr_save_string(lr_eval_string(email), "email");
-	
+
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Dest", 
@@ -3149,15 +3026,15 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t16.inf", 
+		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		"EXTRARES", 
 		"Url=/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
 		"Url=/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg", "ENDITEM", 
 		"Url=/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg", "ENDITEM", 
 		"Url=/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
-		"Url=/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
 		"Url=/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
+		"Url=/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
 		"LAST");
 
 	lr_start_transaction("sign_in");
@@ -3177,48 +3054,28 @@ Action()
 	web_add_auto_header("Sec-Fetch-Mode", 
 		"cors");
 
-	lr_think_time(16);
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
+	lr_think_time(14);
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
 	web_add_header("X-Client-Date", 
-		"2024-08-28T15:06:59.141Z");
-
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	
+		"2024-08-30T09:28:37.882Z");
 
 	web_set_max_html_param_len("4046");
 	
+	 
 	web_reg_save_param("auth",
-	    "LB=Authorization: " ,
+	    "LB=uthorization: " ,
 		"RB=\n",
 		"LAST");
-
-	
-	web_submit_data("login",
+ 
+	web_submit_data("login", 
 		"Action=https://dev-boomq.pflb.ru/auth-srv/login", 
 		"Method=POST", 
 		"EncType=multipart/form-data", 
 		"TargetFrame=", 
 		"Referer=https://dev-boomq.pflb.ru/authorize", 
-		"Snapshot=t18.inf", 
+		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
 		"Name=username", "Value=e.deckdee@gmail.com", "ENDITEM", 
@@ -3230,10 +3087,7 @@ Action()
 
 	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
 	
-
 	web_add_auto_header("Authorization", "Bearer {auth}");
-
-	
 
 	web_url("config.json", 
 		"URL=https://dev-boomq.pflb.ru/config.json", 
@@ -3241,17 +3095,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t19.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_url("modelSchema", 
-		"URL=https://dev-boomq.pflb.ru/project-srv/modelSchema", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t20.inf", 
+		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3261,7 +3105,17 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t21.inf", 
+		"Snapshot=t5.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_url("modelSchema", 
+		"URL=https://dev-boomq.pflb.ru/project-srv/modelSchema", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
+		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3271,7 +3125,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t22.inf", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3281,43 +3135,46 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t23.inf", 
+		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		"LAST");
-
-	web_reg_save_param("auth2",
-	    "LB=Authorization: " ,
+	
+	 
+	web_set_max_html_param_len("4096");
+	web_reg_save_param("auth",
+	    "LB=uthorization: " ,
 		"RB=\n",
 		"LAST");
-	
 	web_url("teamContext", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t24.inf", 
+		"Snapshot=t9.inf", 
 		"Mode=HTML", 
 		"LAST");
 
+	web_add_auto_header("Authorization", "Bearer {auth}");
+	
 	web_url("testRunner", 
 		"URL=https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t25.inf", 
+		"Snapshot=t10.inf", 
 		"Mode=HTML", 
 		"LAST");
 
 	lr_end_transaction("sign_in",2);
 
-	lr_start_transaction("create_user");
+	lr_start_transaction("in_to_group");
 
 	web_add_auto_header("Priority", 
 		"u=0");
 
-	lr_think_time(10);
+	lr_think_time(16);
 
 	web_url("team_2", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=6", 
@@ -3325,7 +3182,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/teams", 
-		"Snapshot=t26.inf", 
+		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3335,13 +3192,11 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/teams/14", 
-		"Snapshot=t27.inf", 
+		"Snapshot=t12.inf", 
 		"Mode=HTML", 
 		"LAST");
 
 	(web_remove_auto_header("Priority", "ImplicitGen=Yes", "LAST"));
-
-	web_add_auto_header("Authorization", "Bearer {auth2}");
 
 	web_url("teamMember", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=0&size=5", 
@@ -3349,9 +3204,13 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/teams/14", 
-		"Snapshot=t28.inf", 
+		"Snapshot=t13.inf", 
 		"Mode=HTML", 
 		"LAST");
+
+	lr_end_transaction("in_to_group",2);
+
+	lr_start_transaction("create_user");
 
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
@@ -3359,9 +3218,20 @@ Action()
 	web_add_header("Priority", 
 		"u=0");
 
-	lr_think_time(13);
+	lr_think_time(5);
 	
 	 
+	web_reg_save_param("url_param",
+	    "LB=\"inviteUrl\":\"/auth-srv/invite/" ,
+		"RB=\"",
+		"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 	web_custom_request("teamMember_2", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14", 
@@ -3370,84 +3240,47 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/teams/14", 
-		"Snapshot=t29.inf", 
+		"Snapshot=t14.inf", 
 		"Mode=HTML", 
-		"EncType=application/json",
+		"EncType=application/json", 
 		"Body=[{\"email\":\"{email}@gmail.com\",\"permissionList\":[\"ADMIN\",\"VIEW\",\"EDIT\",\"RUN\",\"MANAGE_USERS_IN_ORG\"],\"userDisplayName\":\"{email}\"}]", 
 		"LAST");
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 	lr_end_transaction("create_user",2);
 
-	lr_start_transaction("walk_link");
+	lr_start_transaction("user_view");
 
 	web_add_auto_header("Priority", 
 		"u=0");
 
-	lr_think_time(16);
-	
-	
-	 
-	 
-	
-	web_url("teamMember_4", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=4&size=5", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://dev-boomq.pflb.ru/account/teams/14", 
-		"Snapshot=t31.inf", 
-		"Mode=HTML", 
-		"LAST");
+	lr_think_time(19);
 
-	lr_end_transaction("walk_link", 2);
+	lr_end_transaction("user_view",2);
 
 	lr_start_transaction("copy_link");
 
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
 
-	lr_think_time(35);
-	
-
-	web_add_header("Content-Type", "application/json");
-
-	web_custom_request("teamMember_5", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14", 
-		"Method=PUT", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://dev-boomq.pflb.ru/account/teams/14", 
-		"Snapshot=t32.inf", 
-		"Mode=HTML", 
-		"Body=[{\"email\":\"{email}@gmail.com\",\"id\":22057,\"permissionList\":[\"RUN\",\"VIEW\",\"EDIT\",\"ADMIN\",\"MANAGE_USERS_IN_ORG\"],\"teamId\":\"14\",\"userDisplayName\":\"{email}\",\"userId\":22055,\"updateInviteExpiration\":true}]", 
-		"LAST");
+	lr_think_time(16);
 
 	lr_end_transaction("copy_link",2);
 
-	lr_start_transaction("open_link");
+	lr_start_transaction("walk_link");
 
-	web_add_header("Sec-Fetch-Dest", 
+	web_add_auto_header("Sec-Fetch-Dest", 
 		"document");
 
-	web_add_header("Sec-Fetch-Mode", 
+	web_add_auto_header("Sec-Fetch-Mode", 
 		"navigate");
 
-	web_add_header("Sec-Fetch-Site", 
+	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
 
-	web_add_header("Priority", 
+	web_add_auto_header("Priority", 
 		"u=0, i");
+
+	(web_remove_auto_header("Priority", "ImplicitGen=Yes", "LAST"));
 
 	web_add_auto_header("DNT", 
 		"1");
@@ -3460,23 +3293,35 @@ Action()
 
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
+   
 
-	web_url("_k4kx5rq1KhQ1lhSYHi6vd3fLO0EibLFcm5Mj2nPufKIzeruyqjntxPrhtWzRFYDFFFHx5-fBpk5YblUF_dR4XEAwYMFZkDndKlwoOtlZl7rHel8KK0izYiOtOFRuWpv", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/invite/_k4kx5rq1KhQ1lhSYHi6vd3fLO0EibLFcm5Mj2nPufKIzeruyqjntxPrhtWzRFYDFFFHx5-fBpk5YblUF_dR4XEAwYMFZkDndKlwoOtlZl7rHel8KK0izYiOtOFRuWpv", 
+	web_remove_auto_header("Authorization", "LAST");
+	web_reg_save_param("cookie",
+	    "LB=Set-Cookie: boomq_auth\=" ,
+		"RB=; ",
+		"LAST");
+	
+	
+	web_url("WEMM2O0a9ZiIMnzkLnh2jxdKCIFxnXeK8gWWYQSkJCCpmZpsZHxig3Z0WFkPivwOnsBMQBntvCEGkGSzzpGa7Hkg9ecMMTj5EsZntkoNj2eiYJZ8PAVtrN82g1_HC-iP", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/invite/{url_param}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t33.inf", 
+		"Snapshot=t18.inf", 
 		"Mode=HTML", 
+		"EXTRARES", 
+		"Url=/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
+		"Url=/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg", "Referer=https://dev-boomq.pflb.ru/change-password", "ENDITEM", 
+		"Url=/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg", "Referer=https://dev-boomq.pflb.ru/change-password", "ENDITEM", 
+		"Url=/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
+		"Url=/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
+		"Url=/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("open_link",2);
+	lr_end_transaction("walk_link",2);
 
 	lr_start_transaction("change_pass");
-
-	web_add_header("Origin", 
-		"https://dev-boomq.pflb.ru");
 
 	web_add_auto_header("Priority", 
 		"u=0");
@@ -3490,18 +3335,17 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
-	lr_think_time(24);
+	lr_think_time(14);
 
-	web_custom_request("user_2", 
-		"URL=https://dev-boomq.pflb.ru/auth-srv/user", 
-		"Method=PUT", 
+	
+	web_url("config.json_2", 
+		"URL=https://dev-boomq.pflb.ru/config.json", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/change-password", 
-		"Snapshot=t34.inf", 
+		"Snapshot=t19.inf", 
 		"Mode=HTML", 
-		"Body={\"password\":\"1Ddeckdee!\"}", 
 		"LAST");
 
 	web_url("modelSchema_2", 
@@ -3510,8 +3354,32 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/change-password", 
-		"Snapshot=t35.inf", 
+		"Snapshot=t20.inf", 
 		"Mode=HTML", 
+		"EXTRARES", 
+		"Url=../static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg", "Referer=https://dev-boomq.pflb.ru/account", "ENDITEM", 
+		"LAST");
+
+	web_add_header("Origin", 
+		"https://dev-boomq.pflb.ru");
+
+	
+	web_add_header("Content-Type", "application/json");
+	
+	
+	web_add_auto_header("Authorization", "Bearer {cookie}");
+	
+	 
+	web_custom_request("user_2", 
+		"URL=https://dev-boomq.pflb.ru/auth-srv/user", 
+		"Method=PUT", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/change-password", 
+		"Snapshot=t21.inf", 
+		"Mode=HTML", 
+		"Body={\"password\":\"1Ddeckdee!\"}", 
 		"LAST");
 
 	(web_remove_auto_header("Priority", "ImplicitGen=Yes", "LAST"));
@@ -3522,7 +3390,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t36.inf", 
+		"Snapshot=t22.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3532,7 +3400,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t37.inf", 
+		"Snapshot=t23.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3542,7 +3410,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
-		"Snapshot=t38.inf", 
+		"Snapshot=t24.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -3550,12 +3418,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c" 2
+# 5 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\1\\documents\\vugen\\scripts\\bmq\\\\combined_bmq.c" 2
+# 6 "c:\\users\\1\\documents\\vugen\\scripts\\boomqmain\\\\combined_boomqmain.c" 2
 

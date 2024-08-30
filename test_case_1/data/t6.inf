@@ -1,6 +1,6 @@
 [t6]
-FileName1=t6_user.json
-URL1=https://dev-boomq.pflb.ru/auth-srv/user
+FileName1=t6_modelSchema.json
+URL1=https://dev-boomq.pflb.ru/project-srv/modelSchema
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_6.xml

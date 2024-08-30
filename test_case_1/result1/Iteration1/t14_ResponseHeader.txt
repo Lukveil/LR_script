@@ -1,18 +1,11 @@
-HTTP/1.1 200 
+HTTP/1.1 200 OK
 Server: nginx
-Date: Wed, 28 Aug 2024 18:16:40 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
+Date: Fri, 30 Aug 2024 10:24:33 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1489
 Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-Strict-Transport-Security: max-age=31536000 ; includeSubDomains
-X-Frame-Options: DENY
+Last-Modified: Tue, 26 Mar 2024 08:34:39 GMT
+ETag: "6602889f-5d1"
+Accept-Ranges: bytes
 Strict-Transport-Security: max-age=86400;
 

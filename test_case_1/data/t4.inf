@@ -1,6 +1,6 @@
 [t4]
-FileName1=t4_ip.json
-URL1=https://worldtimeapi.org/api/ip
+FileName1=t4_config.json
+URL1=https://dev-boomq.pflb.ru/config.json
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_4.xml

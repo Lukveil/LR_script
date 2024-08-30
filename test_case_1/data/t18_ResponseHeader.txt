@@ -1,16 +1,11 @@
-HTTP/1.1 200 
+HTTP/1.1 200 OK
 Server: nginx
-Date: Wed, 28 Aug 2024 15:07:03 GMT
-Content-Length: 0
+Date: Fri, 30 Aug 2024 09:30:41 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1489
 Connection: keep-alive
-Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
-Authorization: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE4NzIsInVzZXJfbmFtZSI6ImUuZGVja2RlZUBnbWFpbC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3MjQ5MDA4MjMsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJhZjIwNjllYy0yOTE2LTRmMTktYmVlYi1jY2NiYzQwZjFiN2IiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.cbWTDHBewkPr86pn6IviVbJAmFhCfwWqCNnHLG-_FD57L2eIuCDFvBvldTh3flheaRBqnz4aYhzjXxFN5sWKPe4ly_zdYZBlj-I5PPT7yEyebZ2L0wGx2o1BcKk71ENLcqHxS0uELXD6hNBPxamtkzgdctJjreyFbmGYd2LojlERIK5sRu-bLt0bS4kOXXUEleWVPA-w19-KRDQkoyoDD8Kq_ITmWsvk8yz4zTFJSDKwNoqMuOhISC8qN1BepzbY85ri5TYKN5-uw4LN4yQ66x7QaF-Nlag9sYKs2lXIjKtCu4IWj7tNPVWwAjmJy3H0cRC8lcGUdfzSMxTFHmg7Qw
-Set-Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE4NzIsInVzZXJfbmFtZSI6ImUuZGVja2RlZUBnbWFpbC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3MjQ5MDA4MjMsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJhZjIwNjllYy0yOTE2LTRmMTktYmVlYi1jY2NiYzQwZjFiN2IiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.cbWTDHBewkPr86pn6IviVbJAmFhCfwWqCNnHLG-_FD57L2eIuCDFvBvldTh3flheaRBqnz4aYhzjXxFN5sWKPe4ly_zdYZBlj-I5PPT7yEyebZ2L0wGx2o1BcKk71ENLcqHxS0uELXD6hNBPxamtkzgdctJjreyFbmGYd2LojlERIK5sRu-bLt0bS4kOXXUEleWVPA-w19-KRDQkoyoDD8Kq_ITmWsvk8yz4zTFJSDKwNoqMuOhISC8qN1BepzbY85ri5TYKN5-uw4LN4yQ66x7QaF-Nlag9sYKs2lXIjKtCu4IWj7tNPVWwAjmJy3H0cRC8lcGUdfzSMxTFHmg7Qw; Path=/
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
-X-Frame-Options: DENY
+Last-Modified: Tue, 26 Mar 2024 08:34:39 GMT
+ETag: "6602889f-5d1"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=86400;
 

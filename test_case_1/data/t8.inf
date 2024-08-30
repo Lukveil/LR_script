@@ -1,6 +1,6 @@
 [t8]
-FileName1=t8_config.json
-URL1=https://dev-boomq.pflb.ru/config.json
+FileName1=t8_team.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team?size=2
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_8.xml

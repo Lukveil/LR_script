@@ -1,6 +1,6 @@
 [t13]
-FileName1=t13_team.json
-URL1=https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=6
+FileName1=t13_teamMember.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=0&size=5
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_13.xml

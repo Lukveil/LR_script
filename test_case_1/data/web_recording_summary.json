@@ -122,16 +122,16 @@
   "GeneralInfo": {
     "BrowserVersion": "",
     "IsWinInetMode": false,
-    "MaxUsedConnections": 40,
+    "MaxUsedConnections": 54,
     "RecordedBrowser": "Firefox",
-    "RecordingDate": "Aug-28-2024",
-    "RecordingDuration": 230047,
+    "RecordingDate": "???-30-2024",
+    "RecordingDuration": 175265,
     "RecordingMode": "N/A",
-    "RecordingTimeStamp": 1724857245,
+    "RecordingTimeStamp": 1725009704,
     "RecordingType": "Proxy",
-    "TotalBytesReceived": 4340978,
-    "TotalBytesSent": 67557,
-    "TotalRequests": 40,
+    "TotalBytesReceived": 8536242,
+    "TotalBytesSent": 89348,
+    "TotalRequests": 54,
     "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0"
   },
   "HostInfo": [
@@ -148,15 +148,15 @@
             {
               "CompressionType": "gzip",
               "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 520,
+              "DownloadTime": 16,
+              "EventId": 143,
               "HttpStatus": 200,
-              "Size": 230,
+              "Size": 228,
               "URL": "https://worldtimeapi.org/api/ip"
             }
           ],
           "SSLCipher": "",
-          "SSLVersion": "TLS1.2"
+          "SSLVersion": "2&3"
         }
       ],
       "IncludeInScript": true
@@ -174,8 +174,8 @@
             {
               "CompressionType": "",
               "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 657,
+              "DownloadTime": 16,
+              "EventId": 412,
               "HttpStatus": 200,
               "Size": 531,
               "URL": "https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"
@@ -184,214 +184,70 @@
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 652,
+              "EventId": 407,
               "HttpStatus": 200,
-              "Size": 317,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 647,
-              "HttpStatus": 200,
-              "Size": 585,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/team?size=2"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 15,
-              "EventId": 642,
-              "HttpStatus": 200,
-              "Size": 66848,
-              "URL": "https://dev-boomq.pflb.ru/project-srv/modelSchema"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 637,
-              "HttpStatus": 200,
-              "Size": 166,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/user"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 0,
-              "EventId": 632,
-              "HttpStatus": 200,
-              "Size": 1489,
-              "URL": "https://dev-boomq.pflb.ru/change-password"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 0,
-              "EventId": 628,
-              "HttpStatus": 301,
-              "Size": 0,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/invite/_k4kx5rq1KhQ1lhSYHi6vd3fLO0EibLFcm5Mj2nPufKIzeruyqjntxPrhtWzRFYDFFFHx5-fBpk5YblUF_dR4XEAwYMFZkDndKlwoOtlZl7rHel8KK0izYiOtOFRuWpv"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 619,
-              "HttpStatus": 200,
-              "Size": 498,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 614,
-              "HttpStatus": 200,
-              "Size": 813,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=4&size=5"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 605,
-              "HttpStatus": 200,
-              "Size": 1822,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=0&size=5"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 600,
-              "HttpStatus": 201,
-              "Size": 498,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 583,
-              "HttpStatus": 200,
-              "Size": 1822,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=0&size=5"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 578,
-              "HttpStatus": 200,
-              "Size": 286,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/team/14"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 573,
-              "HttpStatus": 200,
-              "Size": 600,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=6"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 564,
-              "HttpStatus": 200,
-              "Size": 531,
-              "URL": "https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 16,
-              "EventId": 559,
-              "HttpStatus": 200,
-              "Size": 325,
+              "Size": 331,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14"
             },
             {
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 554,
+              "EventId": 402,
               "HttpStatus": 200,
-              "Size": 600,
+              "Size": 588,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/team?size=2"
             },
             {
               "CompressionType": "",
               "DataType": "application/json",
               "DownloadTime": 0,
-              "EventId": 549,
+              "EventId": 397,
               "HttpStatus": 200,
-              "Size": 2,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/identityProvider"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 544,
-              "HttpStatus": 200,
-              "Size": 160,
+              "Size": 180,
               "URL": "https://dev-boomq.pflb.ru/auth-srv/user"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 539,
-              "HttpStatus": 200,
-              "Size": 66848,
-              "URL": "https://dev-boomq.pflb.ru/project-srv/modelSchema"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "application/json",
-              "DownloadTime": 0,
-              "EventId": 534,
-              "HttpStatus": 200,
-              "Size": 285,
-              "URL": "https://dev-boomq.pflb.ru/config.json"
             },
             {
               "CompressionType": "",
               "DataType": "image/svg+xml",
-              "DownloadTime": 16,
-              "EventId": 529,
+              "DownloadTime": 0,
+              "EventId": 392,
               "HttpStatus": 200,
               "Size": 4045,
               "URL": "https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"
             },
             {
               "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 525,
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 387,
               "HttpStatus": 200,
-              "Size": 0,
-              "URL": "https://dev-boomq.pflb.ru/auth-srv/login"
+              "Size": 66848,
+              "URL": "https://dev-boomq.pflb.ru/project-srv/modelSchema"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 382,
+              "HttpStatus": 200,
+              "Size": 285,
+              "URL": "https://dev-boomq.pflb.ru/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 373,
+              "HttpStatus": 200,
+              "Size": 1016,
+              "URL": "https://dev-boomq.pflb.ru/favicon.png"
             },
             {
               "CompressionType": "",
               "DataType": "font/woff",
               "DownloadTime": 0,
-              "EventId": 497,
-              "HttpStatus": 200,
-              "Size": 138516,
-              "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "font/woff",
-              "DownloadTime": 0,
-              "EventId": 492,
+              "EventId": 368,
               "HttpStatus": 200,
               "Size": 138900,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"
@@ -400,16 +256,25 @@
               "CompressionType": "",
               "DataType": "font/woff",
               "DownloadTime": 0,
-              "EventId": 487,
+              "EventId": 363,
               "HttpStatus": 200,
               "Size": 138232,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"
             },
             {
               "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 358,
+              "HttpStatus": 200,
+              "Size": 138516,
+              "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"
+            },
+            {
+              "CompressionType": "",
               "DataType": "image/svg+xml",
-              "DownloadTime": 16,
-              "EventId": 482,
+              "DownloadTime": 0,
+              "EventId": 353,
               "HttpStatus": 200,
               "Size": 1861,
               "URL": "https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"
@@ -417,8 +282,8 @@
             {
               "CompressionType": "",
               "DataType": "image/svg+xml",
-              "DownloadTime": 15,
-              "EventId": 477,
+              "DownloadTime": 0,
+              "EventId": 348,
               "HttpStatus": 200,
               "Size": 8365,
               "URL": "https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"
@@ -427,25 +292,16 @@
               "CompressionType": "",
               "DataType": "font/woff",
               "DownloadTime": 0,
-              "EventId": 462,
+              "EventId": 343,
               "HttpStatus": 200,
               "Size": 138600,
               "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"
             },
             {
               "CompressionType": "",
-              "DataType": "image/png",
-              "DownloadTime": 0,
-              "EventId": 457,
-              "HttpStatus": 200,
-              "Size": 1016,
-              "URL": "https://dev-boomq.pflb.ru/favicon.png"
-            },
-            {
-              "CompressionType": "",
               "DataType": "application/javascript",
               "DownloadTime": 0,
-              "EventId": 447,
+              "EventId": 338,
               "HttpStatus": 200,
               "Size": 3435354,
               "URL": "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"
@@ -453,8 +309,8 @@
             {
               "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 0,
-              "EventId": 442,
+              "DownloadTime": 16,
+              "EventId": 333,
               "HttpStatus": 200,
               "Size": 189344,
               "URL": "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"
@@ -463,7 +319,250 @@
               "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 0,
-              "EventId": 401,
+              "EventId": 328,
+              "HttpStatus": 200,
+              "Size": 1489,
+              "URL": "https://dev-boomq.pflb.ru/change-password"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 324,
+              "HttpStatus": 301,
+              "Size": 0,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/invite/WEMM2O0a9ZiIMnzkLnh2jxdKCIFxnXeK8gWWYQSkJCCpmZpsZHxig3Z0WFkPivwOnsBMQBntvCEGkGSzzpGa7Hkg9ecMMTj5EsZntkoNj2eiYJZ8PAVtrN82g1_HC-iP"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 242,
+              "HttpStatus": 200,
+              "Size": 512,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 237,
+              "HttpStatus": 200,
+              "Size": 1485,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=207&size=5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 232,
+              "HttpStatus": 200,
+              "Size": 1826,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=0&size=5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 227,
+              "HttpStatus": 201,
+              "Size": 512,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 206,
+              "HttpStatus": 200,
+              "Size": 1826,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember?teamId=14&page=0&size=5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 201,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team/14"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 196,
+              "HttpStatus": 200,
+              "Size": 603,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team?page=0&size=6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 187,
+              "HttpStatus": 200,
+              "Size": 531,
+              "URL": "https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 182,
+              "HttpStatus": 200,
+              "Size": 325,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 603,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team?size=2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 172,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/identityProvider"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 66848,
+              "URL": "https://dev-boomq.pflb.ru/project-srv/modelSchema"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 162,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/user"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 285,
+              "URL": "https://dev-boomq.pflb.ru/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 0,
+              "EventId": 152,
+              "HttpStatus": 200,
+              "Size": 4045,
+              "URL": "https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 148,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 120,
+              "HttpStatus": 200,
+              "Size": 138900,
+              "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 115,
+              "HttpStatus": 200,
+              "Size": 138516,
+              "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 110,
+              "HttpStatus": 200,
+              "Size": 138232,
+              "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 0,
+              "EventId": 105,
+              "HttpStatus": 200,
+              "Size": 1861,
+              "URL": "https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 0,
+              "EventId": 100,
+              "HttpStatus": 200,
+              "Size": 8365,
+              "URL": "https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 3435354,
+              "URL": "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 75,
+              "HttpStatus": 200,
+              "Size": 138600,
+              "URL": "https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 1016,
+              "URL": "https://dev-boomq.pflb.ru/favicon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 189344,
+              "URL": "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 15,
               "HttpStatus": 200,
               "Size": 1489,
               "URL": "https://dev-boomq.pflb.ru/authorize"
@@ -489,46 +588,91 @@
               "CompressionType": "gzip",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 507,
+              "EventId": 315,
               "HttpStatus": 200,
               "Size": 20,
-              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/558d3874-1146-43b2-880f-2fb94926cbe2"
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/10ea5d6d-6431-46eb-8c41-89d5313a7540"
             },
             {
               "CompressionType": "gzip",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 502,
+              "EventId": 310,
               "HttpStatus": 200,
               "Size": 20,
-              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/1f2abf82-2679-48e1-bd2c-9187df617426"
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/be509f06-cf86-44c6-84a4-dea356ddafd3"
             },
             {
               "CompressionType": "gzip",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 472,
+              "EventId": 305,
               "HttpStatus": 200,
               "Size": 20,
-              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/30ec5bb6-c81a-41f3-88f6-21edf9f77695"
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/b427fc2a-3d57-4bd7-af7f-58797efad5ac"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 300,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/3a672a51-e1b5-4b7c-b3fd-d7f7f02c957f"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 290,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/09f388d7-207e-4ca8-969e-57c3c594f4b8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 130,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/d871aa97-ed0a-454c-abfe-36a47d4f1473"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/f0f8bced-9221-41d4-bd88-7720abebae1c"
             },
             {
               "CompressionType": "gzip",
               "DataType": "text/plain",
               "DownloadTime": 16,
-              "EventId": 452,
+              "EventId": 95,
               "HttpStatus": 200,
               "Size": 20,
-              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/a66e4c17-c794-44bb-992b-29e653a048e3"
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/1e25a81e-7f40-47d8-813c-6d87a5e83f78"
             },
             {
               "CompressionType": "gzip",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 437,
+              "EventId": 80,
               "HttpStatus": 200,
               "Size": 20,
-              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/ed7495de-5420-4c62-801c-60fb92a4838d"
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/63e23bf2-6585-4327-bd16-cb2ae99cc89d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/c0532e94-f29a-42fb-95f0-b900d23f120f"
             }
           ],
           "SSLCipher": "",
@@ -545,7 +689,16 @@
               "CompressionType": "",
               "DataType": "text/xml",
               "DownloadTime": 0,
-              "EventId": 467,
+              "EventId": 295,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/129.0.2/20240819150008/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19044.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A4096/default/default/update.xml?force=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 90,
               "HttpStatus": 200,
               "Size": 42,
               "URL": "https://aus5.mozilla.org/update/6/Firefox/129.0.2/20240819150008/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19044.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A4096/default/default/update.xml?force=1"
@@ -571,7 +724,7 @@
               "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 0,
-              "EventId": 624,
+              "EventId": 417,
               "HttpStatus": 400,
               "Size": 0,
               "URL": "https://push.services.mozilla.com/"
@@ -580,7 +733,7 @@
               "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 0,
-              "EventId": 610,
+              "EventId": 378,
               "HttpStatus": 400,
               "Size": 0,
               "URL": "https://push.services.mozilla.com/"
@@ -588,38 +741,94 @@
             {
               "CompressionType": "",
               "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 320,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 286,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 223,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 192,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 139,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 135,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 47,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": false,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 327,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
               "DownloadTime": 15,
-              "EventId": 569,
-              "HttpStatus": 400,
+              "EventId": 61,
+              "HttpStatus": 304,
               "Size": 0,
-              "URL": "https://push.services.mozilla.com/"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 0,
-              "EventId": 516,
-              "HttpStatus": 400,
-              "Size": 0,
-              "URL": "https://push.services.mozilla.com/"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 0,
-              "EventId": 512,
-              "HttpStatus": 400,
-              "Size": 0,
-              "URL": "https://push.services.mozilla.com/"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 0,
-              "EventId": 433,
-              "HttpStatus": 400,
-              "Size": 0,
-              "URL": "https://push.services.mozilla.com/"
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-ru"
             }
           ],
           "SSLCipher": "",
@@ -636,7 +845,16 @@
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 0,
-              "EventId": 406,
+              "EventId": 274,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 20,
               "HttpStatus": 204,
               "Size": 0,
               "URL": "https://contile.services.mozilla.com/v1/tiles"
@@ -662,7 +880,7 @@
               "CompressionType": "",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 595,
+              "EventId": 281,
               "HttpStatus": 200,
               "Size": 8,
               "URL": "http://detectportal.firefox.com/success.txt?ipv6"
@@ -671,7 +889,25 @@
               "CompressionType": "",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 591,
+              "EventId": 277,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 254,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 250,
               "HttpStatus": 200,
               "Size": 8,
               "URL": "http://detectportal.firefox.com/success.txt?ipv4"
@@ -680,7 +916,7 @@
               "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 0,
-              "EventId": 587,
+              "EventId": 246,
               "HttpStatus": 200,
               "Size": 90,
               "URL": "http://detectportal.firefox.com/canonical.html"
@@ -688,8 +924,35 @@
             {
               "CompressionType": "",
               "DataType": "text/plain",
-              "DownloadTime": 0,
-              "EventId": 413,
+              "DownloadTime": 16,
+              "EventId": 218,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 214,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 27,
               "HttpStatus": 200,
               "Size": 8,
               "URL": "http://detectportal.firefox.com/success.txt?ipv6"
@@ -698,7 +961,7 @@
               "CompressionType": "",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 409,
+              "EventId": 23,
               "HttpStatus": 200,
               "Size": 8,
               "URL": "http://detectportal.firefox.com/success.txt?ipv4"
@@ -706,8 +969,8 @@
             {
               "CompressionType": "",
               "DataType": "text/plain",
-              "DownloadTime": 16,
-              "EventId": 396,
+              "DownloadTime": 0,
+              "EventId": 10,
               "HttpStatus": 200,
               "Size": 8,
               "URL": "http://detectportal.firefox.com/success.txt?ipv6"
@@ -716,7 +979,7 @@
               "CompressionType": "",
               "DataType": "text/plain",
               "DownloadTime": 0,
-              "EventId": 392,
+              "EventId": 6,
               "HttpStatus": 200,
               "Size": 8,
               "URL": "http://detectportal.firefox.com/success.txt?ipv4"
@@ -725,7 +988,7 @@
               "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 0,
-              "EventId": 388,
+              "EventId": 2,
               "HttpStatus": 200,
               "Size": 90,
               "URL": "http://detectportal.firefox.com/canonical.html"
@@ -751,7 +1014,7 @@
               "CompressionType": "",
               "DataType": "application/dns-message",
               "DownloadTime": 0,
-              "EventId": 428,
+              "EventId": 269,
               "HttpStatus": 200,
               "Size": 468,
               "URL": "https://mozilla.cloudflare-dns.com/dns-query"
@@ -760,7 +1023,7 @@
               "CompressionType": "",
               "DataType": "application/dns-message",
               "DownloadTime": 0,
-              "EventId": 423,
+              "EventId": 264,
               "HttpStatus": 200,
               "Size": 468,
               "URL": "https://mozilla.cloudflare-dns.com/dns-query"
@@ -769,7 +1032,34 @@
               "CompressionType": "",
               "DataType": "application/dns-message",
               "DownloadTime": 0,
-              "EventId": 418,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 0,
+              "EventId": 42,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 16,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://mozilla.cloudflare-dns.com/dns-query"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 0,
+              "EventId": 32,
               "HttpStatus": 200,
               "Size": 468,
               "URL": "https://mozilla.cloudflare-dns.com/dns-query"

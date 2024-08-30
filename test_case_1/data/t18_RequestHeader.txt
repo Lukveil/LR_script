@@ -1,17 +1,15 @@
-POST https://dev-boomq.pflb.ru/auth-srv/login HTTP/1.1
+GET https://dev-boomq.pflb.ru/auth-srv/invite/WEMM2O0a9ZiIMnzkLnh2jxdKCIFxnXeK8gWWYQSkJCCpmZpsZHxig3Z0WFkPivwOnsBMQBntvCEGkGSzzpGa7Hkg9ecMMTj5EsZntkoNj2eiYJZ8PAVtrN82g1_HC-iP HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
-Accept: */*
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
 Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
 Accept-Encoding: gzip, deflate, zstd
-X-Client-Date: 2024-08-28T15:06:59.141Z
-Content-Type: multipart/form-data; boundary=---------------------------116529460224705999303524907664
-Origin: https://dev-boomq.pflb.ru
 DNT: 1
 Sec-GPC: 1
-Referer: https://dev-boomq.pflb.ru/authorize
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
 Host: dev-boomq.pflb.ru
-Content-Length: 437
 

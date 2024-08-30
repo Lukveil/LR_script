@@ -1,3 +1,0 @@
-"[{\"email\":\"group4_lruser@gmail.com\",\"id\":22057,\"permissionList\":[\"RUN\",\"VIEW\",\"ED"
-"IT\",\"ADMIN\",\"MANAGE_USERS_IN_ORG\"],\"teamId\":\"14\",\"userDisplayName\":\"group4_lruser\""
-",\"userId\":22055,\"updateInviteExpiration\":true}]"

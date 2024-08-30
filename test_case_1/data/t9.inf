@@ -1,6 +1,6 @@
 [t9]
-FileName1=t9_identityProvider.json
-URL1=https://dev-boomq.pflb.ru/auth-srv/identityProvider
+FileName1=t9_teamContext.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_9.xml

@@ -7,7 +7,7 @@ Registry settings:
 		default	yes
 	AUT
 		(Default)	
-		default	C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe -lrdir "C:\Program Files (x86)\Micro Focus\LoadRunner" -scriptdir "C:\Users\1\Documents\VuGen\Scripts\WebHttpHtml3" -Port 8889 -EnableHtmlToolbar False -EnableTC2WebConversion False -selectedAppOnly "True" -autWorkDir "C:\Program Files (x86)\Micro Focus\LoadRunner\Bin" -autPath "C:\Program Files\Mozilla Firefox\firefox.exe" -autParam "-private-window https://dev-boomq.pflb.ru/authorize" -RecordLocal "True" -toolbarServerPort "8085"
+		default	C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe -lrdir "C:\Program Files (x86)\Micro Focus\LoadRunner" -scriptdir "C:\Users\1\Documents\VuGen\Scripts\boomqmain" -Port 8888 -EnableHtmlToolbar False -EnableTC2WebConversion False -selectedAppOnly "True" -autWorkDir "C:\Program Files (x86)\Micro Focus\LoadRunner\Bin" -autPath "C:\Program Files\Mozilla Firefox\firefox.exe" -autParam "-private-window https://dev-boomq.pflb.ru/authorize" -RecordLocal "True" -toolbarServerPort "8085"
 	DebugFilter
 		(Default)	
 		default	off
@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\1\Documents\VuGen\Scripts\WebHttpHtml3\data\
+		default	C:\Users\1\Documents\VuGen\Scripts\boomqmain\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

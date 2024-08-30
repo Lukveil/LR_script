@@ -2,7 +2,7 @@ POST /auth-srv/login HTTP/1.1
 Content-Type: multipart/form-data; boundary=---------------------------7d025e2b16b064e
 Referer: https://dev-boomq.pflb.ru/authorize
 Priority: u=0
-X-Client-Date: 2024-08-28T15:06:59.141Z
+X-Client-Date: 2024-08-30T09:28:37.882Z
 Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-origin

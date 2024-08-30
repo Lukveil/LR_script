@@ -1,6 +1,6 @@
 [t22]
-FileName1=t22_identityProvider.json
-URL1=https://dev-boomq.pflb.ru/auth-srv/identityProvider
+FileName1=t22_team.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/team?size=2
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_22.xml

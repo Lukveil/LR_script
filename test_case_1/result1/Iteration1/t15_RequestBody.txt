@@ -1,3 +1,0 @@
-"[{"email":"mmepgcxyjsc@gmail.com","id":22057,"permissionList":["RUN","VIEW","EDIT","ADMIN","MA"
-"NAGE_USERS_IN_ORG"],"teamId":"14","userDisplayName":"mmepgcxyjsc","userId":22055,"updateInvite"
-"Expiration":true}]"

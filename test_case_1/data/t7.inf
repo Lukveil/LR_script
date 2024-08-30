@@ -1,6 +1,6 @@
 [t7]
-FileName1=t7_modelSchema.json
-URL1=https://dev-boomq.pflb.ru/project-srv/modelSchema
+FileName1=t7_identityProvider.json
+URL1=https://dev-boomq.pflb.ru/auth-srv/identityProvider
 Total=1
 ContentType=application/json
 SnapshotXmlFile=snapshot_7.xml

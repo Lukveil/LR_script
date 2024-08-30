@@ -1,17 +1,16 @@
-HTTP/1.1 200 OK
-server: nginx
-Content-Length: 598
-allow: GET, HEAD, OPTIONS
-content-security-policy: form-action 'self'; frame-src 'none'; default-src 'self' https://normandy.cdn.mozilla.net/; worker-src 'none'; base-uri 'none'; block-all-mixed-content; object-src 'none'; report-uri /__cspreport__
-x-frame-options: DENY
-x-content-type-options: nosniff
-x-xss-protection: 1; mode=block
-strict-transport-security: max-age=31536000
-via: 1.1 google
-Date: Wed, 28 Aug 2024 01:33:32 GMT
-Cache-Control: public, max-age=86400
-Content-Type: application/json
-Vary: Accept, Origin
-Age: 48468
-Alt-Svc: clear
+HTTP/1.1 200 
+Server: nginx
+Date: Fri, 30 Aug 2024 09:28:44 GMT
+Content-Length: 0
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Authorization: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE4NzIsInVzZXJfbmFtZSI6ImUuZGVja2RlZUBnbWFpbC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3MjUwNTMzMjQsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJmOTM4YWRjZS0wZGFlLTQwOTQtYWY1My1lOTI4NTNkZGRlNmQiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.S0C45ZJBJONtohCBDDwvn5welnlFgs34nuTu5Owbbk__BIv1Ul40poUH8HBDmtNxMQscShQbBy9P0e8YH1yrj2q0YduawHfetAzU8tmY9ZN__U7ehX0bZW2SgTgZAxadiEYbbCBzc_dun-NkuajgnqqASu5LlSKi1tD9eGGNUf1pU8tAt_ak2Bqd_nqkQPi9og-fED70VyqKFHK2mNxz_Gz7t4nVwBRIVXCC1qh4XMPrWSn0RTOCFf7lulFKK_dk1jVjVkReDuiR3K_flFbdaY0crcYv3WXDfrM1cSGe176tyKw9eqc1vb_vvBEOc1X3unzd6D72KuTXpuIeSdHVxw
+Set-Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE4NzIsInVzZXJfbmFtZSI6ImUuZGVja2RlZUBnbWFpbC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3MjUwNTMzMjQsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJmOTM4YWRjZS0wZGFlLTQwOTQtYWY1My1lOTI4NTNkZGRlNmQiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.S0C45ZJBJONtohCBDDwvn5welnlFgs34nuTu5Owbbk__BIv1Ul40poUH8HBDmtNxMQscShQbBy9P0e8YH1yrj2q0YduawHfetAzU8tmY9ZN__U7ehX0bZW2SgTgZAxadiEYbbCBzc_dun-NkuajgnqqASu5LlSKi1tD9eGGNUf1pU8tAt_ak2Bqd_nqkQPi9og-fED70VyqKFHK2mNxz_Gz7t4nVwBRIVXCC1qh4XMPrWSn0RTOCFf7lulFKK_dk1jVjVkReDuiR3K_flFbdaY0crcYv3WXDfrM1cSGe176tyKw9eqc1vb_vvBEOc1X3unzd6D72KuTXpuIeSdHVxw; Path=/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
+X-Frame-Options: DENY
 
