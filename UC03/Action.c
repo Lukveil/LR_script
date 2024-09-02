@@ -274,7 +274,7 @@ Action()
 		LAST);
 	
 	web_url("project", 
-		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=9", 
+		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=10000", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -419,7 +419,7 @@ Action()
 		LAST);
 	
 	web_url("project", 
-		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=9", 
+		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=10000", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
