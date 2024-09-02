@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\rpave\OneDrive\ƒокументы\VuGen\Scripts\script_cancel
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\rpave\onedrive\документы\vugen\scripts\script_cancel\\logfile.log
+c:\users\rpave\onedrive\документы\vugen\scripts\script_cancel\\combined_script_cancel.c
+c:\users\rpave\onedrive\документы\vugen\scripts\script_cancel\\pre_cci.c
