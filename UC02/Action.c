@@ -226,9 +226,9 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_think_time(5);
+	//lr_think_time(5);
 	lr_end_transaction("UC02_TR01_login",LR_AUTO);
-	//lr_think_time(1);
+	lr_think_time(3);
 	
 	//str_login = lr_eval_string("{login}");
 	
@@ -279,7 +279,7 @@ Action()
 		LAST);
 
 	//lr_end_transaction("UC02_TR02_test_create",LR_AUTO);
-	//lr_think_time(1);
+	lr_think_time(2);
 	} else {
 	
 	
@@ -405,9 +405,9 @@ Action()
 		LAST);
 	
 	//lr_end_transaction("New_jmx_file",LR_AUTO);
-	//lr_think_time(1);
+	lr_think_time(3);
 	}
-	lr_think_time(5);
+	//lr_think_time(4);
 	lr_end_transaction("UC02_TR02_test_create",LR_AUTO);
 	return 0;
 }  

@@ -63,7 +63,7 @@ Action()
 	web_add_auto_header("Sec-Fetch-Mode", 
 		"cors");
 
-	//lr_think_time(9);
+	lr_think_time(2);
 
 //	web_url("ip", 
 //		"URL=https://worldtimeapi.org/api/ip", 
@@ -394,7 +394,7 @@ Action()
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	//lr_think_time(20);
+	lr_think_time(2);
 
 	 web_reg_save_param("datasource-uid",
 		"LB=\"uid\":\"",
@@ -498,7 +498,7 @@ Action()
 	web_add_auto_header("x-plugin-id", 
 		"postgres");
 	
-	lr_think_time(4);
+	lr_think_time(2);
 	lr_end_transaction("UC031_TR04_choose_details",LR_AUTO);
 	return 0;
 }

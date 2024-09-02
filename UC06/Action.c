@@ -1,5 +1,7 @@
 Action()
 {
+	
+	lr_start_transaction("UC06_TR01_login");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -227,6 +229,10 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	lr_continue_on_error(1);
+	
+	lr_end_transaction("UC06_TR01_start", LR_AUTO);
+	
+	lr_start_transaction("UC06_TR02_cancel_running_test");
 
 	web_reg_save_param_json( 
   		"ParamName=All_test", 
@@ -250,7 +256,7 @@ Action()
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
 
-	lr_think_time(5);
+	lr_think_time(11);
 
 	web_custom_request("stop", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test/{test_random}/stop", 
@@ -287,7 +293,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_think_time(57);
+	lr_think_time(11);
 
 	web_url("test_5", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
@@ -298,6 +304,8 @@ Action()
 		"Snapshot=t20.inf", 
 		"Mode=HTML", 
 		LAST);
+	
+	lr_end_transaction("UC06_TR02_cancel_running_test", LR_AUTO);
 
 	return 0;
 }

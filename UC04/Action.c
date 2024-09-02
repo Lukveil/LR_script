@@ -287,7 +287,7 @@ Action()
 		"Body={\"projectId\":15070,\"chartProfileList\":[{\"slaTypeList\":[{\"fromDate\":0,\"restrictionType\":\"AVERAGE\",\"targetType\":\"TEST\",\"toDate\":180,\"type\":\"GENERAL_SLA_TYPE\"},{\"fromDate\":0,\"restrictionType\":\"THROUGHPUT\",\"targetType\":\"TEST\",\"toDate\":180,\"type\":\"GENERAL_SLA_TYPE\"}]}],\"testFilterExpressionList\":[{\"type\":\"TEST_ID_EXPRESSION\",\"testIdList\":[18504,18503]}]}", 
 		LAST);
 
-	//lr_think_time(4);
+	lr_think_time(1);
 
 	web_custom_request("previewReport_4", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport", 
@@ -480,7 +480,7 @@ Action()
 		LAST);
 
 	
-	lr_think_time(2);
+	lr_think_time(1);
 	lr_end_transaction("UC04_TR09_pick_created_trend",LR_AUTO);
 	// ===========================================
 	// UC04_TR09_pick_created_trend - END

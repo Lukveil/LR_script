@@ -52,9 +52,12 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="UC06_TR01_login__*delimiter*__UC06_TR02_cancel_running_test"
 [StateManagement]
 LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
+[Transactions]
+UC06_TR01_login=
+UC06_TR02_cancel_running_test=

@@ -228,7 +228,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_think_time(5);
+	lr_think_time(3);
 	lr_end_transaction("UC03_TR01_login",LR_AUTO);
 
 	
@@ -248,7 +248,7 @@ Action()
 	web_add_auto_header("sec-ch-ua-platform", 
 		"\"Windows\"");
 
-	//lr_think_time(17);
+	lr_think_time(3);
 	lr_start_transaction("UC03_TR02_Run_test");
 	
 
@@ -536,7 +536,7 @@ Action()
 	web_add_auto_header("sec-ch-ua-platform", 
 		"\"Windows\"");
 
-	//lr_think_time(8);
+	lr_think_time(3);
 
 	web_custom_request("testInfo_2", 
 		"URL=https://dev-boomq.pflb.ru/testplan-srv/testInfo?testMode=TEST", 
@@ -631,13 +631,9 @@ Action()
 		"Snapshot=t346.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	
-	
-	
 	}
 	
-	lr_think_time(5);
+	lr_think_time(3);
 	lr_end_transaction("UC03_TR02_Run_test",LR_AUTO);
 	return 0;
 }

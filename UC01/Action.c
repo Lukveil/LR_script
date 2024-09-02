@@ -5,14 +5,14 @@ Action()
 {
 	// create random string length = 14
 	int i;
-    char rnd1[12], email[12];
+    char rnd1[14], email[14];
 
     for (i = 0; i < 11; ++i) {
         rnd1[i] = 97 + rand() % ((122 - 97) + 1);
     }
 
-    sprintf(email, "%c%c%c%c%c%c%c%c%c%c%c", rnd1[0], rnd1[1], rnd1[2], rnd1[3], rnd1[4], rnd1[5], rnd1[6], rnd1[7], rnd1[8], rnd1[9], rnd1[10]);
-    email[11] ='\0';
+    sprintf(email, "%c%c%c%c%c%c%c%c%c%c%c%c%c", rnd1[0], rnd1[1], rnd1[2], rnd1[3], rnd1[4], rnd1[5], rnd1[6], rnd1[7], rnd1[8], rnd1[9], rnd1[10], rnd1[11], rnd1[12]);
+    email[13] ='\0';
     lr_save_string(lr_eval_string(email), "email");
     
 
@@ -53,9 +53,9 @@ Action()
 		"Url=/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", ENDITEM, 
 		LAST);
 
-	// START sign_in TR
+	// START UC01_TR01_sign_in TR
 	
-	lr_start_transaction("sign_in");
+	lr_start_transaction("UC01_TR01_sign_in");
 
 	web_add_auto_header("Sec-Fetch-Site", "cross-site");
 
@@ -177,15 +177,15 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	// END sign_in TR
+	// END UC01_TR01_sign_in TR
 	
-	lr_end_transaction("sign_in",LR_AUTO);
+	lr_end_transaction("UC01_TR01_sign_in",LR_AUTO);
 	
 	lr_think_time(1);
 	
 	// START in_to_group TR
 
-	lr_start_transaction("in_to_group");
+	lr_start_transaction("UC01_TR02_in_to_group");
 
 	web_add_auto_header("Priority", "u=0");
 
@@ -223,16 +223,16 @@ Action()
 	
 	// END in_to_group TR
 
-	lr_end_transaction("in_to_group",LR_AUTO);
+	lr_end_transaction("UC01_TR02_in_to_group",LR_AUTO);
 	
 	// START in_to_group TR
 	
-	lr_think_time(1);
+	lr_think_time(2);
 
 	
 	// START create_user TR
 	
-	lr_start_transaction("create_user");
+	lr_start_transaction("UC01_TR03_create_user");
 
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
@@ -265,35 +265,35 @@ Action()
 		"Body=[{\"email\":\"{email}@gmail.com\",\"permissionList\":[\"ADMIN\",\"VIEW\",\"EDIT\",\"RUN\",\"MANAGE_USERS_IN_ORG\"],\"userDisplayName\":\"{email}\"}]", 
 		LAST);
 
-	lr_end_transaction("create_user",LR_AUTO);
+	lr_end_transaction("UC01_TR03_create_user",LR_AUTO);
 	
 	lr_think_time(1);
 	
 	// START user_view TR
 
-	lr_start_transaction("user_view");
+	lr_start_transaction("UC01_TR04_user_view");
 
 	web_add_auto_header("Priority",  "u=0");
 	
 	// END user_view TR
 
-	lr_end_transaction("user_view",LR_AUTO);
+	lr_end_transaction("UC01_TR04_user_view",LR_AUTO);
 	
 	// START copy_link TR
 
-	lr_start_transaction("copy_link");
+	lr_start_transaction("UC01_TR05_copy_link");
 
 	web_add_header("Origin", "https://dev-boomq.pflb.ru");
 
-	lr_end_transaction("copy_link", LR_AUTO);
+	lr_end_transaction("UC01_TR05_copy_link", LR_AUTO);
 	
 	// END copy_link TR
 	
-	lr_think_time(1);
+	lr_think_time(2);
 	
 	// START walk_link TR
 
-	lr_start_transaction("walk_link");
+	lr_start_transaction("UC01_TR06_walk_link");
 
 	web_add_auto_header("Sec-Fetch-Dest", "document");
 
@@ -338,13 +338,13 @@ Action()
 		"Url=/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("walk_link",LR_AUTO);
+	lr_end_transaction("UC01_TR06_walk_link",LR_AUTO);
 	
 	// END user_view TR
 	
 	lr_think_time(1);
 	
-	lr_start_transaction("change_pass");
+	lr_start_transaction("UC01_TR07_change_pass");
 
 	web_add_auto_header("Priority", "u=0");
 
@@ -407,7 +407,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("change_pass",LR_AUTO);
+	lr_end_transaction("UC01_TR07_change_pass",LR_AUTO);
 	
 	lr_think_time(1);
 
