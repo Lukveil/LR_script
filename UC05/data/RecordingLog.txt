@@ -1,0 +1,610 @@
+[API Trapper      (2c30:1d64)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (3b38:2594)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3b38:2594)] Load Network Traffic Analyzers:
+[Network Analyzer (3b38:2594)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3b38:2594)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3b38:2594)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3b38:2594)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3b38:2594)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3b38:2594)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3b38:2594)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3b38:2594)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (3b38:2594)] Started proxy on port 8889 listening IP 172.23.16.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14403
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14404
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14405
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14406
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14407
+[Proxy Recording  (3b38:39c4)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (3b38:39c4)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (3b38:39c4)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128
+[Web Request      (3b38:39c4)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=128"   
+[Network Analyzer (3b38:39c4)]   (Sid:  1) Client -> Server @ : 528 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:39c4)]   (Sid:  1) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:39c4)] Sent 0 bytes to client @ 172.23.16.1:14403
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14410
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14411
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14412
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14413
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14414
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14415
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14416
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14417
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14418
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14419
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14420
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14421
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14422
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14423
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14424
+[Proxy Recording.Error (3b38: 2f4)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38: 2f4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38: 780)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38: 780)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:3880)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38:3880)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:416c)] Exception is caught while trying to connect to https://www.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38:416c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:3f84)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38:3f84)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:39c4)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38:39c4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38: 2f4)] Exception is caught while trying to connect to https://www.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38: 2f4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:3c78)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Authentication failed because the remote party has closed the transport stream.
+[Proxy Recording.Error (3b38:1fcc)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38:3828)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38: 6a0)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38: 8b4)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3b38:3c78)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:1fcc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38:3828)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38: 6a0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3b38: 8b4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3b38:3880)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:3f84)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:iEKWm4x_Y_TAXdhRDQcmH8ToCtm9BHHE9MmOTtv3C24&cup2hreq=5b75a8eeba23aa1ee71982eba428a9525f31986701a0814146421b67689cf900 ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3b38:416c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38: 780)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc ...
+[Proxy Recording  (3b38: 780)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc ...
+[Proxy Recording  (3b38:2b14)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (3b38:3880)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3b38:3f84)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:iEKWm4x_Y_TAXdhRDQcmH8ToCtm9BHHE9MmOTtv3C24&cup2hreq=5b75a8eeba23aa1ee71982eba428a9525f31986701a0814146421b67689cf900 ...
+[Proxy Recording  (3b38:416c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:2b14)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (3b38: 780)] Received response of 676 header and 338 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc
+[Proxy Recording  (3b38:3f84)] Received response of 1128 header and 304 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:iEKWm4x_Y_TAXdhRDQcmH8ToCtm9BHHE9MmOTtv3C24&cup2hreq=5b75a8eeba23aa1ee71982eba428a9525f31986701a0814146421b67689cf900
+[Web Request      (3b38: 780)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc"   
+[Network Analyzer (3b38: 780)]   (Sid:  2) Client -> Server @ : 1078 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38: 780)]   (Sid:  2) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38: 780)]   (Sid:  2) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 780)] Sent 338 bytes to client @ 172.23.16.1:14420
+[Network Analyzer (3b38:3f84)]   (Sid:  3) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3f84)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:iEKWm4x_Y_TAXdhRDQcmH8ToCtm9BHHE9MmOTtv3C24&cup2hreq=5b75a8eeba23aa1ee71982eba428a9525f31986701a0814146421b67689cf900"   
+[Network Analyzer (3b38:3f84)]   (Sid:  3) Client -> Server @ : 1823 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3b38:4260)] Received response of 466 header and 401 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (3b38:3f84)]   (Sid:  3) Server -> Client : 1117 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3f84)]   (Sid:  3) Server -> Client : 304 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3f84)] Sent 304 bytes to client @ 172.23.16.1:14423
+[Network Analyzer (3b38:4260)]   (Sid:  4) Client -> Server @ : 485 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:4260)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Proxy Recording  (3b38:2b14)] Received response of 2932 header and 252 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (3b38:4260)]   (Sid:  4) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3b38:3880)] Received response of 370 header and 190 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3b38:4260)]   (Sid:  4) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid:  4) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:4260)] Sent 401 bytes to client @ 172.23.16.1:14424
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14437
+[Network Analyzer (3b38:3880)]   (Sid:  5) Client -> Server @ : 674 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3880)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38:3880)]   (Sid:  5) Client -> Server @ : 50 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3880)]   (Sid:  5) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3880)]   (Sid:  5) Server -> Client : 190 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3880)] Sent 190 bytes to client @ 172.23.16.1:14421
+[Network Analyzer (3b38:2b14)]   (Sid:  6) Client -> Server @ : 4150 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3b38:416c)] Received response of 370 header and 199 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Web Request      (3b38:2b14)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (3b38:2b14)]   (Sid:  6) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:2b14)]   (Sid:  6) Server -> Client : 2921 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:2b14)]   (Sid:  6) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:2b14)] Sent 252 bytes to client @ 172.23.16.1:14419
+[Network Analyzer (3b38:416c)]   (Sid:  7) Client -> Server @ : 674 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:416c)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38:416c)]   (Sid:  7) Client -> Server @ : 59 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:416c)]   (Sid:  7) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:416c)]   (Sid:  7) Server -> Client : 199 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:416c)] Sent 199 bytes to client @ 172.23.16.1:14422
+[Proxy Recording  (3b38: 6a0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38: 6a0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38: 6a0)] Received response of 591 header and 1559 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38: 6a0)]   (Sid:  8) Client -> Server @ : 1082 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38: 6a0)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38: 6a0)]   (Sid:  8) Client -> Server @ : 1023 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38: 6a0)]   (Sid:  8) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38: 6a0)]   (Sid:  8) Server -> Client : 1559 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 6a0)] Sent 1559 bytes to client @ 172.23.16.1:14437
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14440
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:3c78)] Received response of 591 header and 505 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:3c78)]   (Sid:  9) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3c78)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:3c78)]   (Sid:  9) Client -> Server @ : 1550 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid:  9) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid:  9) Server -> Client : 505 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 505 bytes to client @ 172.23.16.1:14440
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14442
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3b38:1fcc)] Received response of 370 header and 2695 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Network Analyzer (3b38:1fcc)]   (Sid: 10) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:1fcc)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3b38:1fcc)]   (Sid: 10) Client -> Server @ : 1144 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 10) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 10) Server -> Client : 2695 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1fcc)] Sent 2695 bytes to client @ 172.23.16.1:14442
+[User action                 ] StartTransactionEvent UC05_TR01_login [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14444
+[Proxy Recording  (3b38:3880)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (3b38:3880)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (3b38:3880)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=The underlying connection was closed: An unexpected error occurred on a send.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14448
+[Proxy Recording  (3b38:416c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (3b38:416c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (3b38:416c)] Received response of 1876 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer (3b38:416c)]   (Sid: 11) Client -> Server @ : 787 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:416c)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer (3b38:416c)]   (Sid: 11) Client -> Server @ : 363 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:416c)]   (Sid: 11) Server -> Client : 1891 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:416c)] Sent 0 bytes to client @ 172.23.16.1:14448
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14451
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14452
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14455
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14457
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14458
+[Proxy Recording  (3b38: 6a0)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38: 6a0)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38: 2f4)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (3b38: 8b4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (3b38: 2f4)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (3b38: 8b4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (3b38:3828)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3b38:3828)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3b38: 2f4)] Received response of 438 header and 66848 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Proxy Recording  (3b38: 8b4)] Received response of 475 header and 152 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Web Request      (3b38: 2f4)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (3b38: 2f4)]   (Sid: 12) Client -> Server @ : 2034 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38: 2f4)]   (Sid: 12) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38: 2f4)]   (Sid: 12) Server -> Client : 66848 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 2f4)] Sent 66848 bytes to client @ 172.23.16.1:14457
+[Web Request      (3b38: 8b4)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (3b38: 8b4)]   (Sid: 13) Client -> Server @ : 2024 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3b38: 6a0)] Received response of 370 header and 197 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3b38: 8b4)]   (Sid: 13) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Received response of 466 header and 409 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (3b38: 8b4)]   (Sid: 13) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 8b4)] Sent 152 bytes to client @ 172.23.16.1:14458
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14462
+[Network Analyzer (3b38:3c78)]   (Sid: 14) Client -> Server @ : 461 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3c78)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (3b38:3c78)]   (Sid: 14) Client -> Server @ : 298 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 14) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 14) Server -> Client : 409 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 409 bytes to client @ 172.23.16.1:14452
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14464
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14465
+[Network Analyzer (3b38: 6a0)]   (Sid: 15) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38: 6a0)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38: 6a0)]   (Sid: 15) Client -> Server @ : 57 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38: 6a0)]   (Sid: 15) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3828)] Received response of 370 header and 206 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3b38: 6a0)]   (Sid: 15) Server -> Client : 197 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 6a0)] Sent 197 bytes to client @ 172.23.16.1:14451
+[Network Analyzer (3b38:3828)]   (Sid: 16) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3828)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38:3828)]   (Sid: 16) Client -> Server @ : 66 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3b38:416c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (3b38:416c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Network Analyzer (3b38:3828)]   (Sid: 16) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3828)]   (Sid: 16) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3828)] Sent 206 bytes to client @ 172.23.16.1:14455
+[Proxy Recording  (3b38:416c)] Received response of 475 header and 2 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Web Request      (3b38:416c)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer (3b38:416c)]   (Sid: 17) Client -> Server @ : 2036 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:416c)]   (Sid: 17) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:416c)]   (Sid: 17) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:416c)] Sent 2 bytes to client @ 172.23.16.1:14462
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14467
+[Proxy Recording  (3b38:1fcc)] Received response of 591 header and 610 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:1fcc)]   (Sid: 18) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:1fcc)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:1fcc)]   (Sid: 18) Client -> Server @ : 2381 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 18) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 18) Server -> Client : 610 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1fcc)] Sent 610 bytes to client @ 172.23.16.1:14464
+[Proxy Recording  (3b38:3f84)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/14 ...
+[Proxy Recording  (3b38:3f84)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/14 ...
+[Proxy Recording  (3b38:3f84)] Received response of 475 header and 274 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team/14
+[Web Request      (3b38:3f84)] "GET https://dev-boomq.pflb.ru/auth-srv/team/14"   
+[Network Analyzer (3b38:3f84)]   (Sid: 19) Client -> Server @ : 2027 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3b38:3880)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Network Analyzer (3b38:3f84)]   (Sid: 19) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3f84)]   (Sid: 19) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3f84)] Sent 274 bytes to client @ 172.23.16.1:14467
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14471
+[Proxy Recording  (3b38: 2f4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14 ...
+[Proxy Recording  (3b38: 2f4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14 ...
+[Proxy Recording  (3b38: 2f4)] Received response of 2907 header and 302 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14
+[Proxy Recording  (3b38:3880)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Web Request      (3b38: 2f4)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14"   
+[Network Analyzer (3b38: 2f4)]   (Sid: 20) Client -> Server @ : 3260 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38: 2f4)]   (Sid: 20) Server -> Client : 2894 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38: 2f4)]   (Sid: 20) Server -> Client : 302 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 2f4)] Sent 302 bytes to client @ 172.23.16.1:14471
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14473
+[Proxy Recording  (3b38:3880)] Received response of 370 header and 3959 body bytes from https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle
+[Network Analyzer (3b38:3880)]   (Sid: 21) Client -> Server @ : 864 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3880)] "POST https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle"   
+[Network Analyzer (3b38:3880)]   (Sid: 21) Client -> Server @ : 45 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3880)]   (Sid: 21) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3880)]   (Sid: 21) Server -> Client : 3959 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3880)] Sent 3959 bytes to client @ 172.23.16.1:14465
+[Proxy Recording  (3b38:3828)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (3b38:3828)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (3b38:3828)] Received response of 363 header and 531 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (3b38:3828)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (3b38:3828)]   (Sid: 22) Client -> Server @ : 2549 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3828)]   (Sid: 22) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3828)]   (Sid: 22) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3828)] Sent 531 bytes to client @ 172.23.16.1:14473
+[User action                 ] EndTransactionEvent UC05_TR01_login [Proxy Recording.Error (3b38:333c)] Exception is caught while connecting to , message=Index was outside the bounds of the array.
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14476
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:1fcc)] Received response of 591 header and 374 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:1fcc)]   (Sid: 23) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:1fcc)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:1fcc)]   (Sid: 23) Client -> Server @ : 1349 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 23) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 23) Server -> Client : 374 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1fcc)] Sent 374 bytes to client @ 172.23.16.1:14476
+[User action                 ] StartTransactionEvent UC05_TR02_reports_page [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14478
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14480
+[Proxy Recording  (3b38:4260)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/search ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/search ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:4260)] Received response of 363 header and 788 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/search
+[Network Analyzer (3b38:4260)]   (Sid: 24) Client -> Server @ : 2621 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:4260)] "POST https://dev-boomq.pflb.ru/report-srv/report/search"   
+[Network Analyzer (3b38:4260)]   (Sid: 24) Client -> Server @ : 95 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 24) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 24) Server -> Client : 788 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:4260)] Sent 788 bytes to client @ 172.23.16.1:14480
+[Proxy Recording  (3b38:3c78)] Received response of 370 header and 205 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3b38:3c78)]   (Sid: 25) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3c78)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38:3c78)]   (Sid: 25) Client -> Server @ : 65 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 25) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 25) Server -> Client : 205 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 205 bytes to client @ 172.23.16.1:14478
+[User action                 ] EndTransactionEvent UC05_TR02_reports_page [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14482
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14484
+[Proxy Recording  (3b38:2b14)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:2b14)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14486
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14488
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:2b14)] Received response of 591 header and 414 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:2b14)]   (Sid: 26) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:2b14)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:2b14)]   (Sid: 26) Client -> Server @ : 1522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:2b14)]   (Sid: 26) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:2b14)]   (Sid: 26) Server -> Client : 414 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:2b14)] Sent 414 bytes to client @ 172.23.16.1:14482
+[Proxy Recording  (3b38:333c)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3b38:333c)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:wIjzTfvMsh_SrgzL1IhBuH8HuL3KZPizIBcHplg36mE&cup2hreq=a90fe2ad4a50476b26a72f9653d92772b9b84a1e0ad6d12a8eef3bd0159748b8 ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:wIjzTfvMsh_SrgzL1IhBuH8HuL3KZPizIBcHplg36mE&cup2hreq=a90fe2ad4a50476b26a72f9653d92772b9b84a1e0ad6d12a8eef3bd0159748b8 ...
+[Proxy Recording  (3b38:1fcc)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (3b38:1fcc)]   (Sid: 27) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:1fcc)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Proxy Recording  (3b38:333c)] Received response of 299 header and 22 body bytes from https://clients4.google.com:443/ukm
+[Network Analyzer (3b38:1fcc)]   (Sid: 27) Client -> Server @ : 1279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 27) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 27) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1fcc)] Sent 22 bytes to client @ 172.23.16.1:14484
+[Web Request      (3b38:333c)] "POST https://clients4.google.com/ukm"
+[Network Analyzer (3b38:333c)]   (Sid: 28) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 28) Client -> Server @ : 9282 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 28) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 28) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:333c)] Sent 22 bytes to client @ 172.23.16.1:14486
+[Proxy Recording  (3b38:3c78)] Received response of 1132 header and 931 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:wIjzTfvMsh_SrgzL1IhBuH8HuL3KZPizIBcHplg36mE&cup2hreq=a90fe2ad4a50476b26a72f9653d92772b9b84a1e0ad6d12a8eef3bd0159748b8
+[Web Request      (3b38:3c78)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:wIjzTfvMsh_SrgzL1IhBuH8HuL3KZPizIBcHplg36mE&cup2hreq=a90fe2ad4a50476b26a72f9653d92772b9b84a1e0ad6d12a8eef3bd0159748b8"
+[Network Analyzer (3b38:3c78)]   (Sid: 29) Client -> Server @ : 1339 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 29) Client -> Server @ : 8430 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 29) Server -> Client : 1121 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 29) Server -> Client : 931 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 931 bytes to client @ 172.23.16.1:14488
+[User action                 ] StartTransactionEvent UC05_TR03_new_report [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14490
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14492
+[Proxy Recording  (3b38:333c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED ...
+[Proxy Recording  (3b38:333c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14494
+[Proxy Recording  (3b38:333c)] Received response of 438 header and 63804 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED
+[Proxy Recording  (3b38:4260)] Received response of 370 header and 206 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Web Request      (3b38:333c)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=FINISHED"   
+[Network Analyzer (3b38:333c)]   (Sid: 30) Client -> Server @ : 2569 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 30) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 30) Server -> Client : 63804 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:333c)] Sent 63804 bytes to client @ 172.23.16.1:14492
+[Network Analyzer (3b38:4260)]   (Sid: 31) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:4260)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38:4260)]   (Sid: 31) Client -> Server @ : 69 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 31) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 31) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:4260)] Sent 206 bytes to client @ 172.23.16.1:14490
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEZhI9onp6GUg==?alt=proto ...
+[Proxy Recording  (3b38:1fcc)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEZhI9onp6GUg==?alt=proto ...
+[Proxy Recording  (3b38:1fcc)] Received response of 416 header and 36 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEZhI9onp6GUg==?alt=proto
+[Web Request      (3b38:1fcc)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEZhI9onp6GUg==?alt=proto"   
+[Network Analyzer (3b38:1fcc)]   (Sid: 32) Client -> Server @ : 728 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 32) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1fcc)]   (Sid: 32) Server -> Client : 36 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1fcc)] Sent 36 bytes to client @ 172.23.16.1:14494
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14497
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14499
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3b38:4260)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3b38:3c78)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Proxy Recording  (3b38:4260)] Received response of 299 header and 22 body bytes from https://clients4.google.com:443/ukm
+[Network Analyzer (3b38:3c78)]   (Sid: 33) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3c78)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (3b38:3c78)]   (Sid: 33) Client -> Server @ : 2842 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 33) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 33) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 22 bytes to client @ 172.23.16.1:14497
+[Web Request      (3b38:4260)] "POST https://clients4.google.com/ukm"
+[Network Analyzer (3b38:4260)]   (Sid: 34) Client -> Server @ : 581 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 34) Client -> Server @ : 14847 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 34) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:4260)]   (Sid: 34) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:4260)] Sent 22 bytes to client @ 172.23.16.1:14499
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14501
+[Proxy Recording.Error (3b38:1fcc)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[User action                 ] EndTransactionEvent UC05_TR03_new_report [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14502
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:3c78)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3b38:3c78)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3b38:3c78)]   (Sid: 35) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 35) Client -> Server @ : 47517 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 35) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 35) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 22 bytes to client @ 172.23.16.1:14502
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14504
+[Proxy Recording  (3b38:333c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:333c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:333c)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3b38:333c)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3b38:333c)]   (Sid: 36) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 36) Client -> Server @ : 49067 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 36) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 36) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:333c)] Sent 22 bytes to client @ 172.23.16.1:14504
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14506
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:3c78)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3b38:3c78)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3b38:3c78)]   (Sid: 37) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 37) Client -> Server @ : 31515 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 37) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 37) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 22 bytes to client @ 172.23.16.1:14506
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14508
+[Proxy Recording  (3b38:333c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:333c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3b38:333c)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3b38:333c)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3b38:333c)]   (Sid: 38) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 38) Client -> Server @ : 13750 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 38) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 38) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:333c)] Sent 22 bytes to client @ 172.23.16.1:14508
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14510
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:3c78)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:3c78)] Received response of 591 header and 413 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:3c78)]   (Sid: 39) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3c78)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:3c78)]   (Sid: 39) Client -> Server @ : 1534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 39) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3c78)]   (Sid: 39) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3c78)] Sent 413 bytes to client @ 172.23.16.1:14510
+[User action                 ] StartTransactionEvent UC05_TR04_change_name [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14512
+[Proxy Recording  (3b38:333c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIgCXTyzTTA-xrOEgUNkWGVThIFDZFhlU4h40EgQV2pvH0=?alt=proto ...
+[Proxy Recording  (3b38:333c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIgCXTyzTTA-xrOEgUNkWGVThIFDZFhlU4h40EgQV2pvH0=?alt=proto ...
+[Proxy Recording  (3b38:333c)] Received response of 416 header and 38 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIgCXTyzTTA-xrOEgUNkWGVThIFDZFhlU4h40EgQV2pvH0=?alt=proto
+[Web Request      (3b38:333c)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIgCXTyzTTA-xrOEgUNkWGVThIFDZFhlU4h40EgQV2pvH0=?alt=proto"   
+[Network Analyzer (3b38:333c)]   (Sid: 40) Client -> Server @ : 712 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 40) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:333c)]   (Sid: 40) Server -> Client : 38 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:333c)] Sent 38 bytes to client @ 172.23.16.1:14512
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14514
+[Proxy Recording  (3b38: 210)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEIa6GBoCGAqo9BsuIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARD8gQ8aAhgKB2HvbSIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQnfkOGgIYChU_EnIiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIrKBxoCGApWylGQIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARCcwQMaAhgKfpiBRyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJ2pAhoCGAq5dgOtIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARCbyA8aAhgKHmhOpSIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ-CYaAhgK1DfjHiIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3b38: 210)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEIa6GBoCGAqo9BsuIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARD8gQ8aAhgKB2HvbSIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQnfkOGgIYChU_EnIiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIrKBxoCGApWylGQIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARCcwQMaAhgKfpiBRyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJ2pAhoCGAq5dgOtIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARCbyA8aAhgKHmhOpSIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ-CYaAhgK1DfjHiIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3b38: 210)] Received response of 340 header and 904 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEIa6GBoCGAqo9BsuIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARD8gQ8aAhgKB2HvbSIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQnfkOGgIYChU_EnIiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIrKBxoCGApWylGQIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARCcwQMaAhgKfpiBRyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJ2pAhoCGAq5dgOtIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARCbyA8aAhgKHmhOpSIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ-CYaAhgK1DfjHiIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Web Request      (3b38: 210)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEIa6GBoCGAqo9BsuIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARD8gQ8aAhgKB2HvbSIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQnfkOGgIYChU_EnIiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIrKBxoCGApWylGQIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARCcwQMaAhgKfpiBRyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJ2pAhoCGAq5dgOtIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARCbyA8aAhgKHmhOpSIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ-CYaAhgK1DfjHiIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3b38: 210)]   (Sid: 41) Client -> Server @ : 1206 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38: 210)]   (Sid: 41) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38: 210)]   (Sid: 41) Server -> Client : 904 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38: 210)] Sent 904 bytes to client @ 172.23.16.1:14514
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14517
+[Proxy Recording.Error (3b38:3e30)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14519
+[Proxy Recording.Error (3b38:1324)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14520
+[Proxy Recording  (3b38:3634)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/previewChart ...
+[Proxy Recording  (3b38:3634)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/previewChart ...
+[Proxy Recording  (3b38:3634)] Received response of 363 header and 1948 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/previewChart
+[Network Analyzer (3b38:3634)]   (Sid: 42) Client -> Server @ : 2656 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3634)] "POST https://dev-boomq.pflb.ru/report-srv/report/previewChart"   
+[Network Analyzer (3b38:3634)]   (Sid: 42) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3634)]   (Sid: 42) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3634)]   (Sid: 42) Server -> Client : 1948 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3634)] Sent 1948 bytes to client @ 172.23.16.1:14520
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14523
+[Proxy Recording  (3b38:3634)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (3b38:3634)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (3b38:3634)] Received response of 280 header and 0 body bytes from https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto
+[Network Analyzer (3b38:3634)]   (Sid: 43) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3634)] "POST https://content-autofill.googleapis.com/v1/forms:vote?alt=proto"   
+[Network Analyzer (3b38:3634)]   (Sid: 43) Client -> Server @ : 391 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3634)]   (Sid: 43) Server -> Client : 297 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3634)] Sent 0 bytes to client @ 172.23.16.1:14523
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14526
+[Proxy Recording  (3b38:1324)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/previewTable ...
+[Proxy Recording  (3b38:1324)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/previewTable ...
+[Proxy Recording  (3b38:1324)] Received response of 363 header and 1954 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/previewTable
+[Network Analyzer (3b38:1324)]   (Sid: 44) Client -> Server @ : 2633 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:1324)] "POST https://dev-boomq.pflb.ru/report-srv/report/previewTable"   
+[Network Analyzer (3b38:1324)]   (Sid: 44) Client -> Server @ : 1249 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1324)]   (Sid: 44) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1324)]   (Sid: 44) Server -> Client : 1954 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1324)] Sent 1954 bytes to client @ 172.23.16.1:14526
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14528
+[Proxy Recording  (3b38:3634)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/previewTable ...
+[Proxy Recording  (3b38:3634)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/previewTable ...
+[Proxy Recording  (3b38:3634)] Received response of 363 header and 2815 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/previewTable
+[Network Analyzer (3b38:3634)]   (Sid: 45) Client -> Server @ : 2633 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3634)] "POST https://dev-boomq.pflb.ru/report-srv/report/previewTable"   
+[Network Analyzer (3b38:3634)]   (Sid: 45) Client -> Server @ : 1018 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3634)]   (Sid: 45) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3634)]   (Sid: 45) Server -> Client : 2815 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3634)] Sent 2815 bytes to client @ 172.23.16.1:14528
+[User action                 ] EndTransactionEvent UC05_TR04_change_name [User action                 ] StartTransactionEvent UC05_TR11_click save [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14532
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14533
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report ...
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report ...
+[Proxy Recording  (3b38:1e5c)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.19045&devicefamily=desktop&installdate=1708109298&clientversion=128.0.2739.42&experimentationmode=2&scpguard=0&scpfull=0&scpver=0 ...
+[Proxy Recording  (3b38:1e5c)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.19045&devicefamily=desktop&installdate=1708109298&clientversion=128.0.2739.42&experimentationmode=2&scpguard=0&scpfull=0&scpver=0 ...
+[Proxy Recording  (3b38:3b2c)] Received response of 363 header and 232 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report
+[Web Request      (3b38:3b2c)] "POST https://dev-boomq.pflb.ru/report-srv/report"
+[Network Analyzer (3b38:3b2c)]   (Sid: 46) Client -> Server @ : 2622 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 46) Client -> Server @ : 643884 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 46) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 46) Server -> Client : 232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3b2c)] Sent 232 bytes to client @ 172.23.16.1:14533
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14537
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14539
+[Proxy Recording  (3b38:308c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198 ...
+[Proxy Recording  (3b38:308c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198 ...
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:308c)] Received response of 363 header and 232 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/11198
+[Web Request      (3b38:308c)] "GET https://dev-boomq.pflb.ru/report-srv/report/11198"   
+[Network Analyzer (3b38:308c)]   (Sid: 47) Client -> Server @ : 2538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 47) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 47) Server -> Client : 232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:308c)] Sent 232 bytes to client @ 172.23.16.1:14539
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14542
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3b38:1a88)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198/content ...
+[Proxy Recording  (3b38:1a88)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198/content ...
+[Proxy Recording  (3b38:1e5c)] Received response of 478 header and 1678 body bytes from https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.19045&devicefamily=desktop&installdate=1708109298&clientversion=128.0.2739.42&experimentationmode=2&scpguard=0&scpfull=0&scpver=0
+[Proxy Recording  (3b38:1e5c)] Sent 1678 bytes to client @ 172.23.16.1:14532
+[Proxy Recording  (3b38:3b2c)] Received response of 370 header and 211 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3b38:3b2c)]   (Sid: 48) Client -> Server @ : 674 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3b2c)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3b38:3b2c)]   (Sid: 48) Client -> Server @ : 71 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 48) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 48) Server -> Client : 211 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3b2c)] Sent 211 bytes to client @ 172.23.16.1:14537
+[Proxy Recording  (3b38:1a88)] Received response of 363 header and 643939 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/11198/content
+[Web Request      (3b38:1a88)] "GET https://dev-boomq.pflb.ru/report-srv/report/11198/content"   
+[Network Analyzer (3b38:1a88)]   (Sid: 49) Client -> Server @ : 2546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1a88)]   (Sid: 49) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1a88)]   (Sid: 49) Server -> Client : 643939 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1a88)] Sent 643939 bytes to client @ 172.23.16.1:14542
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14544
+[Proxy Recording  (3b38:1e5c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED ...
+[Proxy Recording  (3b38:1e5c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED ...
+[Proxy Recording  (3b38:1e5c)] Received response of 438 header and 63804 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED
+[Web Request      (3b38:1e5c)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=FINISHED"   
+[Network Analyzer (3b38:1e5c)]   (Sid: 50) Client -> Server @ : 2571 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:1e5c)]   (Sid: 50) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:1e5c)]   (Sid: 50) Server -> Client : 63804 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:1e5c)] Sent 63804 bytes to client @ 172.23.16.1:14544
+[User action                 ] EndTransactionEvent UC05_TR11_click save [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14546
+[Proxy Recording  (3b38:308c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:308c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:308c)] Received response of 591 header and 409 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:308c)]   (Sid: 51) Client -> Server @ : 1082 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:308c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:308c)]   (Sid: 51) Client -> Server @ : 1561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 51) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 51) Server -> Client : 409 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:308c)] Sent 409 bytes to client @ 172.23.16.1:14546
+[User action                 ] StartTransactionEvent UC05_TR666_get_back [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14549
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/search ...
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/search ...
+[Proxy Recording  (3b38:3b2c)] Received response of 363 header and 1021 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/search
+[Network Analyzer (3b38:3b2c)]   (Sid: 52) Client -> Server @ : 2621 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:3b2c)] "POST https://dev-boomq.pflb.ru/report-srv/report/search"   
+[Network Analyzer (3b38:3b2c)]   (Sid: 52) Client -> Server @ : 95 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 52) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 52) Server -> Client : 1021 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3b2c)] Sent 1021 bytes to client @ 172.23.16.1:14549
+[User action                 ] EndTransactionEvent UC05_TR666_get_back [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14551
+[Proxy Recording  (3b38:308c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:308c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3b38:308c)] Received response of 591 header and 408 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3b38:308c)]   (Sid: 53) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Web Request      (3b38:308c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3b38:308c)]   (Sid: 53) Client -> Server @ : 1573 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 53) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 53) Server -> Client : 408 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:308c)] Sent 408 bytes to client @ 172.23.16.1:14551
+[User action                 ] StartTransactionEvent UC05_TR999_pick_created [Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14553
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198 ...
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198 ...
+[Proxy Recording  (3b38:3b2c)] Received response of 363 header and 232 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/11198
+[Web Request      (3b38:3b2c)] "GET https://dev-boomq.pflb.ru/report-srv/report/11198"   
+[Network Analyzer (3b38:3b2c)]   (Sid: 54) Client -> Server @ : 2538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 54) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 54) Server -> Client : 232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3b2c)] Sent 232 bytes to client @ 172.23.16.1:14553
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14555
+[Proxy Recording  (3b38:308c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198/content ...
+[Proxy Recording  (3b38:308c)] Trying to connect to https://dev-boomq.pflb.ru:443/report-srv/report/11198/content ...
+[Proxy Recording  (3b38:308c)] Received response of 363 header and 643939 body bytes from https://dev-boomq.pflb.ru:443/report-srv/report/11198/content
+[Web Request      (3b38:308c)] "GET https://dev-boomq.pflb.ru/report-srv/report/11198/content"   
+[Network Analyzer (3b38:308c)]   (Sid: 55) Client -> Server @ : 2546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 55) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:308c)]   (Sid: 55) Server -> Client : 643939 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:308c)] Sent 643939 bytes to client @ 172.23.16.1:14555
+[Proxy Recording  (3b38:2944)] Client request from @ 172.23.16.1:14557
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED ...
+[Proxy Recording  (3b38:3b2c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED ...
+[Proxy Recording  (3b38:3b2c)] Received response of 438 header and 63804 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=FINISHED
+[Web Request      (3b38:3b2c)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=FINISHED"   
+[Network Analyzer (3b38:3b2c)]   (Sid: 56) Client -> Server @ : 2571 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 56) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3b38:3b2c)]   (Sid: 56) Server -> Client : 63804 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3b38:3b2c)] Sent 63804 bytes to client @ 172.23.16.1:14557
+[User action                 ] EndTransactionEvent UC05_TR999_pick_created 

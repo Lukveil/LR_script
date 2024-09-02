@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=application/json
+StepName=Url: test
+Total=1
+FileName1=t10.json
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1725035290932
+RawStepName=test
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1725035290771
+URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED

@@ -1,0 +1,131 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: dev-boomq.pflb.ru",
+                "infFile": "t1.inf",
+                "time": 1725036192133
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: selection",
+                "infFile": "t2.inf",
+                "time": 1725036192525
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: cloud_config_observers.json",
+                "infFile": "t3.inf",
+                "time": 1725036192979
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: login",
+                "infFile": "t4.inf",
+                "time": 1725036193375
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: modelSchema",
+                "infFile": "t5.inf",
+                "time": 1725036193518
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: user",
+                "infFile": "t6.inf",
+                "time": 1725036193622
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: config.json",
+                "infFile": "t7.inf",
+                "time": 1725036193687
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: identityProvider",
+                "infFile": "t8.inf",
+                "time": 1725036193763
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: team",
+                "infFile": "t9.inf",
+                "time": 1725036193972
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: teamContext",
+                "infFile": "t10.inf",
+                "time": 1725036194091
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: testRunner",
+                "infFile": "t11.inf",
+                "time": 1725036194171
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: project",
+                "infFile": "t12.inf",
+                "time": 1725036209399
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: 25407",
+                "infFile": "t13.inf",
+                "time": 1725036209516
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: 25974",
+                "infFile": "t14.inf",
+                "time": 1725036209582
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: downloadLink",
+                "infFile": "t15.inf",
+                "time": 1725036209680
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: testInfo",
+                "infFile": "t16.inf",
+                "time": 1725036209755
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Custom Request: testInfo_2",
+                "infFile": "t17.inf",
+                "time": 1725036209824
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: 25407_2",
+                "infFile": "t18.inf",
+                "time": 1725036209927
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC02_TR01_login",
+                "rawStartTime": 1725036192989,
+                "rawEndTime": 1725036209197,
+                "thinkTime": 15.007599,
+                "wastedTime": 0.02601480484008789
+            },
+            {
+                "transactionName": "UC02_TR02_test_create",
+                "rawStartTime": 1725036209245,
+                "rawEndTime": 1725036224968,
+                "thinkTime": 15.012452,
+                "wastedTime": 0.022020816802978517
+            }
+        ]
+    }
+]

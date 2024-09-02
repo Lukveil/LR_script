@@ -1,0 +1,13 @@
+[t32]
+FileName1=t32_orgs.json
+URL1=https://dev-boomq.pflb.ru/grafana/api/user/orgs
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+FileName2=t32_faf8e04d4c13804b4bec2cab6a19c669.jpg
+URL2=https://dev-boomq.pflb.ru/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669
+[ProtocolInfo]
+ProtocolId=QTWeb

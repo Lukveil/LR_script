@@ -1,0 +1,13 @@
+[t36]
+FileName1=t36_selection.json
+URL1=https://arc.msn.com/v4/api/selection?placement=88000360&nct=1&fmt=json&ISU=0&AREF=0&APRIMB=0&ADEFAB=0&OPSYS=WIN10&locale=ru&country=RU&edgeid=-6479097216944046264&ACHANNEL=4&ABUILD=128.0.6613.85&poptin=1&devosver=10.0.22631.4037&clr=esdk&UITHEME=dark&EPCON=0&AMAJOR=128&AMINOR=0&ABLD=6613&APATCH=85
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_36.xml
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t36_ResponseHeader.txt
+FileName2=t36_favicon.png
+URL2=https://dev-boomq.pflb.ru/favicon.png
+[ProtocolInfo]
+ProtocolId=QTWeb

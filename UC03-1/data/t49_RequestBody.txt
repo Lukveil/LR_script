@@ -1,0 +1,5 @@
+"{\"from\":\"1725025849608\",\"to\":\"1725029449608\",\"queries\":[{\"refId\":\"request\",\"dat"
+"asource\":{\"type\":\"postgres\",\"uid\":\"b26b6fad-4bcc-4957-82fd-128fab26b3f0\"},\"rawSql\":"
+"\"select distinct(name) from jmeter_metrics.sample_metric WHERE (-9999 in ('18860') OR test_id"
+" in ('18860')) and not is_transaction and $__timeFilter(\\\"timestamp\\\")\",\"format\":\"tabl"
+"e\"}]}"

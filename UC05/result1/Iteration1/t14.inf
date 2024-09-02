@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_13.xml
+ContentType=application/json
+StepName=Url: content
+Total=1
+FileName1=t14.json
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=1725004783134
+RawStepName=content
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1725004783002
+URL1=https://dev-boomq.pflb.ru/report-srv/report/11208/content

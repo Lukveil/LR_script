@@ -1,0 +1,5 @@
+"{"id":"92733b29-6450-4868-b248-0333ff9ecfc5","name":"report-chart-92733b29-6450-4868-b248-0333"
+"ff9ecfc5-serie-99185aa8-c14d-4615-a326-8366c21532b3","series":[{"aggregationInterval":10,"aggr"
+"egationIntervalTimeUnit":"SECOND","id":"99185aa8-c14d-4615-a326-8366c21532b3","datasets":[{"po"
+"ints":[]}],"displayProps":{"axisUnit":"VUSER","color":"#1d1d1d","unit":"VUSER"},"testId":18526"
+","type":"VUSERS","vuserType":"ACTUAL"}],"testFilters":[{"testId":18526}]}"

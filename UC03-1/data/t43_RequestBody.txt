@@ -1,0 +1,4 @@
+"{\"from\":\"1725025849608\",\"to\":\"1725029449608\",\"queries\":[{\"refId\":\"testId\",\"data"
+"source\":{\"type\":\"postgres\",\"uid\":\"b26b6fad-4bcc-4957-82fd-128fab26b3f0\"},\"rawSql\":\""
+"select distinct(test_id) from jmeter_metrics.sample_metric where $__timeFilter(\\\"timestamp\\"
+"\")\",\"format\":\"table\"}]}"

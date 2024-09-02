@@ -1,0 +1,13 @@
+[t23]
+SnapshotXmlFile=snapshot_22.xml
+ContentType=application/json
+StepName=Url: project_2
+Total=1
+FileName1=t23.json
+RequestHeaderFile=t23_RequestHeader.txt
+ResponseHeaderFile=t23_ResponseHeader.txt
+RawStepEndTime=1725035304474
+RawStepName=project_2
+RequestBodyFile=t23_RequestBody.txt
+RawStepStartTime=1725035303995
+URL1=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&size=999

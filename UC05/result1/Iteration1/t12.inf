@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=application/json
+StepName=Custom Request: report
+Total=1
+FileName1=t12.json
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1725004782886
+RawStepName=report
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1725004782720
+URL1=https://dev-boomq.pflb.ru/report-srv/report

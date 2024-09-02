@@ -1,0 +1,11 @@
+[t52]
+FileName1=t52_annotations.json
+URL1=https://dev-boomq.pflb.ru/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_52.xml
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t52_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

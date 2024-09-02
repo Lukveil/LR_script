@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=application/json
+StepName=Custom Request: previewChart
+Total=1
+FileName1=t10.json
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1725004782626
+RawStepName=previewChart
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1725004782547
+URL1=https://dev-boomq.pflb.ru/report-srv/report/previewChart

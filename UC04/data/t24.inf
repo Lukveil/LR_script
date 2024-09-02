@@ -1,0 +1,11 @@
+[t24]
+FileName1=t24_test.json
+URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t11]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=application/json
+StepName=Custom Request: slaTypeList
+Total=1
+FileName1=t11.json
+RequestHeaderFile=t11_RequestHeader.txt
+ResponseHeaderFile=t11_ResponseHeader.txt
+RawStepEndTime=1725035291010
+RawStepName=slaTypeList
+RequestBodyFile=t11_RequestBody.txt
+RawStepStartTime=1725035290974
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile/slaTypeList

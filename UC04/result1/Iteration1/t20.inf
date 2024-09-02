@@ -1,0 +1,13 @@
+[t20]
+SnapshotXmlFile=snapshot_19.xml
+ContentType=application/json
+StepName=Url: 2884
+Total=1
+FileName1=t20.json
+RequestHeaderFile=t20_RequestHeader.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+RawStepEndTime=1725035303822
+RawStepName=2884
+RequestBodyFile=t20_RequestBody.txt
+RawStepStartTime=1725035303774
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile/2996

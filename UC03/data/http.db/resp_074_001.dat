@@ -1,0 +1,78 @@
+httpRequestDefaults:
+  isSaveResponseInMd5Hash: false
+  connectTimeout: 0
+  responseTimeout: 0
+parameters: []
+slaGroupList:
+  - type: GENERAL_TEST_SLA
+    targetType: TEST
+    slaList:
+      - fromDate: 0
+        restrictionType: AVERAGE
+        operation: LESS_EQUALS
+        status: NOT_COUNTED
+        toDate: 52
+        value: '3'
+resourceConfiguration:
+  cloudTestRunLocationRequirements:
+    testRunLocationIds: []
+baseJmxFileLocation: boomq/teams/14/projects/15095/imported_jmx/base_jmx_v_15271.jmx
+isRunThreadGroupsConsecutively: false
+isTimersDisabled: false
+multiplicationFactor: 1
+testType: OWN_JMX
+threadGroups:
+  - displayTypeName: Thread Group
+    id: 1e0436e1-0757-4e53-9cb3-89149412653f
+    type: ORDINARY
+    name: Thread Group
+    threadGroupElements:
+      - type: TRANSACTION_CONTROLLER
+        groupElementType: CONTROLLER
+        children:
+          - type: HTTP_SAMPLER
+            groupElementType: SAMPLER
+            children: []
+            id: b66d911a-4721-4f40-b8a0-d9d9a50a0a78
+            url: 'http://192.168.14.200:8084/api/kafka/send'
+            name: HTTP Request
+            method: POST
+            params: {}
+            headers: {}
+            body: '"message":"hola"'
+            timerList: []
+        name: Transaction Controller
+      - type: TRANSACTION_CONTROLLER
+        groupElementType: CONTROLLER
+        children:
+          - type: HTTP_SAMPLER
+            groupElementType: SAMPLER
+            children: []
+            id: 067ea8f7-1207-4e28-bb7f-2ecb524d5803
+            url: 'http://192.168.14.200:8084/api/kafka/messages?a=b'
+            name: HTTP Request
+            method: GET
+            params:
+              a:
+                - b
+            headers: {}
+            body: ''
+            timerList:
+              - type: CONSTANT_TIMER
+                id: e7732904-d355-44f4-bf56-7a3d6aa91880
+                timerType: CONSTANT_TIMER
+                duration: 8
+                enabled: true
+                isBoomqTimer: false
+        name: Transaction Controller
+    resourceConfiguration: null
+    startThreadsCount: 5
+    startupTimeSec: 2
+    loopCount: -1
+    holdLoadTimeSec: 20
+    initDelaySec: 0
+    loopForever: true
+    schedulerActive: false
+    changed: false
+    enabled: true
+    label: Thread Group

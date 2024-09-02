@@ -1,0 +1,15 @@
+[t23]
+FileName1=t23_bcaa301e-43a6-4e16-b830-690fbeb62b4c.json
+URL1=https://dev-boomq.pflb.ru/grafana/api/dashboards/uid/bcaa301e-43a6-4e16-b830-690fbeb62b4c
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_23.xml
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+FileName2=t23_postgresPlugin.5dbf50fe15160919cf74.html
+URL2=https://dev-boomq.pflb.ru/grafana/public/build/postgresPlugin.5dbf50fe15160919cf74.js
+FileName3=t23_5216.565cbd1aa042f890edf2.html
+URL3=https://dev-boomq.pflb.ru/grafana/public/build/5216.565cbd1aa042f890edf2.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20.htm
+URL1=https://dev-boomq.pflb.ru/grafana/d/bcaa301e-43a6-4e16-b830-690fbeb62b4c/common-dashboard-tdb-14?from=1725025849608&to=1725029449608&refresh=5s&var-testId=18860
+Total=1
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_20.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

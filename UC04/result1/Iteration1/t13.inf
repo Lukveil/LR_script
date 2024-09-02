@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_13.xml
+ContentType=application/json
+StepName=Custom Request: previewReport_2
+Total=1
+FileName1=t13.json
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1725035294171
+RawStepName=previewReport_2
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1725035294137
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport

@@ -1,0 +1,16 @@
+GET https://dev-boomq.pflb.ru/grafana/api/search?limit=5&type=dash-db&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
+Accept: application/json, text/plain, */*
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, zstd
+Referer: https://dev-boomq.pflb.ru/grafana/d/bcaa301e-43a6-4e16-b830-690fbeb62b4c/common-dashboard-tdb-14?from=1725025849608&to=1725029449608&refresh=5s&var-testId=18860&orgId=15
+x-grafana-org-id: 15
+DNT: 1
+Sec-GPC: 1
+Cookie: grafana_session_expiry=1725026692; grafana_session=cbd2f52fda81154795ae30c0ceeffe5c; boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjIzMjEyLCJ1c2VyX25hbWUiOiJ0YW9lcnhzb3dzb0BnbWFpbC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3MjUwNjkyNjYsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI1MzNiOTAwNy1kYjhmLTQ0MmYtODkyZi1hNjM5NzI3YzhlMGIiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.sgC9l1HirTPVgxkdcOglkB3wdro5NvhvClT2DDZvg1a9QnVXvNw04hsPaxfwOQ8bUqleYTOgeULvnW2Aql0ib73z4Wgzh0AHCs4-AgLkCNSwulsNup2bkuveGtaS-m-WPDLU52-4jqunLTJOP7HC-BBigVab6YXZqhh_5Ecs9lISw1LP8CMFrliTzDJLBqMsxkPDjP0xnk1w31GvOzIhwm4ysRhP8Defgag-uNp9MsFHQV_JBMTMSm1azcwLvotb7gYqnTnRMEqIIS-Mq8i_T65_ix-jkOBnawWgyHm55XRBSyhVbXVRgVBZRexCwLlnLIn_6LF1o_1EwP5fVnna-g
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+Host: dev-boomq.pflb.ru
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Documents\VuGen\Scripts\for performance testing\UC02
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\for performance testing\uc02\\logfile.log
+c:\users\user\documents\vugen\scripts\for performance testing\uc02\\combined_script___2.c
+c:\users\user\documents\vugen\scripts\for performance testing\uc02\\pre_cci.c
