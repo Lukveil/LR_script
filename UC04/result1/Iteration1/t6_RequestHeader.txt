@@ -1,0 +1,17 @@
+GET /auth-srv/teamMember/teamContext?teamId=14 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6dHJ1ZSwidXNlcl9pZCI6MjI0MjksInVzZXJfbmFtZSI6Imdyb3VwNHVzZXIyMzU2QHBvY2h0YS5ydSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTcyNTA3ODQ4NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImE5Zjg0NTY1LWU0ZWUtNDU5MS1hZDE4LWRlOGM1MzUzNGMxOSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.C-sh_WCHit2mOJXijOjDCyLH7J1y5TO6w2QQ5z-LxDakRJDqNxqYjuuuOmUjsVpl1tagHz7I5b-0L4dveRfL5wOJb44ph1hlyB3GkcDNF2w60xocRaawOePF36zT_SOwuo8vwzLuyDtCiGw0ceh__2is96bS0dTbkeh0qujjb1OdWJjHp0YeqcVBHotJ7gtK5blsYlYwxAsnyAYN--2v8k1bx9KGzeVZ85IMAZBeN_NFY-zavkjS3KZksChIHda7baSjKAnOaTgTGsAo_Me7YFEeK_ZLhjm8MscsQCWzNhseYplI_s9QM4n85oToOLkJY1jw4k3UsTLk238xYji4tg
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6,de;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: dev-boomq.pflb.ru
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6dHJ1ZSwidXNlcl9pZCI6MjI0MjksInVzZXJfbmFtZSI6Imdyb3VwNHVzZXIyMzU2QHBvY2h0YS5ydSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTcyNTA3ODQ4NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImE5Zjg0NTY1LWU0ZWUtNDU5MS1hZDE4LWRlOGM1MzUzNGMxOSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.C-sh_WCHit2mOJXijOjDCyLH7J1y5TO6w2QQ5z-LxDakRJDqNxqYjuuuOmUjsVpl1tagHz7I5b-0L4dveRfL5wOJb44ph1hlyB3GkcDNF2w60xocRaawOePF36zT_SOwuo8vwzLuyDtCiGw0ceh__2is96bS0dTbkeh0qujjb1OdWJjHp0YeqcVBHotJ7gtK5blsYlYwxAsnyAYN--2v8k1bx9KGzeVZ85IMAZBeN_NFY-zavkjS3KZksChIHda7baSjKAnOaTgTGsAo_Me7YFEeK_ZLhjm8MscsQCWzNhseYplI_s9QM4n85oToOLkJY1jw4k3UsTLk238xYji4tg
+

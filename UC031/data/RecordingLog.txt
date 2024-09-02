@@ -1,0 +1,1258 @@
+[API Trapper      ( f88: f8c)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1508:1860)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1508:1860)] Load Network Traffic Analyzers:
+[Network Analyzer (1508:1860)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1508:1860)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1508:1860)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1508:1860)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1508:1860)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1508:1860)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1508:1860)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1508:1860)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (1508:1860)] Started proxy on port 8888 listening IP 10.0.2.15, 127.0.0.1, in synchronous mode
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49692
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49693
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49694
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49695
+[Proxy Recording  (1508:1c80)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (1508:1c80)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (1508:1c80)]   (Sid:  1) Client -> Server @ : 355 bytes (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 90 bytes to client @ 10.0.2.15:49692
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49697
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49698
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49699
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49700
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49701
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49702
+[Proxy Recording  (1508:1c80)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (1508:1c80)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (1508:1c80)]   (Sid:  2) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid:  2) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid:  2) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 8 bytes to client @ 10.0.2.15:49699
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (1508:1c80)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Web Request      (1508:1c80)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (1508:1c80)]   (Sid:  3) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid:  3) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid:  3) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 8 bytes to client @ 10.0.2.15:49700
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49703
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49704
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49705
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49706
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/authorize ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/authorize ...
+[Proxy Recording  (1508:1c88)] Received response of 273 header and 1489 body bytes from https://dev-boomq.pflb.ru:443/authorize
+[Web Request      (1508:1c88)] "GET https://dev-boomq.pflb.ru/authorize"   
+[Network Analyzer (1508:1c88)]   (Sid:  4) Client -> Server @ : 568 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid:  4) Server -> Client : 290 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid:  4) Server -> Client : 1489 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 1489 bytes to client @ 10.0.2.15:49693
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49709
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49710
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (1508:1cb4)] Received response of 113 header and 0 body bytes from https://contile.services.mozilla.com:443/v1/tiles
+[Web Request      (1508:1cb4)] "GET https://contile.services.mozilla.com/v1/tiles"   
+[Network Analyzer (1508:1cb4)]   (Sid:  5) Client -> Server @ : 336 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:  5) Server -> Client : 138 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 0 bytes to client @ 10.0.2.15:49694
+[Proxy Recording  (1508:1fb4)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording.Error (1508:1cbc)] 
+[Proxy Recording.Error (1508:1cbc)] 
+[Proxy Recording  (1508:1cbc)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (1508:1fb4)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (1508:1fb4)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (1508:1fb4)]   (Sid:  6) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:  6) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:  6) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 8 bytes to client @ 10.0.2.15:49705
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49714
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49715
+[Proxy Recording  (1508:1cbc)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Web Request      (1508:1cbc)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (1508:1cbc)]   (Sid:  7) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid:  7) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid:  7) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1cbc)] Sent 8 bytes to client @ 10.0.2.15:49706
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (1508:1cc0)] Received response of 205 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Proxy Recording  (1508:1cb8)] Received response of 205 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Network Analyzer (1508:1cc0)]   (Sid:  8) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cc0)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (1508:1cc0)]   (Sid:  8) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid:  8) Server -> Client : 222 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid:  8) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cc0)] Sent 468 bytes to client @ 10.0.2.15:49697
+[Proxy Recording  (1508:1cc0)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Network Analyzer (1508:1cb8)]   (Sid:  9) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb8)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (1508:1cb8)]   (Sid:  9) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid:  9) Server -> Client : 222 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid:  9) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb8)] Sent 468 bytes to client @ 10.0.2.15:49698
+[Proxy Recording  (1508:1cb8)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1508:1cb8)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (1508:1cb8)] 
+[Proxy Recording  (1508:1cc0)] Received response of 153 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (1508:1cc0)] Sent 22 bytes to client @ 10.0.2.15:49714
+[Proxy Recording  (1508:1c88)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://mozilla.cloudflare-dns.com:443/dns-query ...
+[Proxy Recording  (1508:1c88)] Received response of 205 header and 468 body bytes from https://mozilla.cloudflare-dns.com:443/dns-query
+[Network Analyzer (1508:1c88)]   (Sid: 10) Client -> Server @ : 261 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1c88)] "POST https://mozilla.cloudflare-dns.com/dns-query"   
+[Network Analyzer (1508:1c88)]   (Sid: 10) Client -> Server @ : 128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 10) Server -> Client : 222 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 10) Server -> Client : 468 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 468 bytes to client @ 10.0.2.15:49702
+[Proxy Recording  (1508:1c80)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (1508:1c80)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (1508:1c80)]   (Sid: 11) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 11) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1f94)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/634de8e5-3e36-44ef-99cb-c46103c201ff ...
+[Proxy Recording.Error (1508:1f94)] 
+[Proxy Recording  (1508:1f94)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/634de8e5-3e36-44ef-99cb-c46103c201ff ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/129.0.2/20240819150008/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19044.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A4096/default/default/update.xml?force=1 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/129.0.2/20240819150008/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19044.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A4096/default/default/update.xml?force=1 ...
+[Proxy Recording  (1508:1cbc)] Received response of 261 header and 189344 body bytes from https://dev-boomq.pflb.ru:443/static/css/main.64a4c65b.css
+[Web Request      (1508:1cbc)] "GET https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css"   
+[Network Analyzer (1508:1cbc)]   (Sid: 12) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 12) Server -> Client : 278 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 12) Server -> Client : 189344 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cbc)] Sent 189344 bytes to client @ 10.0.2.15:49710
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49731
+[Proxy Recording  (1508:1f94)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/634de8e5-3e36-44ef-99cb-c46103c201ff
+[Network Analyzer (1508:1f94)]   (Sid: 13) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1f94)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/634de8e5-3e36-44ef-99cb-c46103c201ff"   
+[Network Analyzer (1508:1f94)]   (Sid: 13) Client -> Server @ : 1012 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 13) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 13) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49733
+[Proxy Recording  (1508:1f94)] Sent 20 bytes to client @ 10.0.2.15:49703
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49734
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/favicon.png ...
+[Proxy Recording  (1508:1c80)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (1508:1c80)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/7ad9e97a-3862-4e96-9484-1812095f9ae3 ...
+[Proxy Recording.Error (1508:1cc0)] 
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/7ad9e97a-3862-4e96-9484-1812095f9ae3 ...
+[Proxy Recording  (1508:1cbc)] Received response of 258 header and 1016 body bytes from https://dev-boomq.pflb.ru:443/favicon.png
+[Web Request      (1508:1cbc)] "GET https://dev-boomq.pflb.ru/favicon.png"   
+[Network Analyzer (1508:1cbc)]   (Sid: 14) Client -> Server @ : 502 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1c80)] Received response of 262 header and 138600 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff
+[Network Analyzer (1508:1cbc)]   (Sid: 14) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 14) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cbc)] Sent 1016 bytes to client @ 10.0.2.15:49731
+[Web Request      (1508:1c80)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff"   
+[Network Analyzer (1508:1c80)]   (Sid: 15) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 15) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 15) Server -> Client : 138600 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 138600 bytes to client @ 10.0.2.15:49733
+[Proxy Recording  (1508:1fb4)] Received response of 292 header and 3435354 body bytes from https://dev-boomq.pflb.ru:443/static/js/main.cddf1824.js
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/static/js/main.cddf1824.js"   
+[Network Analyzer (1508:1fb4)]   (Sid: 16) Client -> Server @ : 437 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 16) Server -> Client : 309 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 16) Server -> Client : 3435354 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 3435354 bytes to client @ 10.0.2.15:49709
+[Proxy Recording  (1508:1cb4)] Received response of 394 header and 42 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/129.0.2/20240819150008/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19044.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A4096/default/default/update.xml?force=1
+[Web Request      (1508:1cb4)] "GET https://aus5.mozilla.org/update/6/Firefox/129.0.2/20240819150008/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.19044.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A4096/default/default/update.xml?force=1"   
+[Network Analyzer (1508:1cb4)]   (Sid: 17) Client -> Server @ : 511 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 17) Server -> Client : 411 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 17) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 42 bytes to client @ 10.0.2.15:49704
+[Proxy Recording  (1508:1cc0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/7ad9e97a-3862-4e96-9484-1812095f9ae3
+[Network Analyzer (1508:1cc0)]   (Sid: 18) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cc0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/7ad9e97a-3862-4e96-9484-1812095f9ae3"   
+[Network Analyzer (1508:1cc0)]   (Sid: 18) Client -> Server @ : 1538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 18) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 18) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cc0)] Sent 20 bytes to client @ 10.0.2.15:49734
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49737
+[Proxy Recording  (1508:1c80)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/127a2081-ab30-4b0a-ae94-3ef146c2c89f ...
+[Proxy Recording.Error (1508:1c80)] 
+[Proxy Recording  (1508:1c80)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/127a2081-ab30-4b0a-ae94-3ef146c2c89f ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49739
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49741
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49743
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49744
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49745
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff ...
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff ...
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff ...
+[Proxy Recording  (1508:1c88)] Received response of 263 header and 8365 body bytes from https://dev-boomq.pflb.ru:443/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg
+[Web Request      (1508:1c88)] "GET https://dev-boomq.pflb.ru/static/media/logo.f5ae2890e77693e018920d4ad41c643c.svg"   
+[Network Analyzer (1508:1c88)]   (Sid: 19) Client -> Server @ : 548 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 19) Server -> Client : 280 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Received response of 262 header and 1861 body bytes from https://dev-boomq.pflb.ru:443/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg
+[Network Analyzer (1508:1c88)]   (Sid: 19) Server -> Client : 8365 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 8365 bytes to client @ 10.0.2.15:49739
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/static/media/loading.b59fa25397e07d75b9ac55ace151e625.svg"   
+[Network Analyzer (1508:1cb4)]   (Sid: 20) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 20) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 20) Server -> Client : 1861 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 1861 bytes to client @ 10.0.2.15:49741
+[Proxy Recording  (1508:1cb8)] Received response of 262 header and 138900 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff
+[Web Request      (1508:1cb8)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff"   
+[Network Analyzer (1508:1cb8)]   (Sid: 21) Client -> Server @ : 531 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid: 21) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid: 21) Server -> Client : 138900 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb8)] Sent 138900 bytes to client @ 10.0.2.15:49745
+[Proxy Recording  (1508:1cc0)] Received response of 262 header and 138516 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff
+[Web Request      (1508:1cc0)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff"   
+[Network Analyzer (1508:1cc0)]   (Sid: 22) Client -> Server @ : 533 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 22) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 22) Server -> Client : 138516 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cc0)] Sent 138516 bytes to client @ 10.0.2.15:49743
+[Proxy Recording  (1508:1f94)] Received response of 262 header and 138232 body bytes from https://dev-boomq.pflb.ru:443/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff
+[Web Request      (1508:1f94)] "GET https://dev-boomq.pflb.ru/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff"   
+[Network Analyzer (1508:1f94)]   (Sid: 23) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 23) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 23) Server -> Client : 138232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1f94)] Sent 138232 bytes to client @ 10.0.2.15:49744
+[Proxy Recording  (1508:1c80)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/127a2081-ab30-4b0a-ae94-3ef146c2c89f
+[Network Analyzer (1508:1c80)]   (Sid: 24) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1c80)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/127a2081-ab30-4b0a-ae94-3ef146c2c89f"   
+[Network Analyzer (1508:1c80)]   (Sid: 24) Client -> Server @ : 442 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 24) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 24) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 20 bytes to client @ 10.0.2.15:49737
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49749
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/7cb54f05-1a93-4ce7-8bda-8016a20c54bc ...
+[Proxy Recording.Error (1508:1cb8)] 
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/7cb54f05-1a93-4ce7-8bda-8016a20c54bc ...
+[Proxy Recording  (1508:1cb8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/7cb54f05-1a93-4ce7-8bda-8016a20c54bc
+[Network Analyzer (1508:1cb8)]   (Sid: 25) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/7cb54f05-1a93-4ce7-8bda-8016a20c54bc"   
+[Network Analyzer (1508:1cb8)]   (Sid: 25) Client -> Server @ : 478 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid: 25) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid: 25) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb8)] Sent 20 bytes to client @ 10.0.2.15:49749
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49751
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/1d91221c-a751-453a-b652-5c186ff08d21 ...
+[Proxy Recording.Error (1508:1fb4)] 
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/1d91221c-a751-453a-b652-5c186ff08d21 ...
+[Proxy Recording  (1508:1fb4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/1d91221c-a751-453a-b652-5c186ff08d21
+[Network Analyzer (1508:1fb4)]   (Sid: 26) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1fb4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/1d91221c-a751-453a-b652-5c186ff08d21"   
+[Network Analyzer (1508:1fb4)]   (Sid: 26) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 26) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 26) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 20 bytes to client @ 10.0.2.15:49751
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49757
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (1508:1cbc)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (1508:1cbc)]   (Sid: 27) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 27) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49760
+[Proxy Recording  (1508:1cc0)] Empty http command received from client's ssl connection
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49761
+[Proxy Recording  (1508:1cb4)] Empty http command received from client's ssl connection
+[User action                 ] StartTransactionEvent sign_in [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49762
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (1508:1cbc)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (1508:1cbc)]   (Sid: 28) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 28) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49765
+[Proxy Recording  (1508:1f94)] Empty http command received from client's ssl connection
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49766
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (1508:1cb4)] 
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49770
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording.Error (1508:1cbc)] 
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49774
+[Proxy Recording  (1508:1f94)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (1508:1f94)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (1508:1f94)] Received response of 841 header and 229 body bytes from https://worldtimeapi.org:443/api/ip
+[Web Request      (1508:1f94)] "GET https://worldtimeapi.org/api/ip"   
+[Network Analyzer (1508:1f94)]   (Sid: 29) Client -> Server @ : 505 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 29) Server -> Client : 858 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 29) Server -> Client : 229 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1f94)] Sent 229 bytes to client @ 10.0.2.15:49774
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49777
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (1508:1cb4)] Received response of 1888 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer (1508:1cb4)]   (Sid: 30) Client -> Server @ : 622 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer (1508:1cb4)]   (Sid: 30) Client -> Server @ : 439 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 30) Server -> Client : 1903 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 0 bytes to client @ 10.0.2.15:49777
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49779
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49781
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49782
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49783
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/config.json ...
+[Proxy Recording  (1508:1cbc)] Received response of 262 header and 4045 body bytes from https://dev-boomq.pflb.ru:443/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg
+[Proxy Recording  (1508:1c80)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (1508:1c80)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Web Request      (1508:1cbc)] "GET https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg"   
+[Network Analyzer (1508:1cbc)]   (Sid: 31) Client -> Server @ : 1267 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Received response of 264 header and 285 body bytes from https://dev-boomq.pflb.ru:443/config.json
+[Network Analyzer (1508:1cbc)]   (Sid: 31) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 31) Server -> Client : 4045 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cbc)] Sent 4045 bytes to client @ 10.0.2.15:49779
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/config.json"   
+[Network Analyzer (1508:1fb4)]   (Sid: 32) Client -> Server @ : 1874 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 32) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 32) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 285 bytes to client @ 10.0.2.15:49781
+[Proxy Recording  (1508:1c80)] Received response of 438 header and 66848 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Proxy Recording  (1508:1c88)] Received response of 475 header and 162 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Web Request      (1508:1c80)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (1508:1c80)]   (Sid: 33) Client -> Server @ : 1886 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 33) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 33) Server -> Client : 66848 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 66848 bytes to client @ 10.0.2.15:49782
+[Web Request      (1508:1c88)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (1508:1c88)]   (Sid: 34) Client -> Server @ : 1876 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 34) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 34) Server -> Client : 162 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 162 bytes to client @ 10.0.2.15:49783
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49787
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (1508:1cbc)] Received response of 475 header and 2 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Web Request      (1508:1cbc)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer (1508:1cbc)]   (Sid: 35) Client -> Server @ : 1888 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 35) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 35) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cbc)] Sent 2 bytes to client @ 10.0.2.15:49787
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49789
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team?size=2 ...
+[Proxy Recording  (1508:1fb4)] Received response of 475 header and 588 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team?size=2
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/auth-srv/team?size=2"   
+[Network Analyzer (1508:1fb4)]   (Sid: 36) Client -> Server @ : 1883 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 36) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 36) Server -> Client : 588 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 588 bytes to client @ 10.0.2.15:49789
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49791
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14 ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14 ...
+[Proxy Recording  (1508:1c88)] Received response of 2947 header and 313 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14
+[Web Request      (1508:1c88)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14"   
+[Network Analyzer (1508:1c88)]   (Sid: 37) Client -> Server @ : 1904 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 37) Server -> Client : 2934 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 37) Server -> Client : 313 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 313 bytes to client @ 10.0.2.15:49791
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49793
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (1508:1cc0)] Received response of 363 header and 531 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (1508:1cc0)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (1508:1cc0)]   (Sid: 38) Client -> Server @ : 2415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 38) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 38) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cc0)] Sent 531 bytes to client @ 10.0.2.15:49793
+[User action                 ] EndTransactionEvent sign_in [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49795
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (1508:1fb4)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (1508:1fb4)]   (Sid: 39) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 39) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent choose_test_runs [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49798
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (1508:1c88)] Received response of 438 header and 195272 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999
+[Web Request      (1508:1c88)] "GET https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&size=999"   
+[Network Analyzer (1508:1c88)]   (Sid: 40) Client -> Server @ : 2443 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 40) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 40) Server -> Client : 195272 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 195272 bytes to client @ 10.0.2.15:49798
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49800
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/label?query= ...
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/label?query= ...
+[Proxy Recording  (1508:1f94)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test/label?query=
+[Web Request      (1508:1f94)] "GET https://dev-boomq.pflb.ru/test-srv/test/label?query="   
+[Network Analyzer (1508:1f94)]   (Sid: 41) Client -> Server @ : 2403 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 41) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 41) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1f94)] Sent 2 bytes to client @ 10.0.2.15:49800
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49802
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/user ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/user ...
+[Proxy Recording  (1508:1fb4)] Received response of 438 header and 377 body bytes from https://dev-boomq.pflb.ru:443/test-srv/user
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/test-srv/user"   
+[Network Analyzer (1508:1fb4)]   (Sid: 42) Client -> Server @ : 2390 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 42) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 42) Server -> Client : 377 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 377 bytes to client @ 10.0.2.15:49802
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49804
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING ...
+[Proxy Recording  (1508:1c88)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING ...
+[Proxy Recording  (1508:1c88)] Received response of 438 header and 1370 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING
+[Web Request      (1508:1c88)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING"   
+[Network Analyzer (1508:1c88)]   (Sid: 43) Client -> Server @ : 2469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 43) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c88)]   (Sid: 43) Server -> Client : 1370 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c88)] Sent 1370 bytes to client @ 10.0.2.15:49804
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49806
+[Proxy Recording  (1508:1c80)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&page=0&size=7 ...
+[Proxy Recording  (1508:1c80)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&page=0&size=7 ...
+[Proxy Recording  (1508:1c80)] Received response of 438 header and 29399 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&page=0&size=7
+[Web Request      (1508:1c80)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&page=0&size=7"   
+[Network Analyzer (1508:1c80)]   (Sid: 44) Client -> Server @ : 2425 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 44) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 44) Server -> Client : 29399 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 29399 bytes to client @ 10.0.2.15:49806
+[User action                 ] EndTransactionEvent choose_test_runs [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49808
+[Proxy Recording  (1508:1fb4)] Empty http command received from client's ssl connection
+[User action                 ] StartTransactionEvent choose_test [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49809
+[Proxy Recording  (1508:1cc0)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (1508:1cc0)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (1508:1cc0)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (1508:1cc0)]   (Sid: 45) Client -> Server @ : 331 bytes (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 45) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 45) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1cc0)] Sent 90 bytes to client @ 10.0.2.15:49809
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49810
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49811
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (1508:1c80)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv6 ...
+[Proxy Recording  (1508:1c80)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Proxy Recording  (1508:1cb4)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv6
+[Web Request      (1508:1c80)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (1508:1c80)]   (Sid: 46) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 46) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1c80)]   (Sid: 46) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1c80)] Sent 8 bytes to client @ 10.0.2.15:49810
+[Web Request      (1508:1cb4)] "GET http://detectportal.firefox.com/success.txt?ipv6"   
+[Network Analyzer (1508:1cb4)]   (Sid: 47) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 47) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 47) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 8 bytes to client @ 10.0.2.15:49811
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49812
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49813
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49814
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49815
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49817
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/load.287cb7234e668cd66173833db04886bf.svg ...
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/message.09d91ef8f7769e72000af31b00da82e2.svg ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/time.0a39ea6cf097a189ea08f0e8e59fe026.svg ...
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/load.287cb7234e668cd66173833db04886bf.svg ...
+[Proxy Recording  (1508:1cb8)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/message.09d91ef8f7769e72000af31b00da82e2.svg ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/18860 ...
+[Proxy Recording  (1508:1cbc)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/time.0a39ea6cf097a189ea08f0e8e59fe026.svg ...
+[Proxy Recording  (1508:1cc0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/18860 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project/25413 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project/25413 ...
+[Proxy Recording  (1508:1cb8)] Received response of 263 header and 5979 body bytes from https://dev-boomq.pflb.ru:443/static/media/message.09d91ef8f7769e72000af31b00da82e2.svg
+[Proxy Recording  (1508:1f94)] Received response of 262 header and 2569 body bytes from https://dev-boomq.pflb.ru:443/static/media/load.287cb7234e668cd66173833db04886bf.svg
+[Proxy Recording  (1508:1cbc)] Received response of 262 header and 2405 body bytes from https://dev-boomq.pflb.ru:443/static/media/time.0a39ea6cf097a189ea08f0e8e59fe026.svg
+[Web Request      (1508:1cb8)] "GET https://dev-boomq.pflb.ru/static/media/message.09d91ef8f7769e72000af31b00da82e2.svg"   
+[Network Analyzer (1508:1cb8)]   (Sid: 48) Client -> Server @ : 1294 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Received response of 438 header and 2560 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project/25413
+[Network Analyzer (1508:1cb8)]   (Sid: 48) Server -> Client : 280 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb8)]   (Sid: 48) Server -> Client : 5979 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb8)] Sent 5979 bytes to client @ 10.0.2.15:49813
+[Proxy Recording  (1508:1cc0)] Received response of 438 header and 1052 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test/18860
+[Web Request      (1508:1f94)] "GET https://dev-boomq.pflb.ru/static/media/load.287cb7234e668cd66173833db04886bf.svg"   
+[Network Analyzer (1508:1f94)]   (Sid: 49) Client -> Server @ : 1291 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 49) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 49) Server -> Client : 2569 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1f94)] Sent 2569 bytes to client @ 10.0.2.15:49812
+[Web Request      (1508:1cbc)] "GET https://dev-boomq.pflb.ru/static/media/time.0a39ea6cf097a189ea08f0e8e59fe026.svg"   
+[Network Analyzer (1508:1cbc)]   (Sid: 50) Client -> Server @ : 1291 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 50) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cbc)]   (Sid: 50) Server -> Client : 2405 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cbc)] Sent 2405 bytes to client @ 10.0.2.15:49814
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/project-srv/project/25413"   
+[Network Analyzer (1508:1cb4)]   (Sid: 51) Client -> Server @ : 2429 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 51) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 51) Server -> Client : 2560 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 2560 bytes to client @ 10.0.2.15:49815
+[Web Request      (1508:1cc0)] "GET https://dev-boomq.pflb.ru/test-srv/test/18860"   
+[Network Analyzer (1508:1cc0)]   (Sid: 52) Client -> Server @ : 2423 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 52) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cc0)]   (Sid: 52) Server -> Client : 1052 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cc0)] Sent 1052 bytes to client @ 10.0.2.15:49817
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49822
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z ...
+[Proxy Recording  (1508:1f94)] Trying to connect to https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z ...
+[Proxy Recording  (1508:1f94)] Received response of 363 header and 3764 body bytes from https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z
+[Web Request      (1508:1f94)] "GET https://dev-boomq.pflb.ru/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z"   
+[Network Analyzer (1508:1f94)]   (Sid: 53) Client -> Server @ : 2502 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 53) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1f94)]   (Sid: 53) Server -> Client : 3764 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1f94)] Sent 3764 bytes to client @ 10.0.2.15:49822
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49824
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana-srv/auth?testId=18860&testStartTime=2024-08-30T13:50:49.608Z&testEndTime=2024-08-30T14:50:49.608Z ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana-srv/auth?testId=18860&testStartTime=2024-08-30T13:50:49.608Z&testEndTime=2024-08-30T14:50:49.608Z ...
+[Proxy Recording  (1508:1fb4)] Received response of 615 header and 153 body bytes from https://dev-boomq.pflb.ru:443/grafana-srv/auth?testId=18860&testStartTime=2024-08-30T13:50:49.608Z&testEndTime=2024-08-30T14:50:49.608Z
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana-srv/auth?testId=18860&testStartTime=2024-08-30T13:50:49.608Z&testEndTime=2024-08-30T14:50:49.608Z"   
+[Network Analyzer (1508:1fb4)]   (Sid: 54) Client -> Server @ : 2494 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 54) Server -> Client : 602 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 54) Server -> Client : 153 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 153 bytes to client @ 10.0.2.15:49824
+[User action                 ] EndTransactionEvent choose_test [User action                 ] StartTransactionEvent choose_details [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49826
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49829
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/d/bcaa301e-43a6-4e16-b830-690fbeb62b4c/common-dashboard-tdb-14?from=1725025849608&to=1725029449608&refresh=5s&var-testId=18860 ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/d/bcaa301e-43a6-4e16-b830-690fbeb62b4c/common-dashboard-tdb-14?from=1725025849608&to=1725029449608&refresh=5s&var-testId=18860 ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49831
+[Proxy Recording  (1508:1fb4)] Received response of 303 header and 37972 body bytes from https://dev-boomq.pflb.ru:443/grafana/d/bcaa301e-43a6-4e16-b830-690fbeb62b4c/common-dashboard-tdb-14?from=1725025849608&to=1725029449608&refresh=5s&var-testId=18860
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/d/bcaa301e-43a6-4e16-b830-690fbeb62b4c/common-dashboard-tdb-14?from=1725025849608&to=1725029449608&refresh=5s&var-testId=18860"   
+[Network Analyzer (1508:1fb4)]   (Sid: 55) Client -> Server @ : 1484 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 55) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 55) Server -> Client : 37972 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 37972 bytes to client @ 10.0.2.15:49829
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/18860 ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/18860 ...
+[Web Request      (1508:1cb4)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (1508:1cb4)]   (Sid: 56) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 56) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49833
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49834
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49835
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49837
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49838
+[Proxy Recording  (1508: 1c4)] Received response of 438 header and 1052 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test/18860
+[Web Request      (1508: 1c4)] "GET https://dev-boomq.pflb.ru/test-srv/test/18860"   
+[Network Analyzer (1508: 1c4)]   (Sid: 57) Client -> Server @ : 2408 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 57) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 57) Server -> Client : 1052 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 1c4)] Sent 1052 bytes to client @ 10.0.2.15:49831
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49843
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/grafana.dark.886efb710af4d17a895d.css ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/grafana.dark.886efb710af4d17a895d.css ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/147.73fef960675c84aa9a84.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/runtime.592ab1f875d183fcac07.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/147.73fef960675c84aa9a84.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/runtime.592ab1f875d183fcac07.js ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1486.9f5c58b5413b0650af69.js ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1486.9f5c58b5413b0650af69.js ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1537.caf8c5d1430033307ef5.js ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1537.caf8c5d1430033307ef5.js ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/226.e8901bdbabf874bc7825.js ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/226.e8901bdbabf874bc7825.js ...
+[Proxy Recording  (1508:1fb4)] Received response of 293 header and 215477 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/grafana.dark.886efb710af4d17a895d.css
+[Proxy Recording  (1508:143c)] Received response of 299 header and 13191 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/runtime.592ab1f875d183fcac07.js
+[Proxy Recording  (1508: 914)] Received response of 299 header and 20506 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/1537.caf8c5d1430033307ef5.js
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/grafana.dark.886efb710af4d17a895d.css"   
+[Network Analyzer (1508:1fb4)]   (Sid: 58) Client -> Server @ : 1431 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 58) Server -> Client : 310 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 58) Server -> Client : 215477 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 215477 bytes to client @ 10.0.2.15:49833
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49845
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/public/build/runtime.592ab1f875d183fcac07.js"   
+[Network Analyzer (1508:143c)]   (Sid: 59) Client -> Server @ : 1396 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 59) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 59) Server -> Client : 13191 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 13191 bytes to client @ 10.0.2.15:49834
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49847
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/public/build/1537.caf8c5d1430033307ef5.js"   
+[Network Analyzer (1508: 914)]   (Sid: 60) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 60) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 60) Server -> Client : 20506 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 20506 bytes to client @ 10.0.2.15:49838
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49849
+[Proxy Recording  (1508:1cb4)] Received response of 300 header and 403121 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/147.73fef960675c84aa9a84.js
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/147.73fef960675c84aa9a84.js"   
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z ...
+[Network Analyzer (1508:1cb4)]   (Sid: 61) Client -> Server @ : 1392 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z ...
+[Network Analyzer (1508:1cb4)]   (Sid: 61) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 61) Server -> Client : 403121 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 403121 bytes to client @ 10.0.2.15:49835
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49851
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/app.5134ec4fafe46667d3cf.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/app.5134ec4fafe46667d3cf.js ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/img/grafana_icon.svg ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/img/grafana_icon.svg ...
+[Proxy Recording  (1508:1fb4)] Received response of 363 header and 4047 body bytes from https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/fonts/inter/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/fonts/inter/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2 ...
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/timescale-srv/testMetric?testId=18860&testStartDate=2024-08-30T13:50:49.608Z&testEndDate=2024-08-30T14:50:49.608Z"   
+[Network Analyzer (1508:1fb4)]   (Sid: 62) Client -> Server @ : 2502 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 62) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 62) Server -> Client : 4047 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 4047 bytes to client @ 10.0.2.15:49845
+[Proxy Recording  (1508: ef0)] Received response of 301 header and 4513950 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/1486.9f5c58b5413b0650af69.js
+[Web Request      (1508: ef0)] "GET https://dev-boomq.pflb.ru/grafana/public/build/1486.9f5c58b5413b0650af69.js"   
+[Network Analyzer (1508: ef0)]   (Sid: 63) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508: 914)] Received response of 277 header and 5690 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/img/grafana_icon.svg
+[Proxy Recording  (1508:143c)] Received response of 301 header and 1019820 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/app.5134ec4fafe46667d3cf.js
+[Proxy Recording  (1508:1cb4)] Received response of 275 header and 37056 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/fonts/inter/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2
+[Network Analyzer (1508: ef0)]   (Sid: 63) Server -> Client : 318 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 63) Server -> Client : 4513950 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 4513950 bytes to client @ 10.0.2.15:49837
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/public/img/grafana_icon.svg"   
+[Network Analyzer (1508: 914)]   (Sid: 64) Client -> Server @ : 1462 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 64) Server -> Client : 294 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 64) Server -> Client : 5690 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 5690 bytes to client @ 10.0.2.15:49849
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/fonts/inter/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2"   
+[Network Analyzer (1508:1cb4)]   (Sid: 65) Client -> Server @ : 1384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 65) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 65) Server -> Client : 37056 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 37056 bytes to client @ 10.0.2.15:49851
+[Proxy Recording  (1508: 1c4)] Received response of 301 header and 2842271 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/226.e8901bdbabf874bc7825.js
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/public/build/app.5134ec4fafe46667d3cf.js"   
+[Network Analyzer (1508:143c)]   (Sid: 66) Client -> Server @ : 1392 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 66) Server -> Client : 318 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 66) Server -> Client : 1019820 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 1019820 bytes to client @ 10.0.2.15:49847
+[Web Request      (1508: 1c4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/226.e8901bdbabf874bc7825.js"   
+[Network Analyzer (1508: 1c4)]   (Sid: 67) Client -> Server @ : 1392 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 67) Server -> Client : 318 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 67) Server -> Client : 2842271 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 1c4)] Sent 2842271 bytes to client @ 10.0.2.15:49843
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49853
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49854
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/7424.afad9d5bcb701f31d890.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/7424.afad9d5bcb701f31d890.js ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/live/ws ...
+[Proxy Recording  (1508:1cb4)] Received response of 299 header and 20212 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/7424.afad9d5bcb701f31d890.js
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/7424.afad9d5bcb701f31d890.js"   
+[Network Analyzer (1508:1cb4)]   (Sid: 68) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 68) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 68) Server -> Client : 20212 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 20212 bytes to client @ 10.0.2.15:49853
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49858
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49859
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49862
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49863
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49864
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/api/live/ws"   
+[Network Analyzer (1508: 914)]   (Sid: 69) Client -> Server @ : 1384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 69) Server -> Client : 160 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49868
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/img/fav32.png ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/img/apple-touch-icon.png ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/img/fav32.png ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/img/apple-touch-icon.png ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1189.846540cbca3eb55c18a1.js ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/8695.c23c9961ab344f38b174.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1189.846540cbca3eb55c18a1.js ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/8695.c23c9961ab344f38b174.js ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3633.acef4a1394f4c10cf087.js ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3633.acef4a1394f4c10cf087.js ...
+[Proxy Recording  (1508:143c)] Received response of 273 header and 1118 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/img/fav32.png
+[Proxy Recording  (1508: ef0)] Received response of 274 header and 15718 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/img/apple-touch-icon.png
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/public/img/fav32.png"   
+[Network Analyzer (1508:143c)]   (Sid: 70) Client -> Server @ : 1452 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 70) Server -> Client : 290 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 70) Server -> Client : 1118 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 1118 bytes to client @ 10.0.2.15:49859
+[Web Request      (1508: ef0)] "GET https://dev-boomq.pflb.ru/grafana/public/img/apple-touch-icon.png"   
+[Network Analyzer (1508: ef0)]   (Sid: 71) Client -> Server @ : 1463 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 71) Server -> Client : 291 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Received response of 300 header and 188975 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/1189.846540cbca3eb55c18a1.js
+[Proxy Recording  (1508: 1c4)] Received response of 299 header and 34850 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/8695.c23c9961ab344f38b174.js
+[Network Analyzer (1508: ef0)]   (Sid: 71) Server -> Client : 15718 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/AngularApp.cd93fabea0d7a3dbc811.js ...
+[Proxy Recording  (1508: ef0)] Sent 15718 bytes to client @ 10.0.2.15:49858
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/AngularApp.cd93fabea0d7a3dbc811.js ...
+[Web Request      (1508: 1c4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/8695.c23c9961ab344f38b174.js"   
+[Network Analyzer (1508: 1c4)]   (Sid: 72) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Received response of 300 header and 125025 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/3633.acef4a1394f4c10cf087.js
+[Network Analyzer (1508: 1c4)]   (Sid: 72) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 72) Server -> Client : 34850 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 1c4)] Sent 34850 bytes to client @ 10.0.2.15:49863
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/1189.846540cbca3eb55c18a1.js"   
+[Network Analyzer (1508:1cb4)]   (Sid: 73) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 73) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 73) Server -> Client : 188975 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 188975 bytes to client @ 10.0.2.15:49862
+[Proxy Recording  (1508: 914)] Received response of 299 header and 72812 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/AngularApp.cd93fabea0d7a3dbc811.js
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/3633.acef4a1394f4c10cf087.js"   
+[Network Analyzer (1508:1fb4)]   (Sid: 74) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 74) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 74) Server -> Client : 125025 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 125025 bytes to client @ 10.0.2.15:49864
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/public/build/AngularApp.cd93fabea0d7a3dbc811.js"   
+[Network Analyzer (1508: 914)]   (Sid: 75) Client -> Server @ : 1399 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 75) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 75) Server -> Client : 72812 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 72812 bytes to client @ 10.0.2.15:49868
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49870
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49871
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49872
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49873
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49874
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49876
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/9427.1e65164569048326187c.js ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/7307.bfc948b550f554e75772.js ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/9427.1e65164569048326187c.js ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/7307.bfc948b550f554e75772.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/53.59d9e34c172df910b888.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/53.59d9e34c172df910b888.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3258.e6e94bbe4d45fc9db086.js ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/9734.6ba2e09bcb9d7c025793.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3258.e6e94bbe4d45fc9db086.js ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1863.dad1afc1743ccbc4ec18.js ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/9734.6ba2e09bcb9d7c025793.js ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/1863.dad1afc1743ccbc4ec18.js ...
+[Proxy Recording  (1508: 1c4)] Received response of 299 header and 19664 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/9427.1e65164569048326187c.js
+[Proxy Recording  (1508: ef0)] Received response of 299 header and 37400 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/7307.bfc948b550f554e75772.js
+[Proxy Recording  (1508:1cb4)] Received response of 299 header and 39497 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/53.59d9e34c172df910b888.js
+[Web Request      (1508: 1c4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/9427.1e65164569048326187c.js"   
+[Network Analyzer (1508: 1c4)]   (Sid: 76) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 76) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid: 76) Server -> Client : 19664 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 1c4)] Sent 19664 bytes to client @ 10.0.2.15:49870
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49882
+[Proxy Recording  (1508:143c)] Received response of 299 header and 69141 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/3258.e6e94bbe4d45fc9db086.js
+[Proxy Recording  (1508:1fb4)] Received response of 299 header and 17869 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/1863.dad1afc1743ccbc4ec18.js
+[Proxy Recording  (1508: 914)] Received response of 299 header and 68559 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/9734.6ba2e09bcb9d7c025793.js
+[Web Request      (1508: ef0)] "GET https://dev-boomq.pflb.ru/grafana/public/build/7307.bfc948b550f554e75772.js"   
+[Network Analyzer (1508: ef0)]   (Sid: 77) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 77) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 77) Server -> Client : 37400 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 37400 bytes to client @ 10.0.2.15:49871
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49884
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/53.59d9e34c172df910b888.js"   
+[Network Analyzer (1508:1cb4)]   (Sid: 78) Client -> Server @ : 1391 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 78) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 78) Server -> Client : 39497 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 39497 bytes to client @ 10.0.2.15:49872
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49886
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/public/build/3258.e6e94bbe4d45fc9db086.js"   
+[Network Analyzer (1508:143c)]   (Sid: 79) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 79) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 79) Server -> Client : 69141 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 69141 bytes to client @ 10.0.2.15:49873
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49888
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/1863.dad1afc1743ccbc4ec18.js"   
+[Network Analyzer (1508:1fb4)]   (Sid: 80) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 80) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 80) Server -> Client : 17869 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 17869 bytes to client @ 10.0.2.15:49876
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/public/build/9734.6ba2e09bcb9d7c025793.js"   
+[Network Analyzer (1508: 914)]   (Sid: 81) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 81) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 81) Server -> Client : 68559 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 68559 bytes to client @ 10.0.2.15:49874
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3069.c3a514d280a9f89eecde.js ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3069.c3a514d280a9f89eecde.js ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3312.48d5fac3b02144f52e9a.js ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/3312.48d5fac3b02144f52e9a.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/fonts/fontawesome-webfont.woff2?v=4.7.0 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/fonts/fontawesome-webfont.woff2?v=4.7.0 ...
+[Proxy Recording  (1508:1248)] Received response of 298 header and 9898 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/3069.c3a514d280a9f89eecde.js
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/DashboardPage.47d249f8c940b079c4b5.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/DashboardPage.47d249f8c940b079c4b5.js ...
+[Web Request      (1508:1248)] "GET https://dev-boomq.pflb.ru/grafana/public/build/3069.c3a514d280a9f89eecde.js"   
+[Network Analyzer (1508:1248)]   (Sid: 82) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508: ef0)] Received response of 299 header and 11083 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/3312.48d5fac3b02144f52e9a.js
+[Network Analyzer (1508:1248)]   (Sid: 82) Server -> Client : 315 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid: 82) Server -> Client : 9898 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 9898 bytes to client @ 10.0.2.15:49882
+[Web Request      (1508: ef0)] "GET https://dev-boomq.pflb.ru/grafana/public/build/3312.48d5fac3b02144f52e9a.js"   
+[Proxy Recording  (1508:1cb4)] Received response of 275 header and 77160 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/fonts/fontawesome-webfont.woff2?v=4.7.0
+[Network Analyzer (1508: ef0)]   (Sid: 83) Client -> Server @ : 1393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 83) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 83) Server -> Client : 11083 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 11083 bytes to client @ 10.0.2.15:49884
+[Proxy Recording  (1508:143c)] Received response of 300 header and 109984 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/DashboardPage.47d249f8c940b079c4b5.js
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/fonts/fontawesome-webfont.woff2?v=4.7.0"   
+[Network Analyzer (1508:1cb4)]   (Sid: 84) Client -> Server @ : 1369 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 84) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 84) Server -> Client : 77160 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 77160 bytes to client @ 10.0.2.15:49886
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/public/build/DashboardPage.47d249f8c940b079c4b5.js"   
+[Network Analyzer (1508:143c)]   (Sid: 85) Client -> Server @ : 1402 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 85) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 85) Server -> Client : 109984 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 109984 bytes to client @ 10.0.2.15:49888
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49890
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/dashboards/uid/bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/dashboards/uid/bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508:1fb4)] Received response of 295 header and 79570 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/dashboards/uid/bcaa301e-43a6-4e16-b830-690fbeb62b4c
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/api/dashboards/uid/bcaa301e-43a6-4e16-b830-690fbeb62b4c"   
+[Network Analyzer (1508:1fb4)]   (Sid: 86) Client -> Server @ : 1470 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 86) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 86) Server -> Client : 79570 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 79570 bytes to client @ 10.0.2.15:49890
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49892
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49893
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/5216.565cbd1aa042f890edf2.js ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/5216.565cbd1aa042f890edf2.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/postgresPlugin.5dbf50fe15160919cf74.js ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/postgresPlugin.5dbf50fe15160919cf74.js ...
+[Proxy Recording  (1508:143c)] Received response of 299 header and 19125 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/postgresPlugin.5dbf50fe15160919cf74.js
+[Proxy Recording  (1508:1cb4)] Received response of 300 header and 575457 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/5216.565cbd1aa042f890edf2.js
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/public/build/postgresPlugin.5dbf50fe15160919cf74.js"   
+[Network Analyzer (1508:143c)]   (Sid: 87) Client -> Server @ : 1412 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 87) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 87) Server -> Client : 19125 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 19125 bytes to client @ 10.0.2.15:49893
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/5216.565cbd1aa042f890edf2.js"   
+[Network Analyzer (1508:1cb4)]   (Sid: 88) Client -> Server @ : 1402 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 88) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 88) Server -> Client : 575457 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 575457 bytes to client @ 10.0.2.15:49892
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49896
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49898
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/live/ws ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/api/live/ws"   
+[Network Analyzer (1508:1fb4)]   (Sid: 89) Client -> Server @ : 1384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 89) Server -> Client : 160 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Received response of 288 header and 396 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Network Analyzer (1508:1248)]   (Sid: 90) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:1248)]   (Sid: 90) Client -> Server @ : 276 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid: 90) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid: 90) Server -> Client : 396 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 396 bytes to client @ 10.0.2.15:49898
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49901
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49902
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49904
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49905
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: ef0)] Received response of 288 header and 481 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 914)] Received response of 288 header and 501 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Network Analyzer (1508: ef0)]   (Sid: 91) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: ef0)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508: ef0)]   (Sid: 91) Client -> Server @ : 352 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 91) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 91) Server -> Client : 481 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 481 bytes to client @ 10.0.2.15:49901
+[Network Analyzer (1508: 914)]   (Sid: 92) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: 914)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508: 914)]   (Sid: 92) Client -> Server @ : 346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 92) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid: 92) Server -> Client : 501 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 501 bytes to client @ 10.0.2.15:49902
+[Proxy Recording  (1508:1cb4)] Received response of 288 header and 536 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:143c)] Received response of 288 header and 492 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Network Analyzer (1508:1cb4)]   (Sid: 93) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:1cb4)]   (Sid: 93) Client -> Server @ : 374 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 93) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 93) Server -> Client : 536 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 536 bytes to client @ 10.0.2.15:49905
+[Network Analyzer (1508:143c)]   (Sid: 94) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:143c)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:143c)]   (Sid: 94) Client -> Server @ : 346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 94) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid: 94) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 492 bytes to client @ 10.0.2.15:49904
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49909
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49910
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49911
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49915
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49917
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49918
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/grafanaPlugin.aee8494db4c836362107.js ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/public/build/grafanaPlugin.aee8494db4c836362107.js ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ100 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ101 ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ100 ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49921
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669 ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669 ...
+[Proxy Recording  (1508:1fb4)] Received response of 298 header and 8691 body bytes from https://dev-boomq.pflb.ru:443/grafana/public/build/grafanaPlugin.aee8494db4c836362107.js
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ101 ...
+[Web Request      (1508:1fb4)] "GET https://dev-boomq.pflb.ru/grafana/public/build/grafanaPlugin.aee8494db4c836362107.js"   
+[Network Analyzer (1508:1fb4)]   (Sid: 95) Client -> Server @ : 1411 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 95) Server -> Client : 315 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid: 95) Server -> Client : 8691 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 8691 bytes to client @ 10.0.2.15:49909
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669 ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669 ...
+[Proxy Recording  (1508:1248)] Received response of 288 header and 617 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ100
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/user/orgs ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/user/orgs ...
+[Network Analyzer (1508:1248)]   (Sid: 96) Client -> Server @ : 1637 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=AQ100"   
+[Network Analyzer (1508:1248)]   (Sid: 96) Client -> Server @ : 370 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Received response of 288 header and 340 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ101
+[Network Analyzer (1508:1248)]   (Sid: 96) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid: 96) Server -> Client : 617 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 617 bytes to client @ 10.0.2.15:49910
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/search?limit=5&type=dash-db&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/search?limit=5&type=dash-db&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Network Analyzer (1508:1cb4)]   (Sid: 97) Client -> Server @ : 1637 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=AQ101"   
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49923
+[Network Analyzer (1508:1cb4)]   (Sid: 97) Client -> Server @ : 366 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 97) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 97) Server -> Client : 340 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 340 bytes to client @ 10.0.2.15:49911
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49925
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49926
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q100 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q101 ...
+[Proxy Recording  (1508: ef0)] Received response of 282 header and 704 body bytes from https://dev-boomq.pflb.ru:443/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669
+[Proxy Recording  (1508: 1c4)] Received response of 282 header and 704 body bytes from https://dev-boomq.pflb.ru:443/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669
+[Proxy Recording  (1508: 914)] Received response of 287 header and 94 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/user/orgs
+[Proxy Recording  (1508:1cb4)] Received response of 286 header and 2 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c
+[Web Request      (1508: ef0)] "GET https://dev-boomq.pflb.ru/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669"   
+[Proxy Recording  (1508:143c)] Received response of 288 header and 273 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/search?limit=5&type=dash-db&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q100 ...
+[Network Analyzer (1508: ef0)]   (Sid: 98) Client -> Server @ : 1483 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 98) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid: 98) Server -> Client : 704 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (1508: ef0)] 
+[Web Request      (1508:1cb4)] "GET https://dev-boomq.pflb.ru/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c"   
+[Network Analyzer (1508:1cb4)]   (Sid: 99) Client -> Server @ : 1550 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 99) Server -> Client : 303 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid: 99) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 2 bytes to client @ 10.0.2.15:49925
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49929
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/api/user/orgs"   
+[Network Analyzer (1508: 914)]   (Sid:100) Client -> Server @ : 1437 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:100) Server -> Client : 304 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:100) Server -> Client : 94 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 94 bytes to client @ 10.0.2.15:49918
+[Proxy Recording  (1508:1248)] Received response of 288 header and 530 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q100
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q101 ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49931
+[Web Request      (1508: 1c4)] "GET https://dev-boomq.pflb.ru/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669"   
+[Network Analyzer (1508: 1c4)]   (Sid:101) Client -> Server @ : 1483 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid:101) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid:101) Server -> Client : 704 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 1c4)] Sent 704 bytes to client @ 10.0.2.15:49917
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/api/search?limit=5&type=dash-db&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c"   
+[Network Analyzer (1508:143c)]   (Sid:102) Client -> Server @ : 1505 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:102) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:102) Server -> Client : 273 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 273 bytes to client @ 10.0.2.15:49921
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49933
+[Network Analyzer (1508:1248)]   (Sid:103) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q100"   
+[Network Analyzer (1508:1248)]   (Sid:103) Client -> Server @ : 477 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:103) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:103) Server -> Client : 530 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 530 bytes to client @ 10.0.2.15:49923
+[Proxy Recording  (1508:1fb4)] Received response of 288 header and 538 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q101
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49935
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q102 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q102 ...
+[Network Analyzer (1508:1fb4)]   (Sid:104) Client -> Server @ : 1707 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1fb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q101"   
+[Network Analyzer (1508:1fb4)]   (Sid:104) Client -> Server @ : 483 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:104) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:104) Server -> Client : 538 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 538 bytes to client @ 10.0.2.15:49926
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49937
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q103 ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q103 ...
+[Proxy Recording  (1508:1cb4)] Received response of 288 header and 529 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q102
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q104 ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q104 ...
+[Network Analyzer (1508:1cb4)]   (Sid:105) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q102"   
+[Network Analyzer (1508:1cb4)]   (Sid:105) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:105) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:105) Server -> Client : 529 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 529 bytes to client @ 10.0.2.15:49929
+[Proxy Recording  (1508: ef0)] Received response of 288 header and 525 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q103
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q105 ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49939
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q105 ...
+[Network Analyzer (1508: ef0)]   (Sid:106) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: ef0)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q103"   
+[Network Analyzer (1508: ef0)]   (Sid:106) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q106 ...
+[Network Analyzer (1508: ef0)]   (Sid:106) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:106) Server -> Client : 525 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 525 bytes to client @ 10.0.2.15:49931
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49941
+[Proxy Recording  (1508: 914)] Received response of 289 header and 1031 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q104
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q106 ...
+[Network Analyzer (1508: 914)]   (Sid:107) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: 914)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q104"   
+[Network Analyzer (1508: 914)]   (Sid:107) Client -> Server @ : 916 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:107) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:107) Server -> Client : 1031 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 1031 bytes to client @ 10.0.2.15:49933
+[Proxy Recording  (1508:143c)] Received response of 295 header and 2710 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q105
+[Network Analyzer (1508:143c)]   (Sid:108) Client -> Server @ : 1708 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:143c)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q105"   
+[Network Analyzer (1508:143c)]   (Sid:108) Client -> Server @ : 1425 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:108) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:108) Server -> Client : 2710 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 2710 bytes to client @ 10.0.2.15:49935
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q107 ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q107 ...
+[Proxy Recording  (1508:1248)] Received response of 295 header and 2099 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q106
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q108 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q108 ...
+[Network Analyzer (1508:1248)]   (Sid:109) Client -> Server @ : 1708 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q106"   
+[Network Analyzer (1508:1248)]   (Sid:109) Client -> Server @ : 1460 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:109) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:109) Server -> Client : 2099 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 2099 bytes to client @ 10.0.2.15:49937
+[Proxy Recording  (1508:1fb4)] Received response of 289 header and 1369 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q107
+[Network Analyzer (1508:1fb4)]   (Sid:110) Client -> Server @ : 1707 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1fb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q107"   
+[Network Analyzer (1508:1fb4)]   (Sid:110) Client -> Server @ : 756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:110) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:110) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 1369 bytes to client @ 10.0.2.15:49939
+[Proxy Recording  (1508:1cb4)] Received response of 295 header and 3117 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q108
+[Network Analyzer (1508:1cb4)]   (Sid:111) Client -> Server @ : 1708 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q108"   
+[Network Analyzer (1508:1cb4)]   (Sid:111) Client -> Server @ : 1537 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:111) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:111) Server -> Client : 3117 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 3117 bytes to client @ 10.0.2.15:49941
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49943
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/live/ws ...
+[Web Request      (1508:143c)] "GET https://dev-boomq.pflb.ru/grafana/api/live/ws"   
+[Network Analyzer (1508:143c)]   (Sid:112) Client -> Server @ : 1384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:112) Server -> Client : 160 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49946
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/live/ws ...
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/api/live/ws"   
+[Network Analyzer (1508: 914)]   (Sid:113) Client -> Server @ : 1384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:113) Server -> Client : 160 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent choose_details [Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49949
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49950
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49951
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49952
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49954
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 1c4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 1c4)] Received response of 288 header and 396 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:143c)] Received response of 288 header and 481 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Network Analyzer (1508: 1c4)]   (Sid:114) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: 1c4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508: 1c4)]   (Sid:114) Client -> Server @ : 276 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid:114) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 1c4)]   (Sid:114) Server -> Client : 396 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 1c4)] Sent 396 bytes to client @ 10.0.2.15:49949
+[Network Analyzer (1508:143c)]   (Sid:115) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:143c)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:143c)]   (Sid:115) Client -> Server @ : 352 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:115) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:115) Server -> Client : 481 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 481 bytes to client @ 10.0.2.15:49950
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49959
+[Proxy Recording  (1508:1fb4)] Received response of 288 header and 501 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49960
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49961
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49962
+[Network Analyzer (1508:1fb4)]   (Sid:116) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Received response of 288 header and 492 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Web Request      (1508:1fb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:1fb4)]   (Sid:116) Client -> Server @ : 346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:116) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:116) Server -> Client : 501 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (1508:1fb4)] 
+[Network Analyzer (1508:1cb4)]   (Sid:117) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:1cb4)]   (Sid:117) Client -> Server @ : 346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:117) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:117) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (1508:1cb4)] 
+[Proxy Recording  (1508: ef0)] Received response of 288 header and 536 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Network Analyzer (1508: ef0)]   (Sid:118) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: ef0)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508: ef0)]   (Sid:118) Client -> Server @ : 374 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:118) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:118) Server -> Client : 536 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (1508: ef0)] 
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Proxy Recording  (1508:1248)] Received response of 288 header and 481 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Network Analyzer (1508:1248)]   (Sid:119) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:1248)]   (Sid:119) Client -> Server @ : 352 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:119) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Received response of 288 header and 501 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query ...
+[Network Analyzer (1508:1248)]   (Sid:119) Server -> Client : 481 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 481 bytes to client @ 10.0.2.15:49959
+[Network Analyzer (1508: 914)]   (Sid:120) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: 914)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508: 914)]   (Sid:120) Client -> Server @ : 346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:120) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:120) Server -> Client : 501 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 501 bytes to client @ 10.0.2.15:49960
+[Proxy Recording  (1508:143c)] Received response of 288 header and 492 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Network Analyzer (1508:143c)]   (Sid:121) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:143c)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:143c)]   (Sid:121) Client -> Server @ : 346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:121) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Received response of 288 header and 536 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query
+[Network Analyzer (1508:143c)]   (Sid:121) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 492 bytes to client @ 10.0.2.15:49961
+[Network Analyzer (1508:1fb4)]   (Sid:122) Client -> Server @ : 1604 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1fb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query"   
+[Network Analyzer (1508:1fb4)]   (Sid:122) Client -> Server @ : 374 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:122) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:122) Server -> Client : 536 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 536 bytes to client @ 10.0.2.15:49962
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49967
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49968
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49969
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49970
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49971
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ105 ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ104 ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ105 ...
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q109 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q110 ...
+[Proxy Recording  (1508: 914)] Received response of 286 header and 2 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ104 ...
+[Web Request      (1508: 914)] "GET https://dev-boomq.pflb.ru/grafana/api/annotations?from=1725025849608&to=1725029449608&limit=100&matchAny=false&dashboardUID=bcaa301e-43a6-4e16-b830-690fbeb62b4c"   
+[Proxy Recording  (1508:1248)] Received response of 288 header and 340 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ105
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q109 ...
+[Network Analyzer (1508: 914)]   (Sid:123) Client -> Server @ : 1550 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:123) Server -> Client : 303 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:123) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 2 bytes to client @ 10.0.2.15:49967
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49977
+[Network Analyzer (1508:1248)]   (Sid:124) Client -> Server @ : 1637 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=AQ105"   
+[Network Analyzer (1508:1248)]   (Sid:124) Client -> Server @ : 366 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:124) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:124) Server -> Client : 340 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 340 bytes to client @ 10.0.2.15:49969
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49979
+[Proxy Recording  (1508:143c)] Received response of 288 header and 617 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=AQ104
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q110 ...
+[Network Analyzer (1508:143c)]   (Sid:125) Client -> Server @ : 1637 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:143c)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=AQ104"   
+[Network Analyzer (1508:143c)]   (Sid:125) Client -> Server @ : 370 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Received response of 288 header and 530 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q109
+[Network Analyzer (1508:143c)]   (Sid:125) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:125) Server -> Client : 617 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 617 bytes to client @ 10.0.2.15:49968
+[Network Analyzer (1508:1fb4)]   (Sid:126) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49981
+[Web Request      (1508:1fb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q109"   
+[Network Analyzer (1508:1fb4)]   (Sid:126) Client -> Server @ : 477 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:126) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:126) Server -> Client : 530 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 530 bytes to client @ 10.0.2.15:49970
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49983
+[Proxy Recording  (1508:1cb4)] Received response of 288 header and 538 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q110
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q111 ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q111 ...
+[Network Analyzer (1508:1cb4)]   (Sid:127) Client -> Server @ : 1707 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q110"   
+[Network Analyzer (1508:1cb4)]   (Sid:127) Client -> Server @ : 483 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q112 ...
+[Proxy Recording  (1508:1248)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q112 ...
+[Network Analyzer (1508:1cb4)]   (Sid:127) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:127) Server -> Client : 538 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 538 bytes to client @ 10.0.2.15:49971
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49985
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q113 ...
+[Proxy Recording  (1508: ef0)] Received response of 288 header and 529 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q111
+[Proxy Recording  (1508: 914)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q113 ...
+[Proxy Recording  (1508:1248)] Received response of 288 header and 525 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q112
+[Network Analyzer (1508: ef0)]   (Sid:128) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q114 ...
+[Web Request      (1508: ef0)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q111"   
+[Proxy Recording  (1508:1fb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q114 ...
+[Network Analyzer (1508: ef0)]   (Sid:128) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:128) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:128) Server -> Client : 529 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 529 bytes to client @ 10.0.2.15:49977
+[Network Analyzer (1508:1248)]   (Sid:129) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1248)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q112"   
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49987
+[Network Analyzer (1508:1248)]   (Sid:129) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:129) Server -> Client : 305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1248)]   (Sid:129) Server -> Client : 525 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1248)] Sent 525 bytes to client @ 10.0.2.15:49979
+[Proxy Recording  (1508: bb4)] Client request from @ 10.0.2.15:49989
+[Proxy Recording  (1508: 914)] Received response of 289 header and 1031 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q113
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q115 ...
+[Proxy Recording  (1508:1cb4)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q115 ...
+[Network Analyzer (1508: 914)]   (Sid:130) Client -> Server @ : 1706 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: 914)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q113"   
+[Network Analyzer (1508: 914)]   (Sid:130) Client -> Server @ : 916 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: 914)]   (Sid:130) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Received response of 295 header and 2710 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q114
+[Network Analyzer (1508: 914)]   (Sid:130) Server -> Client : 1031 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: 914)] Sent 1031 bytes to client @ 10.0.2.15:49981
+[Network Analyzer (1508:1fb4)]   (Sid:131) Client -> Server @ : 1708 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1fb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q114"   
+[Network Analyzer (1508:1fb4)]   (Sid:131) Client -> Server @ : 1425 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:131) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1fb4)]   (Sid:131) Server -> Client : 2710 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1fb4)] Sent 2710 bytes to client @ 10.0.2.15:49983
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q116 ...
+[Proxy Recording  (1508:143c)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q116 ...
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q117 ...
+[Proxy Recording  (1508:1cb4)] Received response of 295 header and 2099 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q115
+[Proxy Recording  (1508: ef0)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q117 ...
+[Network Analyzer (1508:1cb4)]   (Sid:132) Client -> Server @ : 1708 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:1cb4)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q115"   
+[Network Analyzer (1508:1cb4)]   (Sid:132) Client -> Server @ : 1460 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:132) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:1cb4)]   (Sid:132) Server -> Client : 2099 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:1cb4)] Sent 2099 bytes to client @ 10.0.2.15:49985
+[Proxy Recording  (1508:143c)] Received response of 289 header and 1369 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q116
+[Network Analyzer (1508:143c)]   (Sid:133) Client -> Server @ : 1707 bytes (SSL)(Service=HTTP)
+[Web Request      (1508:143c)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q116"   
+[Network Analyzer (1508:143c)]   (Sid:133) Client -> Server @ : 756 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1508: ef0)] Received response of 295 header and 3117 body bytes from https://dev-boomq.pflb.ru:443/grafana/api/ds/query?ds_type=postgres&requestId=Q117
+[Network Analyzer (1508:143c)]   (Sid:133) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508:143c)]   (Sid:133) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508:143c)] Sent 1369 bytes to client @ 10.0.2.15:49987
+[Network Analyzer (1508: ef0)]   (Sid:134) Client -> Server @ : 1708 bytes (SSL)(Service=HTTP)
+[Web Request      (1508: ef0)] "POST https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=Q117"   
+[Network Analyzer (1508: ef0)]   (Sid:134) Client -> Server @ : 1537 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:134) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1508: ef0)]   (Sid:134) Server -> Client : 3117 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1508: ef0)] Sent 3117 bytes to client @ 10.0.2.15:49989

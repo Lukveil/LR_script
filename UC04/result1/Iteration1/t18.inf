@@ -1,0 +1,13 @@
+[t18]
+SnapshotXmlFile=snapshot_17.xml
+ContentType=application/json
+StepName=Custom Request: slaReportProfile_2
+Total=1
+FileName1=t18.json
+RequestHeaderFile=t18_RequestHeader.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+RawStepEndTime=1725035297540
+RawStepName=slaReportProfile_2
+RequestBodyFile=t18_RequestBody.txt
+RawStepStartTime=1725035297480
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile

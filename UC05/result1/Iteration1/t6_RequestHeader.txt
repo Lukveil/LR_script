@@ -1,0 +1,17 @@
+GET /auth-srv/teamMember/teamContext?teamId=14 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6dHJ1ZSwidXNlcl9pZCI6MjI3NzQsInVzZXJfbmFtZSI6Imdyb3VwNHVzZXIyNzAxQHBvY2h0YS5ydSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTcyNTA0Nzk5NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6Ijc4YWVhOTZlLWM2ZTEtNDAwMy04NDg3LTI5MzY3ZTFlNDhhZSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.yBL5HwSgkdtoHHMyxemN2nTmJg1z1O9j3_YhgPQ-aw2q8TRiKDyFYfT4Ev6Nzo2d2vq17nuy_aPDAjV6ic98euiGTAjvQj27DwsAfe9uNQSCMkO_Ea7vbCF5IbWxGQDi0SJEBObTHxa5Uq4GHIEoYTEXBLxgBjReR40PQBaORomYhDTdWWYikVMWIKWIOovaDcz75Nar0W3pASqFKQB93Eqe0g-6Z5JIQdwOlAVmHbcCQEY-hGkDDIYOBLe6xbb0FuJRWwADZRps-rCNvwEYQzokGx8elN79Fnu5SKWlWMRXWI0dLuF2arA0EAbOj7rKmHhyZsqtOW3T_qE5-4Lv0w
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6,de;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: dev-boomq.pflb.ru
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6dHJ1ZSwidXNlcl9pZCI6MjI3NzQsInVzZXJfbmFtZSI6Imdyb3VwNHVzZXIyNzAxQHBvY2h0YS5ydSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJFTiIsImV4cCI6MTcyNTA0Nzk5NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6Ijc4YWVhOTZlLWM2ZTEtNDAwMy04NDg3LTI5MzY3ZTFlNDhhZSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.yBL5HwSgkdtoHHMyxemN2nTmJg1z1O9j3_YhgPQ-aw2q8TRiKDyFYfT4Ev6Nzo2d2vq17nuy_aPDAjV6ic98euiGTAjvQj27DwsAfe9uNQSCMkO_Ea7vbCF5IbWxGQDi0SJEBObTHxa5Uq4GHIEoYTEXBLxgBjReR40PQBaORomYhDTdWWYikVMWIKWIOovaDcz75Nar0W3pASqFKQB93Eqe0g-6Z5JIQdwOlAVmHbcCQEY-hGkDDIYOBLe6xbb0FuJRWwADZRps-rCNvwEYQzokGx8elN79Fnu5SKWlWMRXWI0dLuF2arA0EAbOj7rKmHhyZsqtOW3T_qE5-4Lv0w
+

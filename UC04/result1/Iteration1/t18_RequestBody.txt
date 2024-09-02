@@ -1,0 +1,8 @@
+"{"name":"30.08.2024 20:28:17_trend_report","projectId":15070,"chartProfileList":[{"slaTypeList"
+"":[{"fromDate":0,"restrictionType":"AVERAGE","targetType":"TEST","toDate":180,"type":"GENERAL_"
+"SLA_TYPE"},{"fromDate":0,"restrictionType":"THROUGHPUT","targetType":"TEST","toDate":180,"type"
+"":"GENERAL_SLA_TYPE"}],"orderInReport":0}],"tableProfileList":[{"tableId":null,"slaTypeList":["
+"{"fromDate":0,"restrictionType":"AVERAGE","targetType":"TEST","toDate":180,"type":"GENERAL_SLA"
+"_TYPE"},{"fromDate":0,"restrictionType":"THROUGHPUT","targetType":"TEST","toDate":180,"type":""
+"GENERAL_SLA_TYPE"}],"valueType":"VALUE","orderInReport":1}],"testFilterExpressionList":[{"type"
+"":"TEST_ID_EXPRESSION","testIdList":[18504,18503]}]}"

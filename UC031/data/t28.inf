@@ -1,0 +1,13 @@
+[t28]
+FileName1=t28.json
+URL1=https://dev-boomq.pflb.ru/grafana/api/ds/query
+Total=2
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=t28_RequestBody.txt
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_28.xml
+FileName2=t28_grafanaPlugin.aee8494db4c836362107.html
+URL2=https://dev-boomq.pflb.ru/grafana/public/build/grafanaPlugin.aee8494db4c836362107.js
+[ProtocolInfo]
+ProtocolId=QTWeb

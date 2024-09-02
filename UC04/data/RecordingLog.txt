@@ -1,0 +1,1589 @@
+[API Trapper      (1ee8:3338)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (3af8: 428)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3af8: 428)] Load Network Traffic Analyzers:
+[Network Analyzer (3af8: 428)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3af8: 428)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3af8: 428)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3af8: 428)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3af8: 428)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3af8: 428)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3af8: 428)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3af8: 428)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (3af8: 428)] Started proxy on port 8889 listening IP 172.23.16.1, 127.0.0.1, in synchronous mode
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10814
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10815
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10816
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10817
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10818
+[Proxy Recording  (3af8:422c)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (3af8:422c)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (3af8:422c)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128
+[Web Request      (3af8:422c)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=128"   
+[Network Analyzer (3af8:422c)]   (Sid:  1) Client -> Server @ : 508 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:422c)]   (Sid:  1) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:422c)] Sent 0 bytes to client @ 172.23.16.1:10814
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10821
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10822
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10823
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10824
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10825
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10826
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10827
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10828
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10829
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10830
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10831
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10832
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10833
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10834
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10835
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:1c70)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:1c70)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8: f0c)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8: f0c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:42b4)] Exception is caught while trying to connect to https://www.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:42b4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:2664)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:2664)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:422c)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:422c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while trying to connect to https://www.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:3c90)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Authentication failed because the remote party has closed the transport stream.
+[Proxy Recording.Error (3af8:3df4)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:35e8)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:3c90)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:33b8)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:3df4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:361c)] Exception is caught while trying to connect to https://optimizationguide-pa.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3af8:35e8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:33b8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:361c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:17ec)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:YmjVh0vrvOW4M9s9qTh5Ga43eKnbjsatZkPLlN3-CzE&cup2hreq=a600460354ba0452fe180722083a07aa34af9258b9798ffa66dcbd414ac27c4b ...
+[Proxy Recording  (3af8:3940)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (3af8:42b4)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3af8:1c70)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc ...
+[Proxy Recording  (3af8:1c70)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc ...
+[Proxy Recording  (3af8: f0c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3af8:17ec)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:YmjVh0vrvOW4M9s9qTh5Ga43eKnbjsatZkPLlN3-CzE&cup2hreq=a600460354ba0452fe180722083a07aa34af9258b9798ffa66dcbd414ac27c4b ...
+[Proxy Recording  (3af8:42b4)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:3940)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (3af8: f0c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:1c70)] Received response of 675 header and 337 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc
+[Proxy Recording  (3af8:17ec)] Received response of 1131 header and 302 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:YmjVh0vrvOW4M9s9qTh5Ga43eKnbjsatZkPLlN3-CzE&cup2hreq=a600460354ba0452fe180722083a07aa34af9258b9798ffa66dcbd414ac27c4b
+[Web Request      (3af8:1c70)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.85&lang=ru&acceptformat=crx3,puff&x=id%3Dcffjjlhdhdcmaailglcedackabgpjbfa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D0%2526dr%253D1&x=id%3Dgekjjfhbnbhfgmnmkocnnfapjpdcpbok%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D3%2526e%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc"   
+[Network Analyzer (3af8:1c70)]   (Sid:  2) Client -> Server @ : 1078 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:1c70)]   (Sid:  2) Server -> Client : 664 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Received response of 466 header and 398 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (3af8:1c70)]   (Sid:  2) Server -> Client : 337 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:1c70)] Sent 337 bytes to client @ 172.23.16.1:10831
+[Network Analyzer (3af8:17ec)]   (Sid:  3) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:17ec)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:YmjVh0vrvOW4M9s9qTh5Ga43eKnbjsatZkPLlN3-CzE&cup2hreq=a600460354ba0452fe180722083a07aa34af9258b9798ffa66dcbd414ac27c4b"   
+[Network Analyzer (3af8:17ec)]   (Sid:  3) Client -> Server @ : 1823 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:17ec)]   (Sid:  3) Server -> Client : 1120 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:17ec)]   (Sid:  3) Server -> Client : 302 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:17ec)] Sent 302 bytes to client @ 172.23.16.1:10834
+[Network Analyzer (3af8:2664)]   (Sid:  4) Client -> Server @ : 485 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:2664)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (3af8:2664)]   (Sid:  4) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid:  4) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid:  4) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 398 bytes to client @ 172.23.16.1:10835
+[Proxy Recording  (3af8:3940)] Received response of 2932 header and 252 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10848
+[Network Analyzer (3af8:3940)]   (Sid:  5) Client -> Server @ : 4150 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:3940)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (3af8:3940)]   (Sid:  5) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3940)]   (Sid:  5) Server -> Client : 2921 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3940)]   (Sid:  5) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:42b4)] Received response of 370 header and 190 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Proxy Recording  (3af8:3940)] Sent 252 bytes to client @ 172.23.16.1:10830
+[Network Analyzer (3af8:42b4)]   (Sid:  6) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:42b4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8:42b4)]   (Sid:  6) Client -> Server @ : 50 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:42b4)]   (Sid:  6) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:42b4)]   (Sid:  6) Server -> Client : 190 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:42b4)] Sent 190 bytes to client @ 172.23.16.1:10833
+[Proxy Recording  (3af8: f0c)] Received response of 370 header and 199 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3af8: f0c)]   (Sid:  7) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: f0c)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8: f0c)]   (Sid:  7) Client -> Server @ : 59 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: f0c)]   (Sid:  7) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: f0c)]   (Sid:  7) Server -> Client : 199 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: f0c)] Sent 199 bytes to client @ 172.23.16.1:10832
+[Proxy Recording  (3af8:33b8)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:33b8)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:33b8)] Received response of 591 header and 1663 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:33b8)]   (Sid:  8) Client -> Server @ : 1086 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:33b8)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:33b8)]   (Sid:  8) Client -> Server @ : 1011 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:33b8)]   (Sid:  8) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:33b8)]   (Sid:  8) Server -> Client : 1663 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:33b8)] Sent 1663 bytes to client @ 172.23.16.1:10848
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10851
+[Proxy Recording  (3af8:17ec)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:17ec)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:17ec)] Received response of 591 header and 441 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:17ec)]   (Sid:  9) Client -> Server @ : 1062 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:17ec)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:17ec)]   (Sid:  9) Client -> Server @ : 1444 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:17ec)]   (Sid:  9) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:17ec)]   (Sid:  9) Server -> Client : 441 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:17ec)] Sent 441 bytes to client @ 172.23.16.1:10851
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10853
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3af8:3c88)] Received response of 370 header and 2695 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Network Analyzer (3af8:3c88)]   (Sid: 10) Client -> Server @ : 643 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:3c88)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3af8:3c88)]   (Sid: 10) Client -> Server @ : 1144 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 10) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 10) Server -> Client : 2695 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3c88)] Sent 2695 bytes to client @ 172.23.16.1:10853
+[User action                 ] StartTransactionEvent UC04_TR01_login [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10855
+[Proxy Recording  (3af8:422c)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (3af8:422c)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (3af8:422c)] Received response of 841 header and 234 body bytes from https://worldtimeapi.org:443/api/ip
+[Web Request      (3af8:422c)] "GET https://worldtimeapi.org/api/ip"   
+[Network Analyzer (3af8:422c)]   (Sid: 11) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:422c)]   (Sid: 11) Server -> Client : 858 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:422c)]   (Sid: 11) Server -> Client : 234 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:422c)] Sent 234 bytes to client @ 172.23.16.1:10855
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10858
+[Proxy Recording  (3af8: f0c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (3af8: f0c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (3af8: f0c)] Received response of 1876 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer (3af8: f0c)]   (Sid: 12) Client -> Server @ : 787 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: f0c)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer (3af8: f0c)]   (Sid: 12) Client -> Server @ : 363 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: f0c)]   (Sid: 12) Server -> Client : 1891 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: f0c)] Sent 0 bytes to client @ 172.23.16.1:10858
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10861
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10862
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10865
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10867
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10868
+[Proxy Recording  (3af8:33b8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:33b8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:17ec)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3af8:17ec)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (3af8:3c90)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:3c90)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:3c88)] Received response of 438 header and 66848 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Web Request      (3af8:3c88)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (3af8:3c88)]   (Sid: 13) Client -> Server @ : 2034 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3af8:17ec)] Received response of 466 header and 411 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (3af8:3c88)]   (Sid: 13) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 13) Server -> Client : 66848 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3c88)] Sent 66848 bytes to client @ 172.23.16.1:10867
+[Proxy Recording  (3af8:361c)] Received response of 475 header and 152 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Proxy Recording  (3af8:33b8)] Received response of 370 header and 197 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3af8:17ec)]   (Sid: 14) Client -> Server @ : 461 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:17ec)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (3af8:17ec)]   (Sid: 14) Client -> Server @ : 298 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:17ec)]   (Sid: 14) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:17ec)]   (Sid: 14) Server -> Client : 411 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:17ec)] Sent 411 bytes to client @ 172.23.16.1:10862
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10872
+[Proxy Recording  (3af8:3c90)] Received response of 370 header and 206 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Web Request      (3af8:361c)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (3af8:361c)]   (Sid: 15) Client -> Server @ : 2024 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 15) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 15) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:361c)] Sent 152 bytes to client @ 172.23.16.1:10868
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10873
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10874
+[Network Analyzer (3af8:33b8)]   (Sid: 16) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:33b8)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8:33b8)]   (Sid: 16) Client -> Server @ : 57 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:33b8)]   (Sid: 16) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:33b8)]   (Sid: 16) Server -> Client : 197 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:33b8)] Sent 197 bytes to client @ 172.23.16.1:10861
+[Network Analyzer (3af8:3c90)]   (Sid: 17) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:3c90)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8:3c90)]   (Sid: 17) Client -> Server @ : 66 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3c90)]   (Sid: 17) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3c90)]   (Sid: 17) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3c90)] Sent 206 bytes to client @ 172.23.16.1:10865
+[Proxy Recording  (3af8:3940)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (3af8:3940)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (3af8:422c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:422c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:3940)] Received response of 475 header and 2 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Web Request      (3af8:3940)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer (3af8:3940)]   (Sid: 18) Client -> Server @ : 2036 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3940)]   (Sid: 18) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3940)]   (Sid: 18) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3940)] Sent 2 bytes to client @ 172.23.16.1:10873
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10878
+[Proxy Recording  (3af8:1c70)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/14 ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/14 ...
+[Proxy Recording  (3af8:35e8)] Received response of 475 header and 271 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team/14
+[Web Request      (3af8:35e8)] "GET https://dev-boomq.pflb.ru/auth-srv/team/14"   
+[Network Analyzer (3af8:35e8)]   (Sid: 19) Client -> Server @ : 2027 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 19) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 19) Server -> Client : 271 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Sent 271 bytes to client @ 172.23.16.1:10878
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10881
+[Proxy Recording  (3af8:1c70)] Trying to connect to https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle ...
+[Proxy Recording  (3af8:42b4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14 ...
+[Proxy Recording  (3af8:42b4)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14 ...
+[Proxy Recording  (3af8:42b4)] Received response of 2907 header and 302 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=14
+[Web Request      (3af8:42b4)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=14"   
+[Network Analyzer (3af8:42b4)]   (Sid: 20) Client -> Server @ : 3260 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:42b4)]   (Sid: 20) Server -> Client : 2894 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:42b4)]   (Sid: 20) Server -> Client : 302 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:42b4)] Sent 302 bytes to client @ 172.23.16.1:10881
+[Proxy Recording  (3af8:1c70)] Received response of 370 header and 3961 body bytes from https://passwordsleakcheck-pa.googleapis.com:443/v1/leaks:lookupSingle
+[Network Analyzer (3af8:1c70)]   (Sid: 21) Client -> Server @ : 864 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:1c70)] "POST https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle"   
+[Network Analyzer (3af8:1c70)]   (Sid: 21) Client -> Server @ : 45 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:1c70)]   (Sid: 21) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:1c70)]   (Sid: 21) Server -> Client : 3961 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:1c70)] Sent 3961 bytes to client @ 172.23.16.1:10872
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10883
+[Proxy Recording  (3af8:3c90)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (3af8:3c90)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (3af8:3c90)] Received response of 363 header and 531 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (3af8:3c90)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (3af8:3c90)]   (Sid: 22) Client -> Server @ : 2549 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3c90)]   (Sid: 22) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3c90)]   (Sid: 22) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3c90)] Sent 531 bytes to client @ 172.23.16.1:10883
+[Proxy Recording  (3af8:422c)] Received response of 591 header and 611 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:422c)]   (Sid: 23) Client -> Server @ : 1062 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:422c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:422c)]   (Sid: 23) Client -> Server @ : 2390 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:422c)]   (Sid: 23) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:422c)]   (Sid: 23) Server -> Client : 611 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:422c)] Sent 611 bytes to client @ 172.23.16.1:10874
+[User action                 ] EndTransactionEvent UC04_TR01_login [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10885
+[Proxy Recording  (3af8:361c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:361c)] Received response of 591 header and 375 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:361c)]   (Sid: 24) Client -> Server @ : 1062 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:361c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:361c)]   (Sid: 24) Client -> Server @ : 1351 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 24) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 24) Server -> Client : 375 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:361c)] Sent 375 bytes to client @ 172.23.16.1:10885
+[Proxy Recording.Error (3af8:23c8)] Exception is caught while connecting to , message=Index was outside the bounds of the array.
+[User action                 ] StartTransactionEvent UC04_TR02_trend_page [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10888
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10890
+[Proxy Recording  (3af8:2664)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:2664)] Received response of 438 header and 1169 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile
+[Web Request      (3af8:2664)] "GET https://dev-boomq.pflb.ru/test-srv/slaReportProfile"   
+[Network Analyzer (3af8:2664)]   (Sid: 25) Client -> Server @ : 2546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 25) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 25) Server -> Client : 1169 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 1169 bytes to client @ 172.23.16.1:10890
+[Proxy Recording  (3af8:35e8)] Received response of 370 header and 215 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3af8:35e8)]   (Sid: 26) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:35e8)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8:35e8)]   (Sid: 26) Client -> Server @ : 77 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 26) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 26) Server -> Client : 215 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Sent 215 bytes to client @ 172.23.16.1:10888
+[User action                 ] EndTransactionEvent UC04_TR02_trend_page [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10892
+[Proxy Recording  (3af8:23c8)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:23c8)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:23c8)] Received response of 591 header and 407 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:23c8)]   (Sid: 27) Client -> Server @ : 1062 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:23c8)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:23c8)]   (Sid: 27) Client -> Server @ : 1511 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 27) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 27) Server -> Client : 407 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:23c8)] Sent 407 bytes to client @ 172.23.16.1:10892
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10894
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10896
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10897
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3af8:23c8)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:cNBsf1HC8Ov-yprtaK4WGQmbNisJHTpjXwHkIWGWyXo&cup2hreq=cbbfb2437d279b85481091a980fec5be6b045937745fa6c6c58aacfe6f13b42d ...
+[Proxy Recording  (3af8:23c8)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:cNBsf1HC8Ov-yprtaK4WGQmbNisJHTpjXwHkIWGWyXo&cup2hreq=cbbfb2437d279b85481091a980fec5be6b045937745fa6c6c58aacfe6f13b42d ...
+[Proxy Recording  (3af8:2664)] Received response of 299 header and 22 body bytes from https://clients4.google.com:443/ukm
+[Web Request      (3af8:2664)] "POST https://clients4.google.com/ukm"
+[Network Analyzer (3af8:2664)]   (Sid: 28) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (3af8:2664)]   (Sid: 28) Client -> Server @ : 9499 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 28) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 28) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 22 bytes to client @ 172.23.16.1:10896
+[Proxy Recording  (3af8:23c8)] Received response of 1135 header and 930 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:cNBsf1HC8Ov-yprtaK4WGQmbNisJHTpjXwHkIWGWyXo&cup2hreq=cbbfb2437d279b85481091a980fec5be6b045937745fa6c6c58aacfe6f13b42d
+[Network Analyzer (3af8:35e8)]   (Sid: 29) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:35e8)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (3af8:35e8)]   (Sid: 29) Client -> Server @ : 1279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 29) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 29) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Sent 22 bytes to client @ 172.23.16.1:10894
+[Web Request      (3af8:23c8)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:cNBsf1HC8Ov-yprtaK4WGQmbNisJHTpjXwHkIWGWyXo&cup2hreq=cbbfb2437d279b85481091a980fec5be6b045937745fa6c6c58aacfe6f13b42d"
+[Network Analyzer (3af8:23c8)]   (Sid: 30) Client -> Server @ : 1339 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 30) Client -> Server @ : 8430 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 30) Server -> Client : 1124 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 30) Server -> Client : 930 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:23c8)] Sent 930 bytes to client @ 172.23.16.1:10897
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10900
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10901
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10903
+[Proxy Recording  (3af8:361c)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://clients4.google.com:443/ukm ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:361c)] Received response of 299 header and 22 body bytes from https://clients4.google.com:443/ukm
+[Web Request      (3af8:361c)] "POST https://clients4.google.com/ukm"
+[Network Analyzer (3af8:361c)]   (Sid: 31) Client -> Server @ : 581 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 31) Client -> Server @ : 19068 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 31) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (3af8:361c)]   (Sid: 31) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:361c)] Sent 22 bytes to client @ 172.23.16.1:10901
+[Network Analyzer (3af8:2664)]   (Sid: 32) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:2664)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (3af8:2664)]   (Sid: 32) Client -> Server @ : 2857 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 32) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 32) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 22 bytes to client @ 172.23.16.1:10903
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10905
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:35e8)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3af8:35e8)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3af8:35e8)]   (Sid: 33) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 33) Client -> Server @ : 47503 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 33) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 33) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Sent 22 bytes to client @ 172.23.16.1:10905
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10907
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:2664)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3af8:2664)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3af8:2664)]   (Sid: 34) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 34) Client -> Server @ : 48893 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 34) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 34) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 22 bytes to client @ 172.23.16.1:10907
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10909
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:35e8)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3af8:35e8)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3af8:35e8)]   (Sid: 35) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 35) Client -> Server @ : 16527 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 35) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 35) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Sent 22 bytes to client @ 172.23.16.1:10909
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10911
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3af8:3c88)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3af8:3c88)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3af8:3c88)]   (Sid: 36) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 36) Client -> Server @ : 64918 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 36) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 36) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3c88)] Sent 22 bytes to client @ 172.23.16.1:10911
+[User action                 ] StartTransactionEvent UC04_TR03_click_new_report [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10913
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10915
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10917
+[Proxy Recording  (3af8:2664)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/arrow.659530470e6be7b696f0d3d15a3179f5.svg ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://dev-boomq.pflb.ru:443/static/media/arrow.659530470e6be7b696f0d3d15a3179f5.svg ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:35e8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:2664)] Received response of 262 header and 2176 body bytes from https://dev-boomq.pflb.ru:443/static/media/arrow.659530470e6be7b696f0d3d15a3179f5.svg
+[Web Request      (3af8:2664)] "GET https://dev-boomq.pflb.ru/static/media/arrow.659530470e6be7b696f0d3d15a3179f5.svg"   
+[Network Analyzer (3af8:2664)]   (Sid: 37) Client -> Server @ : 1361 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 37) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 37) Server -> Client : 2176 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 2176 bytes to client @ 172.23.16.1:10915
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10919
+[Proxy Recording  (3af8:35e8)] Received response of 370 header and 219 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3af8:35e8)]   (Sid: 38) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:35e8)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8:35e8)]   (Sid: 38) Client -> Server @ : 81 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 38) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:35e8)]   (Sid: 38) Server -> Client : 219 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:35e8)] Sent 219 bytes to client @ 172.23.16.1:10913
+[Proxy Recording  (3af8:361c)] Received response of 438 header and 106168 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999
+[Web Request      (3af8:361c)] "GET https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&size=999"   
+[Network Analyzer (3af8:361c)]   (Sid: 39) Client -> Server @ : 2576 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 39) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 39) Server -> Client : 106168 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:361c)] Sent 106168 bytes to client @ 172.23.16.1:10917
+[Proxy Recording  (3af8:23c8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCeIJfgvZfuZXEgUNS_M-liEg1JC266aARw==?alt=proto ...
+[Proxy Recording  (3af8:23c8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCeIJfgvZfuZXEgUNS_M-liEg1JC266aARw==?alt=proto ...
+[Proxy Recording  (3af8:23c8)] Received response of 416 header and 36 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCeIJfgvZfuZXEgUNS_M-liEg1JC266aARw==?alt=proto
+[Web Request      (3af8:23c8)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCeIJfgvZfuZXEgUNS_M-liEg1JC266aARw==?alt=proto"   
+[Network Analyzer (3af8:23c8)]   (Sid: 40) Client -> Server @ : 732 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 40) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:23c8)]   (Sid: 40) Server -> Client : 36 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:23c8)] Sent 36 bytes to client @ 172.23.16.1:10919
+[User action                 ] EndTransactionEvent UC04_TR03_click_new_report [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10922
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:2664)] Received response of 591 header and 409 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:2664)]   (Sid: 41) Client -> Server @ : 1062 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:2664)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:2664)]   (Sid: 41) Client -> Server @ : 1563 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 41) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 41) Server -> Client : 409 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 409 bytes to client @ 172.23.16.1:10922
+[User action                 ] StartTransactionEvent UC04_TR04_fill_data [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10924
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED ...
+[Proxy Recording  (3af8:3c88)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED ...
+[Proxy Recording  (3af8:3c88)] Received response of 438 header and 84053 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED
+[Web Request      (3af8:3c88)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED"   
+[Network Analyzer (3af8:3c88)]   (Sid: 42) Client -> Server @ : 2618 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 42) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:3c88)]   (Sid: 42) Server -> Client : 84053 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:3c88)] Sent 84053 bytes to client @ 172.23.16.1:10924
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10926
+[Proxy Recording.Error (3af8:2664)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10927
+[Proxy Recording  (3af8:361c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList ...
+[Proxy Recording  (3af8:361c)] Received response of 438 header and 208 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList
+[Network Analyzer (3af8:361c)]   (Sid: 43) Client -> Server @ : 2651 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:361c)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/slaTypeList"   
+[Network Analyzer (3af8:361c)]   (Sid: 43) Client -> Server @ : 105 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 43) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 43) Server -> Client : 208 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:361c)] Sent 208 bytes to client @ 172.23.16.1:10927
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10929
+[Proxy Recording  (3af8:2664)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8:2664)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10931
+[Proxy Recording  (3af8:2664)] Received response of 438 header and 888 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10932
+[Proxy Recording  (3af8:361c)] Trying to connect to http://91.105.192.100:80/api ...
+[Network Analyzer (3af8:2664)]   (Sid: 44) Client -> Server @ : 2653 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:2664)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8:2664)]   (Sid: 44) Client -> Server @ : 149 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 44) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2664)]   (Sid: 44) Server -> Client : 888 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2664)] Sent 888 bytes to client @ 172.23.16.1:10929
+[Proxy Recording  (3af8:361c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10934
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10935
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:2664)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:2664)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10937
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10938
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:402c)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] EndTransactionEvent UC04_TR04_fill_data [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10939
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10940
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:3c88)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10941
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10942
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:26f4)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10943
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10944
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:3f20)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] StartTransactionEvent UC04_TR05_fill_data_graph_table [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10945
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10947
+[Proxy Recording.Error (3af8:2d08)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10948
+[Proxy Recording.Error (3af8:2d08)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 3cc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 3cc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: b9c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8: 3cc)] Received response of 438 header and 1387 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (3af8: 3cc)]   (Sid: 45) Client -> Server @ : 2653 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: 3cc)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8: 3cc)]   (Sid: 45) Client -> Server @ : 246 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 3cc)]   (Sid: 45) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 3cc)]   (Sid: 45) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 3cc)] Sent 1387 bytes to client @ 172.23.16.1:10945
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10949
+[Proxy Recording  (3af8:411c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8:411c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8:411c)] Received response of 438 header and 1833 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (3af8:411c)]   (Sid: 46) Client -> Server @ : 2653 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:411c)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8:411c)]   (Sid: 46) Client -> Server @ : 351 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:411c)]   (Sid: 46) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:411c)]   (Sid: 46) Server -> Client : 1833 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:411c)] Sent 1833 bytes to client @ 172.23.16.1:10949
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10951
+[Proxy Recording  (3af8: 3cc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 3cc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 3cc)] Received response of 438 header and 1628 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (3af8: 3cc)]   (Sid: 47) Client -> Server @ : 2653 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: 3cc)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8: 3cc)]   (Sid: 47) Client -> Server @ : 288 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 3cc)]   (Sid: 47) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 3cc)]   (Sid: 47) Server -> Client : 1628 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 3cc)] Sent 1628 bytes to client @ 172.23.16.1:10951
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10953
+[Proxy Recording.Error (3af8:411c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10954
+[Proxy Recording.Error (3af8:411c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 3cc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10955
+[Proxy Recording  (3af8:2d08)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8:2d08)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8:2d08)] Received response of 438 header and 2230 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (3af8:2d08)]   (Sid: 48) Client -> Server @ : 2653 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:2d08)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8:2d08)]   (Sid: 48) Client -> Server @ : 393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:2d08)]   (Sid: 48) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:2d08)]   (Sid: 48) Server -> Client : 2230 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:2d08)] Sent 2230 bytes to client @ 172.23.16.1:10955
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10957
+[Proxy Recording.Error (3af8:411c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10958
+[Proxy Recording.Error (3af8:411c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:2d08)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] EndTransactionEvent UC04_TR05_fill_data_graph_table [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10959
+[Proxy Recording.Error (3af8:411c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10960
+[Proxy Recording.Error (3af8:411c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10961
+[Proxy Recording.Error (3af8:411c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10962
+[Proxy Recording.Error (3af8:411c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] StartTransactionEvent UC04_TR06_change_name [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10963
+[Proxy Recording  (3af8:411c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEg1JC266aARw==?alt=proto ...
+[Proxy Recording  (3af8:411c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEg1JC266aARw==?alt=proto ...
+[Proxy Recording  (3af8:411c)] Received response of 416 header and 36 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEg1JC266aARw==?alt=proto
+[Web Request      (3af8:411c)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTI4LjAuNjYxMy44NRIZCVHtUUGwdm6mEgUNkWGVTiEg1JC266aARw==?alt=proto"   
+[Network Analyzer (3af8:411c)]   (Sid: 49) Client -> Server @ : 732 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:411c)]   (Sid: 49) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:411c)]   (Sid: 49) Server -> Client : 36 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:411c)] Sent 36 bytes to client @ 172.23.16.1:10963
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10966
+[Proxy Recording.Error (3af8: 740)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10967
+[Proxy Recording.Error (3af8: 740)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:411c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10968
+[Proxy Recording.Error (3af8: 740)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10969
+[Proxy Recording.Error (3af8: 740)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10970
+[Proxy Recording.Error (3af8: 740)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 740)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10971
+[Proxy Recording.Error (3af8:2eac)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10972
+[Proxy Recording.Error (3af8:2eac)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] EndTransactionEvent UC04_TR06_change_name [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10973
+[Proxy Recording.Error (3af8: 7bc)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10974
+[Proxy Recording.Error (3af8: 7bc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 7bc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (3af8:361c)] Failed to connect to server http://91.105.192.100:80/api.
+Message=Timeout, status=The operation has timed out
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (3af8:2664)] Failed to connect to server http://91.105.192.100:80/api.
+Message=Timeout, status=The operation has timed out
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10977
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10978
+[Proxy Recording.Error (3af8:361c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:361c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:2664)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording.Error (3af8:3c88)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10979
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10980
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:3c88)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] StartTransactionEvent UC04_TR07_save_trend [Proxy Recording.Error (3af8:26f4)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10981
+[Proxy Recording.Error (3af8:361c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10982
+[Proxy Recording.Error (3af8:361c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:26f4)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10983
+[Proxy Recording  (3af8:1ea0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (3af8:1ea0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (3af8:1ea0)] Received response of 438 header and 966 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile
+[Network Analyzer (3af8:1ea0)]   (Sid: 50) Client -> Server @ : 2639 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:1ea0)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile"   
+[Network Analyzer (3af8:1ea0)]   (Sid: 50) Client -> Server @ : 710 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:1ea0)]   (Sid: 50) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:1ea0)]   (Sid: 50) Server -> Client : 966 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:1ea0)] Sent 966 bytes to client @ 172.23.16.1:10983
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10986
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10988
+[Proxy Recording  (3af8:402c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:1ea0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (3af8:1ea0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto ...
+[Proxy Recording  (3af8:402c)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetHints? ...
+[Proxy Recording  (3af8:1ea0)] Received response of 280 header and 0 body bytes from https://content-autofill.googleapis.com:443/v1/forms:vote?alt=proto
+[Network Analyzer (3af8:1ea0)]   (Sid: 51) Client -> Server @ : 704 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:1ea0)] "POST https://content-autofill.googleapis.com/v1/forms:vote?alt=proto"   
+[Network Analyzer (3af8:1ea0)]   (Sid: 51) Client -> Server @ : 102 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:1ea0)]   (Sid: 51) Server -> Client : 297 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:1ea0)] Sent 0 bytes to client @ 172.23.16.1:10988
+[Proxy Recording  (3af8:402c)] Received response of 370 header and 222 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetHints?
+[Network Analyzer (3af8:402c)]   (Sid: 52) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:402c)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?"   
+[Network Analyzer (3af8:402c)]   (Sid: 52) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:402c)]   (Sid: 52) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:402c)]   (Sid: 52) Server -> Client : 222 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:402c)] Sent 222 bytes to client @ 172.23.16.1:10986
+[Proxy Recording.Error (3af8:3f20)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[User action                 ] EndTransactionEvent UC04_TR07_save_trend [Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10991
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10992
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:3f20)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (3af8: b9c)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10993
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10994
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: b9c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10995
+[Proxy Recording  (3af8:361c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:361c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:361c)] Received response of 591 header and 410 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:361c)]   (Sid: 53) Client -> Server @ : 1086 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:361c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:361c)]   (Sid: 53) Client -> Server @ : 1587 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 53) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:361c)]   (Sid: 53) Server -> Client : 410 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:361c)] Sent 410 bytes to client @ 172.23.16.1:10995
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:10998
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11000
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11001
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:1ea0)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:402c)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEMu5GBoCGAo1-MtiIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDegQ8aAhgKnS4mrCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ__gOGgIYCrk0t4EiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIbKBxoCGAqh3VQYIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARD-wAMaAhgKzB7L-iIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJmpAhoCGAr5TL8DIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARD9xw8aAhgKTgQZMyIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ9CYaAhgKdpPL-CIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3af8:402c)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEMu5GBoCGAo1-MtiIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDegQ8aAhgKnS4mrCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ__gOGgIYCrk0t4EiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIbKBxoCGAqh3VQYIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARD-wAMaAhgKzB7L-iIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJmpAhoCGAr5TL8DIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARD9xw8aAhgKTgQZMyIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ9CYaAhgKdpPL-CIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3af8:402c)] Received response of 341 header and 9183 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEMu5GBoCGAo1-MtiIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDegQ8aAhgKnS4mrCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ__gOGgIYCrk0t4EiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIbKBxoCGAqh3VQYIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARD-wAMaAhgKzB7L-iIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJmpAhoCGAr5TL8DIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARD9xw8aAhgKTgQZMyIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ9CYaAhgKdpPL-CIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Web Request      (3af8:402c)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTI4LjAuNjYxMy44NRopCAUQARobCg0IBRAGGAEiAzAwMTABEMu5GBoCGAo1-MtiIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDegQ8aAhgKnS4mrCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ__gOGgIYCrk0t4EiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIbKBxoCGAqh3VQYIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCmOhoCGArnCJKWIgQgASACKAQaKQgPEAEaGwoNCA8QBhgBIgMwMDEwARD-wAMaAhgKzB7L-iIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAoe2nuVIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCl_RllQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENkWGgIYCphbGkAiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEJmpAhoCGAr5TL8DIgQgASACKAEaKQgHEAEaGwoNCAcQBhgBIgMwMDEwARD9xw8aAhgKTgQZMyIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ9CYaAhgKdpPL-CIEIAEgAigBIgIIAw==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3af8:402c)]   (Sid: 54) Client -> Server @ : 1206 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:402c)]   (Sid: 54) Server -> Client : 358 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:402c)]   (Sid: 54) Server -> Client : 9183 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:402c)] Sent 9183 bytes to client @ 172.23.16.1:10998
+[Proxy Recording.Error (3af8:2d08)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11003
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11004
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11005
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11006
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11008
+[Proxy Recording  (3af8:361c)] Trying to connect to http://149.154.167.50:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11007
+[Proxy Recording  (3af8:361c)] Trying to connect to http://149.154.167.50:80/api ...
+[Proxy Recording  (3af8: d94)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: d94)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while trying to connect to https://149.154.167.41:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8: 3cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 3cc)] Trying to connect to http://149.154.167.51:80/api ...
+[Proxy Recording  (3af8: 3cc)] Trying to connect to http://149.154.167.51:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11012
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11013
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11014
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11015
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11017
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11016
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://149.154.167.50:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://149.154.167.50:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:2d08)] Exception is caught while trying to connect to https://149.154.167.51:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:2184)] Exception is caught while trying to connect to https://149.154.167.51:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:2d08)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:2184)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:2d08)] Trying to connect to http://149.154.167.50:80/api ...
+[Proxy Recording  (3af8:2184)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording.Error (3af8:402c)] Exception is caught while trying to connect to https://149.154.167.41:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:402c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:402c)] Trying to connect to http://149.154.167.51:80/api ...
+[Proxy Recording  (3af8:2d08)] Trying to connect to http://149.154.167.50:80/api ...
+[Proxy Recording  (3af8:402c)] Trying to connect to http://149.154.167.51:80/api ...
+[Proxy Recording  (3af8:2184)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11021
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11022
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11023
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11025
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11024
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11026
+[Proxy Recording.Error (3af8:1e54)] Exception is caught while trying to connect to https://149.154.167.50:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:1e54)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:1e54)] Exception is caught while trying to connect to https://149.154.167.51:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:1e54)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3af8:1e54)] Exception is caught while trying to connect to https://149.154.167.41:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:1e54)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:1e54)] Trying to connect to http://149.154.167.51:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11027
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11028
+[Proxy Recording  (3af8:31d4)] Trying to connect to http://149.154.167.50:80/api ...
+[Proxy Recording  (3af8:2184)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording.Error (3af8:2184)] Exception is caught while sending data to http://149.154.167.41:80/api, message=Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording  (3af8:2184)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2184)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2184)] Received response of 129 header and 92 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:2184)] Sent 92 bytes to client @ 172.23.16.1:11026
+[Proxy Recording.Error (3af8:2184)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:2184)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:2184)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11029
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11030
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 130 header and 168 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 168 bytes to client @ 172.23.16.1:11029
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 130 header and 104 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 104 bytes to client @ 172.23.16.1:11030
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11031
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11031
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11032
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11032
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11033
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11033
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11034
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11034
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11035
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11035
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11036
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11036
+[Proxy Recording.Error (3af8:31f0)] Failed to connect to server http://91.105.192.100:80/api.
+Message=Timeout, status=The operation has timed out
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11038
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:26f4)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] StartTransactionEvent UC04_TR08_back_to_trends_page [Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11038
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11039
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11039
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11040
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11040
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11041
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11041
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11042
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11042
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11043
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11043
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11044
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11044
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11045
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11045
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11046
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11046
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11047
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11047
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11048
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:3098)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Sent 88 bytes to client @ 172.23.16.1:11048
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11049
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11049
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11050
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11050
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11051
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11051
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11052
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11053
+[Proxy Recording.Error (3af8:3098)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11054
+[Proxy Recording.Error (3af8:3098)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:3098)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11052
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11055
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11055
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11056
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11056
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11057
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11057
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11058
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11058
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11059
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11059
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11060
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11060
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11061
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11061
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11062
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11063
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11062
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11064
+[Proxy Recording  (3af8:31f0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (3af8:31f0)] Received response of 438 header and 2136 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile
+[Web Request      (3af8:31f0)] "GET https://dev-boomq.pflb.ru/test-srv/slaReportProfile"   
+[Network Analyzer (3af8:31f0)]   (Sid: 55) Client -> Server @ : 2546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:31f0)]   (Sid: 55) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:31f0)]   (Sid: 55) Server -> Client : 2136 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:31f0)] Sent 2136 bytes to client @ 172.23.16.1:11063
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11064
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11066
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11066
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11067
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11067
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11068
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11068
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11069
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11069
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11070
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11070
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11071
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11071
+[Proxy Recording.Error (3af8:41cc)] Failed to connect to server http://91.105.192.100:80/api.
+Message=Timeout, status=The operation has timed out
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11073
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:1ea0)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11073
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11074
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11074
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11075
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11075
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11076
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11076
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11077
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11077
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11078
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[User action                 ] EndTransactionEvent UC04_TR08_back_to_trends_page [Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11078
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11079
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11079
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11080
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11080
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11081
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11081
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11082
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11082
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11083
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11083
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11084
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11084
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11085
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11086
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11085
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11087
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11087
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11089
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11090
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11091
+[Proxy Recording  (3af8:41cc)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:41cc)] Sent 88 bytes to client @ 172.23.16.1:11089
+[Proxy Recording.Error (3af8:41cc)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:41cc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11093
+[Proxy Recording  (3af8:41cc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to https://assets.msn.com:443/service/weather/LiveTile/front?ids=&activityId=0ac38555-4037-4ede-be41-10674c46b01c&locale=ru-RU&region=RU&name=Izhevsk&units=C&lat=56.87&lon=53.21&appId=9e21380c-ff19-4c78-b4ea-19558e93a5d3&apiKey=OkWqHMuutahBXs3dBoygqCjgXRt6CV4i5V7SRQURrT&ocid=weather-app-win&wrapOData=false&formcode=WTHRST ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to https://assets.msn.com:443/service/weather/LiveTile/front?ids=&activityId=0ac38555-4037-4ede-be41-10674c46b01c&locale=ru-RU&region=RU&name=Izhevsk&units=C&lat=56.87&lon=53.21&appId=9e21380c-ff19-4c78-b4ea-19558e93a5d3&apiKey=OkWqHMuutahBXs3dBoygqCjgXRt6CV4i5V7SRQURrT&ocid=weather-app-win&wrapOData=false&formcode=WTHRST ...
+[Proxy Recording  (3af8:31f0)] Received response of 1545 header and 4606 body bytes from https://assets.msn.com:443/service/weather/LiveTile/front?ids=&activityId=0ac38555-4037-4ede-be41-10674c46b01c&locale=ru-RU&region=RU&name=Izhevsk&units=C&lat=56.87&lon=53.21&appId=9e21380c-ff19-4c78-b4ea-19558e93a5d3&apiKey=OkWqHMuutahBXs3dBoygqCjgXRt6CV4i5V7SRQURrT&ocid=weather-app-win&wrapOData=false&formcode=WTHRST
+[Proxy Recording  (3af8:31f0)] Sent 4606 bytes to client @ 172.23.16.1:11086
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11093
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11095
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11095
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11096
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11096
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11097
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11097
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11098
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11098
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11099
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11099
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11100
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11100
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11101
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11101
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11102
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11102
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11103
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11103
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11104
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11104
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11105
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11105
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11106
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11106
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11107
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11107
+[Proxy Recording.Error (3af8:411c)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11108
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11108
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11109
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11109
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11110
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11110
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11111
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11111
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11112
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11112
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11113
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11113
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11114
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11114
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11115
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11115
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11116
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11116
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11117
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11117
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11118
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11118
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11119
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11119
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11120
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11120
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11121
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:411c)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:411c)] Sent 88 bytes to client @ 172.23.16.1:11121
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11122
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11123
+[Proxy Recording.Error (3af8:411c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11124
+[Proxy Recording.Error (3af8:411c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:411c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11122
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11125
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11125
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11126
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11126
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11127
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11127
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11128
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11129
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11128
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11130
+[Proxy Recording  (3af8:31f0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D ...
+[Proxy Recording  (3af8:31f0)] Received response of 591 header and 407 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D
+[Network Analyzer (3af8:31f0)]   (Sid: 56) Client -> Server @ : 1062 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8:31f0)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=YW9IS4OXnBDf0ccfIN5%2BaA%3D%3D"   
+[Network Analyzer (3af8:31f0)]   (Sid: 56) Client -> Server @ : 1608 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8:31f0)]   (Sid: 56) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8:31f0)]   (Sid: 56) Server -> Client : 407 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8:31f0)] Sent 407 bytes to client @ 172.23.16.1:11129
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11130
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11132
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11132
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11133
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11133
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11134
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11134
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11135
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11135
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11136
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11136
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11137
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11137
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11138
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11138
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11139
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11139
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11140
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11141
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11140
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11141
+[Proxy Recording.Error (3af8: 740)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11142
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11142
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11143
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11143
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11144
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8: 740)] Sent 88 bytes to client @ 172.23.16.1:11144
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11145
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8: 740)] Sent 88 bytes to client @ 172.23.16.1:11145
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11146
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8: 740)] Sent 88 bytes to client @ 172.23.16.1:11146
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11147
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11147
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11148
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11148
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11149
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8: 740)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8: 740)] Sent 88 bytes to client @ 172.23.16.1:11149
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11150
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11150
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11151
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11151
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11152
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11152
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11153
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11153
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11154
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11154
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11155
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11155
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11156
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11157
+[Proxy Recording.Error (3af8: 740)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11158
+[Proxy Recording.Error (3af8: 740)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 740)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11156
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11159
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11159
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11160
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11160
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11161
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11161
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11162
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11162
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11163
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11163
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11164
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11164
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11165
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11165
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11166
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11166
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11167
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11167
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11168
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11168
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11169
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11169
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11170
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11170
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11171
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11171
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11172
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11172
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11173
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11173
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11174
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11174
+[Proxy Recording.Error (3af8:2eac)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11175
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:2eac)] Sent 88 bytes to client @ 172.23.16.1:11175
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11176
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:2eac)] Sent 88 bytes to client @ 172.23.16.1:11176
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11177
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:2eac)] Sent 88 bytes to client @ 172.23.16.1:11177
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11178
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11178
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11179
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:2eac)] Sent 88 bytes to client @ 172.23.16.1:11179
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11180
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11180
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11181
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11181
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11182
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11182
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11183
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11183
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11184
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11185
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11186
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11184
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11187
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:2eac)] Sent 88 bytes to client @ 172.23.16.1:11185
+[Proxy Recording  (3af8:2eac)] Trying to connect to http://149.154.167.41:80/api ...
+[Proxy Recording  (3af8:31f0)] Received response of 129 header and 88 body bytes from http://149.154.167.41:80/api
+[Proxy Recording  (3af8:31f0)] Sent 88 bytes to client @ 172.23.16.1:11186
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11188
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11189
+[Proxy Recording.Error (3af8:31f0)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8:31f0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8:31f0)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] StartTransactionEvent UC04_TR10_pick_created_trend [Proxy Recording.Error (3af8: 7bc)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11190
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/2884 ...
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/2884 ...
+[Proxy Recording  (3af8: 7bc)] Received response of 438 header and 966 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/2884
+[Web Request      (3af8: 7bc)] "GET https://dev-boomq.pflb.ru/test-srv/slaReportProfile/2884"   
+[Network Analyzer (3af8: 7bc)]   (Sid: 57) Client -> Server @ : 2556 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 57) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 57) Server -> Client : 966 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 7bc)] Sent 966 bytes to client @ 172.23.16.1:11190
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11192
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11193
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 614)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (3af8: 614)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (3af8: 7bc)] Received response of 438 header and 3267 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (3af8: 7bc)]   (Sid: 58) Client -> Server @ : 2654 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: 7bc)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8: 7bc)]   (Sid: 58) Client -> Server @ : 966 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 58) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 58) Server -> Client : 3267 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 7bc)] Sent 3267 bytes to client @ 172.23.16.1:11193
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11197
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList ...
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList ...
+[Proxy Recording  (3af8: 7bc)] Received response of 438 header and 208 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList
+[Network Analyzer (3af8: 7bc)]   (Sid: 59) Client -> Server @ : 2652 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: 7bc)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/slaTypeList"   
+[Network Analyzer (3af8: 7bc)]   (Sid: 59) Client -> Server @ : 105 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 59) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 59) Server -> Client : 208 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 7bc)] Sent 208 bytes to client @ 172.23.16.1:11197
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11199
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 7bc)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (3af8: 614)] Received response of 438 header and 106742 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999
+[Web Request      (3af8: 614)] "GET https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&size=999"   
+[Network Analyzer (3af8: 614)]   (Sid: 60) Client -> Server @ : 2577 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 614)]   (Sid: 60) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 614)]   (Sid: 60) Server -> Client : 106742 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 614)] Sent 106742 bytes to client @ 172.23.16.1:11192
+[Proxy Recording  (3af8: 7bc)] Received response of 438 header and 3267 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (3af8: 7bc)]   (Sid: 61) Client -> Server @ : 2654 bytes (SSL)(Service=HTTP)
+[Web Request      (3af8: 7bc)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (3af8: 7bc)]   (Sid: 61) Client -> Server @ : 966 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 61) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 7bc)]   (Sid: 61) Server -> Client : 3267 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 7bc)] Sent 3267 bytes to client @ 172.23.16.1:11199
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11201
+[Proxy Recording  (3af8: 614)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED ...
+[Proxy Recording  (3af8: 614)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED ...
+[Proxy Recording  (3af8: 614)] Received response of 438 header and 84053 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED
+[Web Request      (3af8: 614)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&size=999999&projectId=15070&state=FINISHED,FAILED,CANCELED"   
+[Network Analyzer (3af8: 614)]   (Sid: 62) Client -> Server @ : 2619 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3af8: 614)]   (Sid: 62) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3af8: 614)]   (Sid: 62) Server -> Client : 84053 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3af8: 614)] Sent 84053 bytes to client @ 172.23.16.1:11201
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11203
+[Proxy Recording  (3af8:34f8)] Client request from @ 172.23.16.1:11204
+[Proxy Recording.Error (3af8: 614)] Exception is caught while trying to connect to https://91.105.192.100:443, message=The handshake failed due to an unexpected packet format.
+[Proxy Recording.Error (3af8: 614)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3af8: 7bc)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] EndTransactionEvent UC04_TR10_pick_created_trend [Proxy Recording.Error (3af8:2664)] Exception is caught while connecting to http://91.105.192.100:80/api, message=The operation has timed out

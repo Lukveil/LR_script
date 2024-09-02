@@ -1,0 +1,5 @@
+"{\"projectId\":15070,\"chartProfileList\":[{\"slaTypeList\":[{\"fromDate\":0,\"restrictionType"
+"\":\"AVERAGE\",\"targetType\":\"TEST\",\"toDate\":180,\"type\":\"GENERAL_SLA_TYPE\"},{\"fromDa"
+"te\":0,\"restrictionType\":\"THROUGHPUT\",\"targetType\":\"TEST\",\"toDate\":180,\"type\":\"GE"
+"NERAL_SLA_TYPE\"}]}],\"testFilterExpressionList\":[{\"type\":\"TEST_ID_EXPRESSION\",\"testIdLi"
+"st\":[18504,18503]}]}"

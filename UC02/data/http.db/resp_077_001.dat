@@ -1,0 +1,64 @@
+testType: "OWN_JMX"
+parameters: []
+slaGroupList: []
+version: "1.0.0"
+threadGroups:
+- type: "ORDINARY"
+  id: "1e0436e1-0757-4e53-9cb3-89149412653f"
+  name: "Thread Group"
+  threadGroupElements:
+  - type: "TRANSACTION_CONTROLLER"
+    groupElementType: "CONTROLLER"
+    children:
+    - type: "HTTP_SAMPLER"
+      groupElementType: "SAMPLER"
+      children: []
+      id: "b66d911a-4721-4f40-b8a0-d9d9a50a0a78"
+      url: "http://192.168.14.200:8084/api/kafka/send"
+      name: "HTTP Request"
+      method: "POST"
+      params: {}
+      headers: {}
+      body: "\"message\":\"hola\""
+      timerList: []
+    name: "Transaction Controller"
+  - type: "TRANSACTION_CONTROLLER"
+    groupElementType: "CONTROLLER"
+    children:
+    - type: "HTTP_SAMPLER"
+      groupElementType: "SAMPLER"
+      children: []
+      id: "067ea8f7-1207-4e28-bb7f-2ecb524d5803"
+      url: "http://192.168.14.200:8084/api/kafka/messages?a=b"
+      name: "HTTP Request"
+      method: "GET"
+      params:
+        a:
+        - "b"
+      headers: {}
+      body: ""
+      timerList:
+      - type: "CONSTANT_TIMER"
+        id: "e7732904-d355-44f4-bf56-7a3d6aa91880"
+        timerType: "CONSTANT_TIMER"
+        duration: 8.0
+        enabled: true
+        isBoomqTimer: false
+    name: "Transaction Controller"
+  resourceConfiguration: null
+  displayTypeName: "Thread Group"
+  startThreadsCount: 5
+  startupTimeSec: 2
+  loopCount: -1
+  holdLoadTimeSec: 20
+  initDelaySec: 0
+  loopForever: true
+  schedulerActive: false
+  changed: false
+  enabled: false
+multiplicationFactor: 1.0
+baseJmxFileLocation: "boomq/teams/14/projects/15095/imported_jmx/base_jmx_v_15271.jmx"
+httpRequestDefaults: null
+resourceConfiguration: null
+isTimersDisabled: false
+isRunThreadGroupsConsecutively: false

@@ -1,0 +1,16 @@
+GET https://dev-boomq.pflb.ru/project-srv/modelSchema HTTP/1.1
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Accept: */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE4NzYsInVzZXJfbmFtZSI6Im9sb2xva3puQGdtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTcyNDk3NDYwNywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImY4NmZiNWQ2LTFjNjUtNDM4Yi1iNzVlLTIxMzMzNDI2ZmYzNiIsImNsaWVudF9pZCI6ImNsaWVudCJ9.IlGWNLb4RMwrh9zMeHLs28kiUJdI9oiIZ5_guKb4ubcjV5hl23hUZHCJoUEmFWDJ9XlJVFpPPDUcm0nfr0jxA8MBAQsIul1H5fulvL7H7NUZk7FL80440x9FLe6TZJz82Vj640XuUqMxi0hkJh19fbNacoys_wI1wnMJl0d1HgtjDf4QZE839wbSFucBxWHUOvFRQfHXcgnpKXXIRAScZ45HcfGYKFvnABax168nHrQFPEvl0X7O7l1oKIujFEM8MinZ4Zype-sSlsLtxrOVACXgeX_OR7Ake10Qt3kxGfyu3UNQsyRyTMnNcapmexTUUQAVI5dLhD_kYq8IKag7bQ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6,de;q=0.5
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE4NzYsInVzZXJfbmFtZSI6Im9sb2xva3puQGdtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTcyNDk3NDYwNywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImY4NmZiNWQ2LTFjNjUtNDM4Yi1iNzVlLTIxMzMzNDI2ZmYzNiIsImNsaWVudF9pZCI6ImNsaWVudCJ9.IlGWNLb4RMwrh9zMeHLs28kiUJdI9oiIZ5_guKb4ubcjV5hl23hUZHCJoUEmFWDJ9XlJVFpPPDUcm0nfr0jxA8MBAQsIul1H5fulvL7H7NUZk7FL80440x9FLe6TZJz82Vj640XuUqMxi0hkJh19fbNacoys_wI1wnMJl0d1HgtjDf4QZE839wbSFucBxWHUOvFRQfHXcgnpKXXIRAScZ45HcfGYKFvnABax168nHrQFPEvl0X7O7l1oKIujFEM8MinZ4Zype-sSlsLtxrOVACXgeX_OR7Ake10Qt3kxGfyu3UNQsyRyTMnNcapmexTUUQAVI5dLhD_kYq8IKag7bQ
+Host: dev-boomq.pflb.ru
+

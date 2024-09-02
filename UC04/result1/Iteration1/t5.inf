@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Url: 14
+Total=1
+FileName1=t5.json
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1725035280762
+RawStepName=14
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1725035280703
+URL1=https://dev-boomq.pflb.ru/auth-srv/team/14

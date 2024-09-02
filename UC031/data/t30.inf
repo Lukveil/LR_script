@@ -1,0 +1,13 @@
+[t30]
+FileName1=t30.json
+URL1=https://dev-boomq.pflb.ru/grafana/api/ds/query?ds_type=postgres&requestId=AQ101
+Total=2
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=t30_RequestBody.txt
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_30.xml
+FileName2=t30_faf8e04d4c13804b4bec2cab6a19c669.jpg
+URL2=https://dev-boomq.pflb.ru/grafana/avatar/faf8e04d4c13804b4bec2cab6a19c669
+[ProtocolInfo]
+ProtocolId=QTWeb

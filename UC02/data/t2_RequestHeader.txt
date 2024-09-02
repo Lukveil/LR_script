@@ -1,0 +1,16 @@
+POST https://login.live.com/ppsecure/GetUserKeyData.srf HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+X-AFS-ClientInfo: platform=Windows; os=Windows NT; osVer=10.0.22631; app=Microsoft Edge; appVer=128.0.2739.42; appChannel=stable; appInstallationId=-6479097216944046264; region=RU;
+Authorization: M.C562_BL2.0.U.Cm/QaGxhUkHKR4FzMAjpaKU00ncvVbXqVAPav0lJy1x5KsJYtXfJKIbiXhMBGU9vDSyAUOoxcMrpiacByuI0VU1+Gus6PSAkEvh8uTF/Wg11F6Z6meksDHkxFWxp1h0TDOnRi6IV49++ZmTlATigor3A9NaqiPghmMQHcvQny/zhvxOw5zo4cvWQdQGkYsUBJTuZtS3WAMQtXOf2Sb26w3WsnM2b79ThMOrIgY0UltHA6aA9IY9ordzImACTpl5jFbRV6XmRqBGZjqaa6Mbp85ZWe8rw9WbORx+h+dUjfehD3mskigBIwb/i8wRZu5lpxy2PLSBiAZohk+W+g1BF6BnjH1oBBVkfVIOqH59wag7Z6Kbj+15aEPEoXKgVXdtqueEpXRLtdrVC2WYFN4IjkeOV2g4+xryDU7twXKyz65gFdUELHEw1Ur6YYP3uMpS8ELU3nEaV3oYHg8dUEZIZV/vqvZ5zH0Z0LdnHUMltrjVLDRH2uUYRpFUM/aZXQH8iKYGo4/ErNrMGwz+z04LnmnT4A14MW46kuI4P7U/mxJxf
+X-AFS-CV: 
+User-Agent: Chrome WIN 128.0.2739.42 (e015505d79c9432c75e2a9131c445776c61af592) channel(stable)
+Content-Type: application/octet-stream
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Host: login.live.com
+Content-Length: 1265
+

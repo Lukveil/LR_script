@@ -1,0 +1,193 @@
+boomqTestPlan:
+  configurationElements:
+  - type: "HTTP_COOKIE_MANAGER"
+    id: "394b6707-9ad9-4a3d-a481-ad3f575e9571"
+    label: "Http cookie manager"
+    enabled: true
+    clearEachIteration: false
+    clearControlledByThreadGroup: false
+    cookiePolicy: "STANDARD"
+    userDefinedCookies: []
+  - type: "HTTP_HEADER_MANAGER"
+    id: "b9b68f18-1f32-4fc3-a2a2-0e118b12c976"
+    label: "Http header manager"
+    enabled: true
+    headers:
+      User-Agent: "Mozilla/5.0"
+  - type: "HTTP_REQUEST_DEFAULTS"
+    id: "dccfcdff-da17-4717-bc92-38965cd8dfb5"
+    label: "Http request defaults"
+    enabled: true
+    protocol: null
+    serverName: null
+    port: null
+    path: null
+    responseTimeout: 120000
+    connectTimeout: 60000
+    clientImplementation: null
+    contentEncoding: null
+    queryParameters: null
+    bodyParameters: null
+    body: null
+    proxyProperties: null
+    retrieveAllEmbeddedResources: null
+    useParallelDownloads: null
+    parallelDownloadsPoolSize: null
+    urlMustMatch: null
+    urlMustNotMatch: null
+    sourceAddress: null
+    saveResponseAsMd5Hash: null
+  urlOverwrites: null
+  threadGroups:
+  - type: "BOOMQ_STABLE_SCALABILITY"
+    id: "f59d10ae-1aa0-4435-8b70-f62dfd0cc73c"
+    label: "New group 1"
+    typeDisplayName: ""
+    enabled: true
+    threadGroupElements:
+    - type: "CONTROLLER"
+      id: "db970a46-7d44-456c-8148-e095dcf0961d"
+      label: "Transaction_post"
+      typeDisplayName: "Transaction Controller"
+      timerList: []
+      enabled: true
+      creationIndex: 1
+      individualProperties:
+        type: "TRANSACTION"
+        generateParentSampler: false
+        includeDurationOfAllElementsToGeneratedSampler: false
+      children:
+      - type: "SAMPLER"
+        id: "19f13139-cecb-4d9a-a7fb-581eda02764d"
+        label: "https://192.168.14.200:8084/api/kafka/send"
+        typeDisplayName: "HTTP Request"
+        timerList: []
+        enabled: true
+        individualProperties:
+          type: "HTTP"
+          method: "POST"
+          protocol: "https"
+          serverName: "192.168.14.200"
+          port: "8084"
+          path: "/api/kafka/send"
+          connectTimeout: null
+          responseTimeout: null
+          clientImplementation: null
+          contentEncoding: null
+          queryParameters: []
+          bodyParameters: []
+          headers: {}
+          body: "{\"message\":\"Hola\"}"
+          automaticallyRedirect: false
+          followRedirects: true
+          useKeepAlive: true
+          browserCompatibleHeaders: false
+          doMultipartPost: false
+          filesUpload: null
+          responsePreview: null
+          proxyProperties: null
+          retrieveAllEmbeddedResources: true
+          useParallelDownloads: null
+          parallelDownloadsPoolSize: null
+          urlMustMatch: null
+          urlMustNotMatch: null
+          sourceAddress: null
+          saveResponseAsMd5Hash: null
+        assertions: []
+        extractors: []
+    - type: "CONTROLLER"
+      id: "2a449579-4a30-434e-8fb4-5fb2c304d854"
+      label: "Transaction_get"
+      typeDisplayName: "Transaction Controller"
+      timerList: []
+      enabled: true
+      creationIndex: 2
+      individualProperties:
+        type: "TRANSACTION"
+        generateParentSampler: false
+        includeDurationOfAllElementsToGeneratedSampler: false
+      children:
+      - type: "SAMPLER"
+        id: "64eaa35f-7b0d-48a1-a516-d2f152e60cac"
+        label: "https://192.168.14.200:8084/api/kafka/messages"
+        typeDisplayName: "HTTP Request"
+        timerList: []
+        enabled: true
+        individualProperties:
+          type: "HTTP"
+          method: "GET"
+          protocol: "https"
+          serverName: "192.168.14.200"
+          port: "8084"
+          path: "/api/kafka/messages"
+          connectTimeout: null
+          responseTimeout: null
+          clientImplementation: null
+          contentEncoding: null
+          queryParameters: []
+          bodyParameters: []
+          headers: {}
+          body: ""
+          automaticallyRedirect: false
+          followRedirects: true
+          useKeepAlive: true
+          browserCompatibleHeaders: false
+          doMultipartPost: false
+          filesUpload: null
+          responsePreview: null
+          proxyProperties: null
+          retrieveAllEmbeddedResources: true
+          useParallelDownloads: null
+          parallelDownloadsPoolSize: null
+          urlMustMatch: null
+          urlMustNotMatch: null
+          sourceAddress: null
+          saveResponseAsMd5Hash: null
+        assertions: []
+        extractors: []
+    boomqConfiguration:
+      resourceConfiguration:
+        testRunnerIds:
+        - 1
+        cloudTestRunLocationRequirements: null
+        entTestRunLocationRequirements: null
+        memoryMb: null
+        cpuShares: null
+      pacingConfiguration: null
+      loadProfilePercent: 100
+    loadProfile: null
+  timers:
+  - timerType: "CONSTANT"
+    id: "ba12f744-4ea6-4fcc-9ccc-ff6389fa0b80"
+    typeDisplayName: null
+    label: "boomq_timer_ba12f744-4ea6-4fcc-9ccc-ff6389fa0b80"
+    enabled: true
+    durationMs: 8000
+  loadProfileType: "PER_TEST"
+  loadProfile:
+    boomqProfileType: "STABLE"
+    stepCount: 1
+    usersPerStep: 1
+    stepLengthMs: 3600000
+    rampUpMs: 0
+    rampDownMs: 0
+    durationAddedOnLastStepMs: 0
+  runThreadGroupConsecutively: false
+  runTearDownAfterShutdown: true
+  functionalMode: false
+  classpath: null
+slaGroupList:
+- type: "GENERAL_TEST_SLA"
+  targetType: "TEST"
+  slaList:
+  - restrictionType: "AVERAGE"
+    fromDate: 0
+    toDate: 3600
+    operation: "LESS_EQUALS"
+    value: 3.0
+    result: null
+    status: "NOT_COUNTED"
+resourceConfiguration: null
+supportingFiles: []
+supportingFilesV2: []
+importedJmxFileLocation: null

@@ -1,0 +1,17 @@
+[t15]
+FileName1=t15_test.json
+URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&page=0&size=7
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_15.xml
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+FileName2=t15_message.09d91ef8f7769e72000af31b00da82e2.svg
+URL2=https://dev-boomq.pflb.ru/static/media/message.09d91ef8f7769e72000af31b00da82e2.svg
+FileName3=t15_load.287cb7234e668cd66173833db04886bf.svg
+URL3=https://dev-boomq.pflb.ru/static/media/load.287cb7234e668cd66173833db04886bf.svg
+FileName4=t15_time.0a39ea6cf097a189ea08f0e8e59fe026.svg
+URL4=https://dev-boomq.pflb.ru/static/media/time.0a39ea6cf097a189ea08f0e8e59fe026.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

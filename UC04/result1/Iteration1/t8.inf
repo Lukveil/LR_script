@@ -1,0 +1,13 @@
+[t8]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=application/json
+StepName=Url: slaReportProfile
+Total=1
+FileName1=t8.json
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RawStepEndTime=1725035284184
+RawStepName=slaReportProfile
+RequestBodyFile=t8_RequestBody.txt
+RawStepStartTime=1725035284119
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile
