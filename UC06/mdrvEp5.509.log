@@ -1,0 +1,37 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 658233 body bytes, 467 header bytes, 652 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 2113 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 317 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 59934 body bytes, 467 header bytes, 68 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/{test_random}/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
