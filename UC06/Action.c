@@ -256,7 +256,7 @@ Action()
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
 
-	lr_think_time(11);
+	lr_think_time(5);
 
 	web_custom_request("stop", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test/{test_random}/stop", 
@@ -293,7 +293,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_think_time(11);
+	lr_think_time(5);
 
 	web_url("test_5", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
