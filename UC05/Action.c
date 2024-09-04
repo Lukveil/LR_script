@@ -389,7 +389,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_think_time(1);
+	lr_think_time(4);
 	lr_end_transaction("UC05_TR07_pick_created",LR_AUTO);
 	// ===========================================
 	// UC05_TR07_pick_created   END

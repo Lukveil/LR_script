@@ -15,7 +15,13 @@ Action()
     email[13] ='\0';
     lr_save_string(lr_eval_string(email), "email");
     
-
+    
+    // ===========================================
+	// UC01_TR01_sign_in   -> -> ->
+	// ===========================================
+	lr_start_transaction("UC01_TR01_sign_in");
+	
+	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Dest", "document");
@@ -55,8 +61,6 @@ Action()
 
 	// START UC01_TR01_sign_in TR
 	
-	lr_start_transaction("UC01_TR01_sign_in");
-
 	web_add_auto_header("Sec-Fetch-Site", "cross-site");
 
 	web_add_auto_header("Origin", "https://dev-boomq.pflb.ru");
@@ -177,15 +181,19 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	// END UC01_TR01_sign_in TR
-	
-	lr_end_transaction("UC01_TR01_sign_in",LR_AUTO);
 	
 	lr_think_time(1);
-	
-	// START in_to_group TR
+	lr_end_transaction("UC01_TR01_sign_in",LR_AUTO);
+	// ===========================================
+	// UC01_TR01_sign_in - END
+	// ===========================================
 
+	
+	// ===========================================
+	// UC01_TR02_in_to_group   -> -> ->
+	// ===========================================
 	lr_start_transaction("UC01_TR02_in_to_group");
+	
 
 	web_add_auto_header("Priority", "u=0");
 
@@ -221,18 +229,18 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	// END in_to_group TR
-
+	lr_think_time(1);
 	lr_end_transaction("UC01_TR02_in_to_group",LR_AUTO);
-	
-	// START in_to_group TR
-	
-	lr_think_time(2);
+	// ===========================================
+	// UC01_TR02_in_to_group - END
+	// ===========================================
 
-	
-	// START create_user TR
-	
+
+	// ===========================================
+	// UC01_TR03_create_user   -> -> ->
+	// ===========================================
 	lr_start_transaction("UC01_TR03_create_user");
+	
 
 	web_add_header("Origin", 
 		"https://dev-boomq.pflb.ru");
@@ -265,35 +273,54 @@ Action()
 		"Body=[{\"email\":\"{email}@gmail.com\",\"permissionList\":[\"ADMIN\",\"VIEW\",\"EDIT\",\"RUN\",\"MANAGE_USERS_IN_ORG\"],\"userDisplayName\":\"{email}\"}]", 
 		LAST);
 
-	lr_end_transaction("UC01_TR03_create_user",LR_AUTO);
 	
 	lr_think_time(1);
+	lr_end_transaction("UC01_TR03_create_user",LR_AUTO);
+	// ===========================================
+	// UC01_TR03_create_user - END
+	// ===========================================
 	
-	// START user_view TR
-
+	
+	
+	// ===========================================
+	// UC01_TR04_user_view   -> -> ->
+	// ===========================================
 	lr_start_transaction("UC01_TR04_user_view");
 
+	
 	web_add_auto_header("Priority",  "u=0");
-	
-	// END user_view TR
 
+	
+	lr_think_time(1);
 	lr_end_transaction("UC01_TR04_user_view",LR_AUTO);
+	// ===========================================
+	// UC01_TR04_user_view - END
+	// ===========================================
 	
-	// START copy_link TR
-
+	
+	// ===========================================
+	// UC01_TR05_copy_link   -> -> ->
+	// ===========================================
 	lr_start_transaction("UC01_TR05_copy_link");
 
+	
 	web_add_header("Origin", "https://dev-boomq.pflb.ru");
 
+	
+	lr_think_time(1);
 	lr_end_transaction("UC01_TR05_copy_link", LR_AUTO);
-	
-	// END copy_link TR
-	
-	lr_think_time(2);
-	
-	// START walk_link TR
+	// ===========================================
+	// UC01_TR05_copy_link - END
+	// ===========================================	
 
+	
+	
+	// ===========================================
+	// UC01_TR06_change_pass   -> -> ->
+	// ===========================================
 	lr_start_transaction("UC01_TR06_walk_link");
+	
+	
 
 	web_add_auto_header("Sec-Fetch-Dest", "document");
 
@@ -338,13 +365,20 @@ Action()
 		"Url=/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff", "Referer=https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("UC01_TR06_walk_link",LR_AUTO);
 	
-	// END user_view TR
 	
 	lr_think_time(1);
+	lr_end_transaction("UC01_TR06_walk_link",LR_AUTO);
+	// ===========================================
+	// UC01_TR06_change_pass - END
+	// ===========================================
 	
+	
+	// ===========================================
+	// UC01_TR07_change_pass   -> -> ->
+	// ===========================================
 	lr_start_transaction("UC01_TR07_change_pass");
+	
 
 	web_add_auto_header("Priority", "u=0");
 
@@ -407,9 +441,13 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
+	lr_think_time(4);
 	lr_end_transaction("UC01_TR07_change_pass",LR_AUTO);
+	// ===========================================
+	// UC01_TR07_change_pass - END
+	// ===========================================
 	
-	lr_think_time(1);
+	
 
 	return 0;
 }
