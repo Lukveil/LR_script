@@ -52,15 +52,12 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC03_TR01_login__*delimiter*__UC03_TR02_Run_test"
+Order=
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
-[Transactions]
-UC03_TR01_login=
-UC03_TR02_Run_test=
 [ParameterSimulation]
 NumVusers=1
 IsDurationIndefinite=0

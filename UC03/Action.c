@@ -5,11 +5,21 @@
 
 Action()
 {
+	
+	
+	
+	
+	
 	char *num;
 	
 	char *str_login;
 	
 	int number;
+	
+	
+	
+	
+	
 	
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
@@ -651,7 +661,7 @@ Action()
 	
 	}
 	
-	lr_think_time(5);
+	lr_think_time(4);
 	lr_end_transaction("UC03_TR02_Run_test",LR_AUTO);
 	return 0;
 }
