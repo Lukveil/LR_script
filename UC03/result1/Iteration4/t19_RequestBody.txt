@@ -5,7 +5,7 @@
 "    - fromDate: 0\n        restrictionType: AVERAGE\n        operation: LESS_EQUALS\n        s"
 "tatus: NOT_COUNTED\n        toDate: 3600\n        value: '3'\nresourceConfiguration:\n  cloudT"
 "estRunLocationRequirements:\n    testRunLocationIds: []\nbaseJmxFileLocation: boomq/teams/14/p"
-"rojects/26255/imported_jmx/base_jmx_v_27444.jmx\nisRunThreadGroupsConsecutively: false\nisTime"
+"rojects/29983/imported_jmx/base_jmx_v_32282.jmx\nisRunThreadGroupsConsecutively: false\nisTime"
 "rsDisabled: false\nmultiplicationFactor: 1\ntestType: OWN_JMX\nthreadGroups:\n  - displayTypeN"
 "ame: jp@gc - Ultimate Thread Group\n    id: 81e81ea2-8fe2-4e59-8800-e885f9235f5e\n    type: UL"
 "TIMATE\n    name: jp@gc - Ultimate Thread Group\n    threadGroupElements:\n      - type: TRANS"

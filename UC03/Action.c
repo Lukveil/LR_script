@@ -5,23 +5,12 @@
 
 Action()
 {
-	
-	
-	
-	
-	
 	char *num;
 	
 	char *str_login;
 	
 	int number;
-	
-	
-	
-	
-	
-	
-	
+		
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Site", 
@@ -286,12 +275,6 @@ Action()
 		LAST);
 
 	
-
-	
-	
-	
-	
-	
 	web_reg_save_param("id_version",
 		"LB=\"id\":",
 		"RB=\,\"projectId\":{id_test}",
@@ -335,6 +318,10 @@ Action()
 		"https://dev-boomq.pflb.ru");
 
 	
+	web_reg_save_param("id",
+		"LB=\"id\":",
+		"RB=\,\"testProjectId\":{id_test}",
+		LAST);
 
 	web_custom_request("test", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test", 
@@ -382,8 +369,8 @@ Action()
 		
 	lr_think_time(20);
     web_reg_save_param_ex("ParamName=state",
-        "LB="id":{id},"testProjectId":{id_test},",
-        "RB="testProjectVersionId":{id_version_test},"testMode":"TEST","state":"RUNNING"",
+        "LB=\"id\":{id},\"testProjectId\":{id_test},",
+        "RB=\"testProjectVersionId\":{id_version},\"testMode\":\"TEST\",\"state\":\"RUNNING\"",
         LAST);
 		
 		
@@ -409,8 +396,6 @@ Action()
 
 	
 	} else {
-	
-	
 	
 
 	web_url("label", 
@@ -644,8 +629,8 @@ Action()
 	
 	lr_think_time(20);
     web_reg_save_param_ex("ParamName=state",
-        "LB="id":{id},"testProjectId":{id_test},",
-        "RB="testProjectVersionId":{id_version_test},"testMode":"TEST","state":"RUNNING"",
+        "LB=\"id\":{id},\"testProjectId\":{id_test},",
+        "RB=\"testProjectVersionId\":{id_version_test},\"testMode\":\"TEST\",\"state\":\"RUNNING\"",
         LAST);
 		
 		

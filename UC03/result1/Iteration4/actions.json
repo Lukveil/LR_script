@@ -3,164 +3,170 @@
         "actionName": "Action",
         "steps": [
             {
-                "stepId": "STEP67",
+                "stepId": "STEP68",
                 "stepName": "Url: dev-boomq.pflb.ru",
                 "infFile": "t1.inf",
-                "time": 1725276605073
-            },
-            {
-                "stepId": "STEP68",
-                "stepName": "Submit Data: login",
-                "infFile": "t2.inf",
-                "time": 1725276605387
+                "time": 1725604373319
             },
             {
                 "stepId": "STEP69",
-                "stepName": "Url: config.json",
-                "infFile": "t3.inf",
-                "time": 1725276605466
+                "stepName": "Submit Data: login",
+                "infFile": "t2.inf",
+                "time": 1725604373640
             },
             {
                 "stepId": "STEP70",
-                "stepName": "Url: user",
-                "infFile": "t4.inf",
-                "time": 1725276605608
+                "stepName": "Url: config.json",
+                "infFile": "t3.inf",
+                "time": 1725604373705
             },
             {
                 "stepId": "STEP71",
-                "stepName": "Url: modelSchema",
-                "infFile": "t5.inf",
-                "time": 1725276605725
+                "stepName": "Url: user",
+                "infFile": "t4.inf",
+                "time": 1725604373857
             },
             {
                 "stepId": "STEP72",
-                "stepName": "Url: identityProvider",
-                "infFile": "t6.inf",
-                "time": 1725276605786
+                "stepName": "Url: modelSchema",
+                "infFile": "t5.inf",
+                "time": 1725604373968
             },
             {
                 "stepId": "STEP73",
-                "stepName": "Url: team",
-                "infFile": "t7.inf",
-                "time": 1725276605998
+                "stepName": "Url: identityProvider",
+                "infFile": "t6.inf",
+                "time": 1725604374021
             },
             {
                 "stepId": "STEP74",
-                "stepName": "Url: teamContext",
-                "infFile": "t8.inf",
-                "time": 1725276606099
+                "stepName": "Url: team",
+                "infFile": "t7.inf",
+                "time": 1725604374245
             },
             {
                 "stepId": "STEP75",
-                "stepName": "Url: testRunner",
-                "infFile": "t9.inf",
-                "time": 1725276606222
+                "stepName": "Url: teamContext",
+                "infFile": "t8.inf",
+                "time": 1725604374344
             },
             {
                 "stepId": "STEP76",
-                "stepName": "Custom Request: cloud_config_observers.json",
-                "infFile": "t10.inf",
-                "time": 1725276606606
+                "stepName": "Url: testRunner",
+                "infFile": "t9.inf",
+                "time": 1725604374437
             },
             {
                 "stepId": "STEP77",
-                "stepName": "Url: label",
-                "infFile": "t11.inf",
-                "time": 1725276606795
+                "stepName": "Custom Request: cloud_config_observers.json",
+                "infFile": "t10.inf",
+                "time": 1725604374862
             },
             {
                 "stepId": "STEP78",
                 "stepName": "Url: label",
-                "infFile": "t12.inf",
-                "time": 1725276606907
+                "infFile": "t11.inf",
+                "time": 1725604378046
             },
             {
                 "stepId": "STEP79",
-                "stepName": "Url: project",
-                "infFile": "t13.inf",
-                "time": 1725276607000
+                "stepName": "Url: label",
+                "infFile": "t12.inf",
+                "time": 1725604378157
             },
             {
                 "stepId": "STEP80",
-                "stepName": "Url: {id_test}",
-                "infFile": "t14.inf",
-                "time": 1725276607072
+                "stepName": "Url: project",
+                "infFile": "t13.inf",
+                "time": 1725604379297
             },
             {
                 "stepId": "STEP81",
-                "stepName": "Url: {id_version}",
-                "infFile": "t15.inf",
-                "time": 1725276607138
+                "stepName": "Url: {id_test}",
+                "infFile": "t14.inf",
+                "time": 1725604379374
             },
             {
                 "stepId": "STEP82",
-                "stepName": "Url: downloadLink",
-                "infFile": "t16.inf",
-                "time": 1725276607246
+                "stepName": "Url: {id_version}",
+                "infFile": "t15.inf",
+                "time": 1725604379433
             },
             {
                 "stepId": "STEP83",
-                "stepName": "Custom Request: testInfo",
-                "infFile": "t17.inf",
-                "time": 1725276607345
+                "stepName": "Url: downloadLink",
+                "infFile": "t16.inf",
+                "time": 1725604379527
             },
             {
                 "stepId": "STEP84",
-                "stepName": "Custom Request: cloud_config_observers.json",
-                "infFile": "t18.inf",
-                "time": 1725276607523
+                "stepName": "Custom Request: testInfo",
+                "infFile": "t17.inf",
+                "time": 1725604379608
             },
             {
                 "stepId": "STEP85",
-                "stepName": "Custom Request: testInfo_2",
-                "infFile": "t19.inf",
-                "time": 1725276607667
+                "stepName": "Custom Request: cloud_config_observers.json",
+                "infFile": "t18.inf",
+                "time": 1725604379834
             },
             {
                 "stepId": "STEP86",
-                "stepName": "Custom Request: {id_test}_2",
-                "infFile": "t20.inf",
-                "time": 1725276607804
+                "stepName": "Custom Request: testInfo_2",
+                "infFile": "t19.inf",
+                "time": 1725604379977
             },
             {
                 "stepId": "STEP87",
-                "stepName": "Custom Request: test",
-                "infFile": "t21.inf",
-                "time": 1725276607900
+                "stepName": "Custom Request: {id_test}_2",
+                "infFile": "t20.inf",
+                "time": 1725604380117
             },
             {
                 "stepId": "STEP88",
-                "stepName": "Url: project_2",
-                "infFile": "t22.inf",
-                "time": 1725276608668
+                "stepName": "Custom Request: test",
+                "infFile": "t21.inf",
+                "time": 1725604380219
             },
             {
                 "stepId": "STEP89",
-                "stepName": "Url: label_2",
-                "infFile": "t23.inf",
-                "time": 1725276608719
+                "stepName": "Url: project_2",
+                "infFile": "t22.inf",
+                "time": 1725604381311
             },
             {
                 "stepId": "STEP90",
+                "stepName": "Url: label_2",
+                "infFile": "t23.inf",
+                "time": 1725604381368
+            },
+            {
+                "stepId": "STEP91",
                 "stepName": "Url: user_2",
                 "infFile": "t24.inf",
-                "time": 1725276608861
+                "time": 1725604381596
+            },
+            {
+                "stepId": "STEP92",
+                "stepName": "Url: test_2",
+                "infFile": "t25.inf",
+                "time": 1725604384740
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC03_TR01_login",
-                "rawStartTime": 1725276605165,
-                "rawEndTime": 1725276606629,
-                "thinkTime": 0.0,
-                "wastedTime": 0.055959224700927737
+                "rawStartTime": 1725604373409,
+                "rawEndTime": 1725604377888,
+                "thinkTime": 3.007457,
+                "wastedTime": 0.05214858055114746
             },
             {
                 "transactionName": "UC03_TR02_Run_test",
-                "rawStartTime": 1725276606722,
-                "rawEndTime": 1725276608892,
-                "thinkTime": 0.0,
-                "wastedTime": 0.11268782615661621
+                "rawStartTime": 1725604377982,
+                "rawEndTime": 1725604387770,
+                "thinkTime": 6.010543,
+                "wastedTime": 0.12727618217468263
             }
         ]
     }

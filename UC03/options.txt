@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\user\Documents\VuGen\Scripts\for performance testing\UC03
+-IC:\Users\user\Documents\VuGen\Scripts\git_ready_folder\LR_script\UC03
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\user\documents\vugen\scripts\for performance testing\uc03\\logfile.log
-c:\users\user\documents\vugen\scripts\for performance testing\uc03\\combined_script___3.c
-c:\users\user\documents\vugen\scripts\for performance testing\uc03\\pre_cci.c
+-ec:\users\user\documents\vugen\scripts\git_ready_folder\lr_script\uc03\\logfile.log
+c:\users\user\documents\vugen\scripts\git_ready_folder\lr_script\uc03\\combined_script___3.c
+c:\users\user\documents\vugen\scripts\git_ready_folder\lr_script\uc03\\pre_cci.c

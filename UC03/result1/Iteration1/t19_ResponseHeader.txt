@@ -1,9 +1,12 @@
 HTTP/1.1 200 
 Server: nginx
-Date: Fri, 30 Aug 2024 16:46:28 GMT
+Date: Fri, 06 Sep 2024 06:32:16 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate

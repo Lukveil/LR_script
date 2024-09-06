@@ -1,4 +1,4 @@
-# 1 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c"
+# 1 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c" 2
+# 1 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c" 2
+# 2 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c" 2
 
 # 1 "globals.h" 1
 
@@ -2597,14 +2597,14 @@ void
 
 
 
-# 3 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c" 2
+# 3 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c" 2
+# 4 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c" 2
 
 # 1 "Action.c" 1
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/stdio.h" 1
@@ -3141,16 +3141,12 @@ void	 swab(const char *, char *, size_t);
 
 Action()
 {
-	
-	
-	
 	char *num;
 	
 	char *str_login;
 	
 	int number;
-	
-	
+		
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Site", 
@@ -3239,10 +3235,7 @@ Action()
 		"LAST");
 
 	web_add_auto_header("Authorization", "Bearer {tokenBear_1}");
-	
-	
-	
-	
+		
 	web_url("config.json", 
 		"URL=https://dev-boomq.pflb.ru/config.json", 
 		"TargetFrame=", 
@@ -3252,8 +3245,7 @@ Action()
 		"Snapshot=t27.inf", 
 		"Mode=HTML", 
 		"LAST");
-	
-	
+		
 	web_set_user("{login}",
 		lr_decrypt("{password}"),
 		"");
@@ -3262,7 +3254,6 @@ Action()
 		"LB=\"email\":\"group4user",
 		"RB=@pochta.ru",
 		"LAST");
-	
 	
 	web_url("user", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/user", 
@@ -3364,7 +3355,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_think_time(15);
+	lr_think_time(5);
 	lr_end_transaction("UC03_TR01_login",2);
 
 	
@@ -3410,7 +3401,7 @@ Action()
 		"LAST");
 	
 	web_url("project", 
-		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=9", 
+		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=10000", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -3419,12 +3410,6 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	
-
-	
-	
-	
-	
 	
 	web_reg_save_param("id_version",
 		"LB=\"id\":",
@@ -3469,6 +3454,10 @@ Action()
 		"https://dev-boomq.pflb.ru");
 
 	
+	web_reg_save_param("id",
+		"LB=\"id\":",
+		"RB=\,\"testProjectId\":{id_test}",
+		"LAST");
 
 	web_custom_request("test", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test", 
@@ -3513,6 +3502,14 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
+		
+	lr_think_time(20);
+    web_reg_save_param_ex("ParamName=state",
+        "LB=\"id\":{id},\"testProjectId\":{id_test},",
+        "RB=\"testProjectVersionId\":{id_version},\"testMode\":\"TEST\",\"state\":\"RUNNING\"",
+        "LAST");
+		
+		
 	web_url("test_2", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
 		"TargetFrame=", 
@@ -3536,8 +3533,6 @@ Action()
 	
 	} else {
 	
-	
-	
 
 	web_url("label", 
 		"URL=https://dev-boomq.pflb.ru/project-srv/project/label?query=", 
@@ -3555,7 +3550,7 @@ Action()
 		"LAST");
 	
 	web_url("project", 
-		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=9", 
+		"URL=https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&page=0&size=10000", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -3767,22 +3762,36 @@ Action()
 		"Snapshot=t346.inf", 
 		"Mode=HTML", 
 		"LAST");
-
 	
-	
+	lr_think_time(20);
+    web_reg_save_param_ex("ParamName=state",
+        "LB=\"id\":{id},\"testProjectId\":{id_test},",
+        "RB=\"testProjectVersionId\":{id_version_test},\"testMode\":\"TEST\",\"state\":\"RUNNING\"",
+        "LAST");
+		
+		
+	web_url("test_2", 
+		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/account/test-runs", 
+		"Snapshot=t44.inf", 
+		"Mode=HTML", 
+		"LAST");
 	
 	}
 	
-	lr_think_time(15);
+	lr_think_time(4);
 	lr_end_transaction("UC03_TR02_Run_test",2);
 	return 0;
 }
-# 5 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c" 2
+# 5 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\documents\\vugen\\scripts\\for performance testing\\uc03\\\\combined_script___3.c" 2
+# 6 "c:\\users\\user\\documents\\vugen\\scripts\\git_ready_folder\\lr_script\\uc03\\\\combined_script___3.c" 2
 
