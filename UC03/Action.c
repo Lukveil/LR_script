@@ -5,9 +5,6 @@
 
 Action()
 {
-	
-	
-	
 	char *num;
 	
 	char *str_login;
@@ -103,10 +100,7 @@ Action()
 		LAST);
 
 	web_add_auto_header("Authorization", "Bearer {tokenBear_1}");
-	
-	
-	
-	
+		
 	web_url("config.json", 
 		"URL=https://dev-boomq.pflb.ru/config.json", 
 		"TargetFrame=", 
@@ -116,8 +110,7 @@ Action()
 		"Snapshot=t27.inf", 
 		"Mode=HTML", 
 		LAST);
-	
-	
+		
 	web_set_user("{login}",
 		lr_decrypt("{password}"),
 		"");
@@ -126,7 +119,6 @@ Action()
 		"LB=\"email\":\"group4user",
 		"RB=@pochta.ru",
 		LAST);
-	
 	
 	web_url("user", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/user", 
@@ -377,6 +369,14 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
+		
+	lr_think_time(20);
+    web_reg_save_param_ex("ParamName=state",
+        "LB="id":{id},"testProjectId":{id_test},",
+        "RB="testProjectVersionId":{id_version_test},"testMode":"TEST","state":"RUNNING"",
+        LAST);
+		
+		
 	web_url("test_2", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
 		"TargetFrame=", 
@@ -631,6 +631,24 @@ Action()
 		"Snapshot=t346.inf", 
 		"Mode=HTML", 
 		LAST);
+	
+	lr_think_time(20);
+    web_reg_save_param_ex("ParamName=state",
+        "LB="id":{id},"testProjectId":{id_test},",
+        "RB="testProjectVersionId":{id_version_test},"testMode":"TEST","state":"RUNNING"",
+        LAST);
+		
+		
+	web_url("test_2", 
+		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=https://dev-boomq.pflb.ru/account/test-runs", 
+		"Snapshot=t44.inf", 
+		"Mode=HTML", 
+		LAST);
+	
 	}
 	
 	lr_think_time(5);

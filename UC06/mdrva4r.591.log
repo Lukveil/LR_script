@@ -1,0 +1,1332 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 658786 body bytes, 467 header bytes, 510 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 2113 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 1376 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 664466 body bytes, 467 header bytes, 487 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 2113 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 21181 body bytes, 467 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 672165 body bytes, 467 header bytes, 676 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 20751 body bytes, 467 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 16667 body bytes, 467 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 674686 body bytes, 467 header bytes, 668 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 12984 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19862 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 676920 body bytes, 467 header bytes, 661 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 14094 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19654 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 679441 body bytes, 467 header bytes, 353 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 5573 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19862 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 681675 body bytes, 467 header bytes, 605 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 5573 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19862 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 684196 body bytes, 467 header bytes, 503 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 5573 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19861 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 686430 body bytes, 467 header bytes, 684 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 5573 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19861 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20012/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 688664 body bytes, 467 header bytes, 684 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 6594 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19648 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/{test_random}/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 691185 body bytes, 467 header bytes, 684 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 4551 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 693706 body bytes, 467 header bytes, 692 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 5610 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 695940 body bytes, 467 header bytes, 511 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 6668 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 698174 body bytes, 467 header bytes, 692 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 7727 body bytes, 467 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 700695 body bytes, 467 header bytes, 700 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 8785 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 703216 body bytes, 467 header bytes, 708 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9843 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 705450 body bytes, 467 header bytes, 574 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10904 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 707684 body bytes, 467 header bytes, 700 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 11963 body bytes, 467 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 710205 body bytes, 467 header bytes, 708 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13021 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 712726 body bytes, 467 header bytes, 748 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 14079 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 714960 body bytes, 467 header bytes, 708 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 16134 body bytes, 467 header bytes, 27 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 717194 body bytes, 467 header bytes, 716 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 15076 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 719715 body bytes, 467 header bytes, 519 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 12948 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 722236 body bytes, 467 header bytes, 740 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 12960 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 724470 body bytes, 467 header bytes, 716 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10831 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 726704 body bytes, 467 header bytes, 724 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10843 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 21571 body bytes, 467 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20097/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 729778 body bytes, 467 header bytes, 724 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10906 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 18.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 18.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 730618 body bytes, 467 header bytes, 717 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9846 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 733980 body bytes, 467 header bytes, 717 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 11964 body bytes, 467 header bytes, 27 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 737054 body bytes, 467 header bytes, 731 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13022 body bytes, 467 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 19.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 19.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 737607 body bytes, 467 header bytes, 757 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13034 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 740969 body bytes, 467 header bytes, 740 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13021 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 744043 body bytes, 467 header bytes, 780 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 16098 body bytes, 467 header bytes, 27 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 20.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 20.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 744883 body bytes, 467 header bytes, 740 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 15040 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 748245 body bytes, 467 header bytes, 717 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13020 body bytes, 467 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 751319 body bytes, 467 header bytes, 733 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 14091 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 21.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 21.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 751872 body bytes, 467 header bytes, 669 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13033 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 755234 body bytes, 467 header bytes, 725 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 16109 body bytes, 467 header bytes, 27 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 758308 body bytes, 467 header bytes, 669 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 13982 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 759148 body bytes, 467 header bytes, 788 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 11901 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 762510 body bytes, 467 header bytes, 669 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 11864 body bytes, 467 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 765584 body bytes, 467 header bytes, 725 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10807 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19403 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20128/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 23.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 23.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 766137 body bytes, 467 header bytes, 780 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10807 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 23.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 23.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19403 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 23.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20132/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 769499 body bytes, 467 header bytes, 764 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9733 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19479 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20133/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 772573 body bytes, 467 header bytes, 725 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 10757 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19222 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20128/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 773413 body bytes, 467 header bytes, 772 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9734 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19435 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20132/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 776775 body bytes, 467 header bytes, 772 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9733 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19435 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20133/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 779849 body bytes, 467 header bytes, 772 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9734 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19435 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20128/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 25.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 25.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 780402 body bytes, 467 header bytes, 669 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9734 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 25.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 25.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19435 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 25.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20132/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Error: Cannot start transaction "UC06_TR01_login". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Action.c(192): web_url("project") was successful, 783764 body bytes, 467 header bytes, 788 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(202): web_url("label") started  	[MsgId: MMSG-26355]
+Action.c(202): web_url("label") was successful, 2 body bytes, 467 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(212): web_url("user_2") started  	[MsgId: MMSG-26355]
+Action.c(212): web_url("user_2") was successful, 3569 body bytes, 467 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(222): web_url("test") started  	[MsgId: MMSG-26355]
+Action.c(222): web_url("test") was successful, 9733 body bytes, 467 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(233): Error: Failed to end Transaction "UC06_TR01_start" (by name). Please check that you made a call to start transaction operation.	[MsgId: MERR-16985]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Action.c(235): Notify: Transaction "UC06_TR02_cancel_running_test" started.	[MsgId: MMSG-16999]
+Action.c(237): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(237): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(244): Continuing after Error -35060: No matches were found for the specified query: "$.content[?(@.state=='RUNNING')].id"  	[MsgId: MERR-35060]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Action.c(244): web_url("test_2") highest severity level was "continue on error", 19435 body bytes, 467 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(244): Continuing after error in Vuser script.	[MsgId: MMSG-10678]
+Action.c(254): Error (-17994): Invalid arguments for lr_save_string function	[MsgId: MERR-17994]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Action.c(256): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(256): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(259): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(261): web_custom_request("stop") started  	[MsgId: MMSG-26355]
+Action.c(261): Continuing after Error -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/test-srv/test/20133/stop"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
